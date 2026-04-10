@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rpg-scribe
+  labels:
+    app: rpg-scribe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rpg-scribe
+  template:
+    metadata:
+      labels:
+        app: rpg-scribe
+    spec:
+      containers:
+      - name: rpg-scribe
+        image: rpg-scribe:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: rpg-scribe-secrets
+              key: database-url
+        - name: API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: rpg-scribe-secrets
+              key: api-key
+        - name: PORT
+          value: "8080"
+        - name: SEED_DATA_DIR
+          value: "/data/seed-data"
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rpg-scribe
+spec:
+  selector:
+    app: rpg-scribe
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: ClusterIP

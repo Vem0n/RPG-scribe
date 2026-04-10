@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS playthrough_stages;
+DROP TABLE IF EXISTS playthrough_quests;
+DROP TABLE IF EXISTS playthroughs;
+DROP TABLE IF EXISTS quest_stages;
+DROP TABLE IF EXISTS quests;
+DROP TABLE IF EXISTS games;
+DROP TABLE IF EXISTS users;

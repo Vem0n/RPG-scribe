@@ -1,0 +1,12 @@
+.git
+.claude
+.env
+desktop
+screenshots
+CyberpunkPythonHacks
+DASaveReader
+web/node_modules
+web/.next
+web/out
+server/tmp
+*.exe

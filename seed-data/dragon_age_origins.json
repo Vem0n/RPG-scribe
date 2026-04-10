@@ -1,0 +1,2474 @@
+{
+  "game": {
+    "slug": "dragon_age_origins",
+    "name": "Dragon Age: Origins"
+  },
+  "quests": [
+    {
+      "quest_key": "dao_hero_origin",
+      "name": "Hero Origin",
+      "description": "The Warden's origin story before joining the Grey Wardens.",
+      "category": "main",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "origin_determined",
+          "name": "Origin determined",
+          "sort_order": 1
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_joining",
+      "name": "Joining the Grey Wardens",
+      "description": "Travel to Ostagar and undergo the Grey Warden initiation ritual.",
+      "category": "main",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "reached_ostagar",
+          "name": "Reached Ostagar",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "joined",
+          "name": "Completed the Joining",
+          "sort_order": 2
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_tainted_blood",
+      "name": "Tainted Blood",
+      "description": "Collect darkspawn blood and Grey Warden treaties from the Korcari Wilds.",
+      "category": "main",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Entered the Korcari Wilds",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Collected blood and treaties",
+          "sort_order": 2
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_tower_of_ishal",
+      "name": "The Tower of Ishal",
+      "description": "Light the beacon at the top of the Tower of Ishal to signal Loghain's charge.",
+      "category": "main",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Entered the Tower of Ishal",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Lit the beacon",
+          "sort_order": 2
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_lothering",
+      "name": "Lothering and the Imperial Highway",
+      "description": "Travel through Lothering and gather allies before it falls to the Blight.",
+      "category": "main",
+      "sort_order": 5,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "arrived",
+          "name": "Arrived in Lothering",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "departed",
+          "name": "Left Lothering",
+          "sort_order": 2
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_arl_of_redcliffe",
+      "name": "The Arl of Redcliffe",
+      "description": "Seek the aid of Arl Eamon of Redcliffe for the fight against the Blight.",
+      "category": "main",
+      "sort_order": 6,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Arrived at Redcliffe",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Secured Redcliffe's aid",
+          "sort_order": 2
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_ostagar_deserter",
+      "name": "The Hungry Deserter",
+      "description": "A deserter at Ostagar begs for food.",
+      "category": "prologue",
+      "sort_order": 10,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "encountered",
+          "name": "Found the hungry deserter",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the deserter's fate",
+          "sort_order": 2
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_ostagar_mabari",
+      "name": "The Mabari Hound",
+      "description": "A sick mabari war hound in the Ostagar kennels needs help.",
+      "category": "prologue",
+      "sort_order": 11,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "encountered",
+          "name": "Found the sick mabari",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "resolved",
+          "name": "Decided the mabari's fate",
+          "sort_order": 2
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_wardens_cache",
+      "name": "The Grey Warden's Cache",
+      "description": "Find the hidden Grey Warden cache in the Korcari Wilds.",
+      "category": "prologue",
+      "sort_order": 12,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the cache",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_the_missionary",
+      "name": "The Missionary",
+      "description": "Find a missionary's corpse and the key he carried in the Korcari Wilds.",
+      "category": "prologue",
+      "sort_order": 13,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the missionary",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_chasind_trail_signs",
+      "name": "Chasind Trail Signs",
+      "description": "Locate the Chasind trail signs in the Korcari Wilds.",
+      "category": "prologue",
+      "sort_order": 14,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the trail signs",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_last_will_and_testament",
+      "name": "Last Will and Testament",
+      "description": "Deliver a dead soldier's will found in the Korcari Wilds.",
+      "category": "prologue",
+      "sort_order": 15,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the will",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_pinch_of_ashes",
+      "name": "A Pinch of Ashes",
+      "description": "Collect ashes from a Chasind camp in the Korcari Wilds.",
+      "category": "prologue",
+      "sort_order": 16,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Collected the ashes",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_broken_circle",
+      "name": "Broken Circle",
+      "description": "The Circle of Magi has fallen into chaos. Abominations roam the tower.",
+      "category": "main",
+      "sort_order": 20,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Entered the Circle Tower",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Resolved the Circle crisis",
+          "sort_order": 2
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_irving_fate",
+      "name": "First Enchanter Irving",
+      "description": "The fate of First Enchanter Irving during the Broken Circle.",
+      "category": "side",
+      "sort_order": 21,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Irving's fate determined",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_cullens_request",
+      "name": "Cullen's Request",
+      "description": "Cullen asks the Warden to kill the mages in the Tower.",
+      "category": "side",
+      "sort_order": 22,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Responded to Cullen's request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_five_pages_four_mages",
+      "name": "Five Pages, Four Mages",
+      "description": "Find the torn pages of a love letter scattered across the Circle Tower.",
+      "category": "side",
+      "sort_order": 23,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found all pages",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_summoning_sciences",
+      "name": "Summoning Sciences",
+      "description": "Use the summoning fonts on the second floor of the Circle Tower.",
+      "category": "side",
+      "sort_order": 24,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the summoning puzzles",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_watchguard_of_reaching",
+      "name": "Watchguard of the Reaching",
+      "description": "Solve the statue puzzle on the third floor of the Circle Tower.",
+      "category": "side",
+      "sort_order": 25,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Solved the statue puzzle",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_urn_of_sacred_ashes",
+      "name": "The Urn of Sacred Ashes",
+      "description": "Find the legendary Urn of Sacred Ashes to cure Arl Eamon.",
+      "category": "main",
+      "sort_order": 30,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "found_urn",
+          "name": "Found the Urn",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "resolved",
+          "name": "Decided the Urn's fate",
+          "sort_order": 2
+        }
+      ],
+      "location": "Haven"
+    },
+    {
+      "quest_key": "dao_friends_of_red_jenny",
+      "name": "Friends of Red Jenny",
+      "description": "Find caches hidden around Ferelden for the mysterious Friends of Red Jenny.",
+      "category": "side",
+      "sort_order": 31,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the caches",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_back_alley_justice",
+      "name": "Back Alley Justice",
+      "description": "Deal with thugs causing trouble in the back alleys.",
+      "category": "side",
+      "sort_order": 32,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dealt with the thugs",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_the_last_request",
+      "name": "The Last Request",
+      "description": "Fulfill the last request of a dying templar in the village of Haven.",
+      "category": "side",
+      "sort_order": 33,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Fulfilled the request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Haven"
+    },
+    {
+      "quest_key": "dao_unbound",
+      "name": "Unbound",
+      "description": "An undead warrior seeks release from bondage in the Gauntlet.",
+      "category": "side",
+      "sort_order": 34,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the warrior's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Haven"
+    },
+    {
+      "quest_key": "dao_drake_scale_armor",
+      "name": "Drake Scale Armor",
+      "description": "Collect drake scales to have Wade craft special armor.",
+      "category": "side",
+      "sort_order": 35,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Armor crafted",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_dragon_scale_armor",
+      "name": "Dragon Scale Armor",
+      "description": "Bring dragon scales to Wade for the finest armor in Ferelden.",
+      "category": "side",
+      "sort_order": 36,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dragon armor crafted",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_village_siege",
+      "name": "A Village Under Siege",
+      "description": "Help the village of Redcliffe prepare for an undead attack.",
+      "category": "side",
+      "sort_order": 40,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Arrived at Redcliffe",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Helped Redcliffe prepare",
+          "sort_order": 2
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_attack_nightfall",
+      "name": "The Attack at Nightfall",
+      "description": "Fight alongside the people of Redcliffe against the undead hordes.",
+      "category": "main",
+      "sort_order": 41,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Night fell on Redcliffe",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Survived the night attack",
+          "sort_order": 2
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_possessed_child",
+      "name": "The Possessed Child",
+      "description": "Connor, the son of Arl Eamon, has been possessed by a demon.",
+      "category": "main",
+      "sort_order": 42,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "discovered",
+          "name": "Discovered Connor's possession",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Connor's fate",
+          "sort_order": 2
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_missing_child",
+      "name": "A Missing Child",
+      "description": "Help Kaitlyn find her brother Bevin in Redcliffe.",
+      "category": "side",
+      "sort_order": 43,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Bevin's situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_lost_in_castle",
+      "name": "Lost in the Castle",
+      "description": "Owen the blacksmith's daughter Valena is trapped in the castle.",
+      "category": "side",
+      "sort_order": 44,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Valena's situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_stiff_drink",
+      "name": "A Stiff Drink",
+      "description": "The fate of Bella the tavern waitress in Redcliffe.",
+      "category": "side",
+      "sort_order": 46,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Bella's fate determined",
+          "sort_order": 1
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_nature_of_the_beast",
+      "name": "Nature of the Beast",
+      "description": "A curse plagues the Brecilian Forest. Werewolves and Dalish elves are in conflict.",
+      "category": "main",
+      "sort_order": 50,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Entered the Brecilian Forest",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Resolved the werewolf-elf conflict",
+          "sort_order": 2
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_cammens_lament",
+      "name": "Cammen's Lament",
+      "description": "Cammen has a broken heart in the Dalish camp.",
+      "category": "side",
+      "sort_order": 51,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Cammen's situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_eloras_halla",
+      "name": "Elora's Halla",
+      "description": "Elora's halla is sick and needs help.",
+      "category": "side",
+      "sort_order": 52,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Decided the halla's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_lost_to_the_curse",
+      "name": "Lost to the Curse",
+      "description": "Tell Athras about the fate of his wife Danyla.",
+      "category": "side",
+      "sort_order": 53,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Spoke to Athras about Danyla",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_rare_ironbark",
+      "name": "Rare Ironbark",
+      "description": "Bring Varathorn the ironbark he needs for crafting.",
+      "category": "side",
+      "sort_order": 54,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered ironbark to Varathorn",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_wounded_in_forest",
+      "name": "Wounded in the Forest",
+      "description": "An injured elf named Deygan lies wounded in the Brecilian Forest.",
+      "category": "side",
+      "sort_order": 55,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Decided Deygan's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_elven_ritual",
+      "name": "The Elven Ritual",
+      "description": "Complete the elven ritual in the Brecilian Forest ruins.",
+      "category": "side",
+      "sort_order": 56,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the ritual",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_mages_treasure",
+      "name": "The Mage's Treasure",
+      "description": "Find the pieces of the Juggernaut armor set hidden in the Brecilian Forest.",
+      "category": "side",
+      "sort_order": 57,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the treasure",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_arcane_warrior",
+      "name": "The Arcane Warrior",
+      "description": "An ancient elven warrior imprisoned in a life gem offers his secrets.",
+      "category": "side",
+      "sort_order": 58,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Learned the Arcane Warrior specialization",
+          "sort_order": 1
+        }
+      ],
+      "location": "Brecilian Forest"
+    },
+    {
+      "quest_key": "dao_paragon_of_her_kind",
+      "name": "A Paragon of Her Kind",
+      "description": "Settle the succession crisis in Orzammar between Bhelen and Harrowmont.",
+      "category": "main",
+      "sort_order": 60,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Entered Orzammar",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "King chosen for Orzammar",
+          "sort_order": 2
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_anvil_of_the_void",
+      "name": "Anvil of the Void",
+      "description": "Find the Anvil of the Void in the Deep Roads and decide its fate.",
+      "category": "main",
+      "sort_order": 61,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "found",
+          "name": "Found the Anvil",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "resolved",
+          "name": "Decided the Anvil's fate",
+          "sort_order": 2
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_mothers_hope",
+      "name": "A Mother's Hope",
+      "description": "Filda asks the Warden to find her son Ruck in the Deep Roads.",
+      "category": "side",
+      "sort_order": 62,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Reported back to Filda",
+          "sort_order": 1
+        }
+      ],
+      "location": "Redcliffe"
+    },
+    {
+      "quest_key": "dao_unlikely_scholar",
+      "name": "An Unlikely Scholar",
+      "description": "Dagna wants to study at the Circle Tower.",
+      "category": "side",
+      "sort_order": 63,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Dagna's request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_noble_hunters",
+      "name": "Noble Hunters",
+      "description": "Encounter with Mardy in Orzammar (Dwarf Noble origin).",
+      "category": "side",
+      "sort_order": 64,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Mardy encounter",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_of_noble_birth",
+      "name": "Of Noble Birth",
+      "description": "Mardy's son and his birthright in Orzammar.",
+      "category": "side",
+      "sort_order": 65,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved birthright",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_dead_caste",
+      "name": "The Dead Caste",
+      "description": "Prove to the Shaperate that the Legion of the Dead is connected to a noble house.",
+      "category": "side",
+      "sort_order": 66,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Submitted proof to Shaperate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_thief_house_learning",
+      "name": "Thief in the House of Learning",
+      "description": "A tome has been stolen from the Shaperate.",
+      "category": "side",
+      "sort_order": 67,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Decided the tome's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_chant_in_deeps",
+      "name": "The Chant in the Deeps",
+      "description": "Help Brother Burkel create a Chantry in Orzammar.",
+      "category": "side",
+      "sort_order": 68,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Burkel's request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_zerlindas_woe",
+      "name": "Zerlinda's Woe",
+      "description": "Zerlinda and her son are outcast in Dust Town.",
+      "category": "side",
+      "sort_order": 69,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Zerlinda's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_lost_to_memories",
+      "name": "Lost to the Memories",
+      "description": "Help Orta find proof to join the Assembly as House Ortan.",
+      "category": "side",
+      "sort_order": 70,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Orta's claim",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_precious_metals",
+      "name": "Precious Metals",
+      "description": "Rogek wants help with a lyrium deal in Orzammar.",
+      "category": "side",
+      "sort_order": 71,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Rogek's deal",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_lost_nug",
+      "name": "A Lost Nug",
+      "description": "Find a lost nug for its owner in Orzammar.",
+      "category": "side",
+      "sort_order": 72,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the nug",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_caged_in_stone",
+      "name": "Caged in Stone",
+      "description": "A Dwarven casteless has been arrested. Decide his fate.",
+      "category": "side",
+      "sort_order": 73,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the prisoner's fate",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_exotic_methods",
+      "name": "Exotic Methods",
+      "description": "Help the smith Dagna's father with an unusual request in Orzammar.",
+      "category": "side",
+      "sort_order": 74,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_jammers_stash",
+      "name": "Jammer's Stash",
+      "description": "Find Jammer's hidden stash in Dust Town.",
+      "category": "side",
+      "sort_order": 75,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the stash",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_proving_after_dark",
+      "name": "Proving After Dark",
+      "description": "Participate in underground proving matches in Orzammar.",
+      "category": "side",
+      "sort_order": 76,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the proving",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_key_to_the_city",
+      "name": "The Key to the City",
+      "description": "Find the mysterious key to the city in Orzammar.",
+      "category": "side",
+      "sort_order": 77,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Used the key",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_shapers_life",
+      "name": "The Shaper's Life",
+      "description": "Assist the Shaper of Memories in Orzammar.",
+      "category": "side",
+      "sort_order": 78,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Helped the Shaper",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_admirable_topsider",
+      "name": "An Admirable Topsider",
+      "description": "An Orzammar merchant needs a surface item from the Deep Roads.",
+      "category": "side",
+      "sort_order": 79,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the item",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_asunder",
+      "name": "Asunder",
+      "description": "Explore the haunted tunnels in the Deep Roads.",
+      "category": "side",
+      "sort_order": 80,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Cleared the tunnels",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_honor_bound",
+      "name": "Honor Bound",
+      "description": "Ser Landry challenges the Warden to a duel in Denerim.",
+      "category": "side",
+      "sort_order": 90,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the duel",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_tortured_noble",
+      "name": "Tortured Noble",
+      "description": "Tell Bann Sighard about finding Oswyn in Arl Howe's dungeon.",
+      "category": "side",
+      "sort_order": 91,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Spoke to Bann Sighard",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_crime_wave",
+      "name": "Crime Wave",
+      "description": "Complete Slim Couldry's series of crimes in Denerim.",
+      "category": "side",
+      "sort_order": 92,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the crime wave",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_lost_templar",
+      "name": "Lost Templar",
+      "description": "Give Alfstanna her brother Irminric's ring.",
+      "category": "side",
+      "sort_order": 93,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the ring",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_hearing_voices",
+      "name": "Hearing Voices",
+      "description": "Return a worn amulet to the beggar woman in Denerim's alienage.",
+      "category": "side",
+      "sort_order": 94,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Returned the amulet",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_forgotten_verses",
+      "name": "Forgotten Verses",
+      "description": "Bring an ancient encrypted scroll to Sister Justine in Denerim.",
+      "category": "side",
+      "sort_order": 95,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the scroll",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_pearls_before_swine",
+      "name": "Pearls Before Swine",
+      "description": "Help Sergeant Kylon clear the White Falcons out of the Pearl.",
+      "category": "side",
+      "sort_order": 96,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Cleared the Pearl",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_crimson_oars",
+      "name": "The Crimson Oars",
+      "description": "Handle the Crimson Oars gang for Sergeant Kylon in Denerim.",
+      "category": "side",
+      "sort_order": 97,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dealt with the Crimson Oars",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_trial_of_crows",
+      "name": "The Trial of Crows",
+      "description": "Complete Master Ignacio's assassination missions.",
+      "category": "side",
+      "sort_order": 98,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Ignacio's missions",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_captured",
+      "name": "Captured!",
+      "description": "The Warden is captured by Ser Cauthrien and must escape Fort Drakon.",
+      "category": "side",
+      "sort_order": 99,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Escaped Fort Drakon",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_something_wicked",
+      "name": "Something Wicked",
+      "description": "Investigate the orphanage in the Denerim Alienage.",
+      "category": "side",
+      "sort_order": 100,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Investigated the orphanage",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_missing_in_action",
+      "name": "Missing in Action",
+      "description": "Find missing soldiers during the Landsmeet.",
+      "category": "side",
+      "sort_order": 101,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the missing soldiers",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_fazzils_request",
+      "name": "Fazzil's Request",
+      "description": "Help Fazzil with a task in Denerim.",
+      "category": "side",
+      "sort_order": 102,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed Fazzil's request",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_rescue_the_queen",
+      "name": "Rescue the Queen",
+      "description": "Rescue Queen Anora from Arl Howe's estate in Denerim.",
+      "category": "main",
+      "sort_order": 12,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Infiltrate Howe's estate to rescue Anora",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "howe_killed",
+          "name": "Arl Howe has been killed",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "completed",
+          "name": "Queen Anora has been rescued",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "dao_the_landsmeet",
+      "name": "The Landsmeet",
+      "description": "Gather support and decide who will rule Ferelden.",
+      "category": "main",
+      "sort_order": 105,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Arrived at the Landsmeet",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Ruler of Ferelden decided",
+          "sort_order": 2
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_battle_of_denerim",
+      "name": "Battle of Denerim",
+      "description": "The final battle against the Archdemon.",
+      "category": "main",
+      "sort_order": 106,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Battle began",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "archdemon_slain",
+          "name": "Archdemon slain",
+          "sort_order": 2
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_bandits_on_road",
+      "name": "Bandits on the Road",
+      "description": "Deal with the bandits blocking the highway to Lothering.",
+      "category": "side",
+      "sort_order": 110,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dealt with the bandits",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_fallen_templar",
+      "name": "A Fallen Templar",
+      "description": "A dead templar's body is found on the bridge outside Lothering.",
+      "category": "side",
+      "sort_order": 111,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the amulet",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_more_than_plants",
+      "name": "More Than Just Plants",
+      "description": "Find herbs for Elder Miriam in Lothering.",
+      "category": "side",
+      "sort_order": 112,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the herbs",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_poisonous_proposition",
+      "name": "A Poisonous Proposition",
+      "description": "A merchant in Lothering sells suspicious goods.",
+      "category": "side",
+      "sort_order": 113,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_traps_girls_best_friend",
+      "name": "Traps Are a Girl's Best Friend",
+      "description": "Allison in Lothering needs help with a trap problem.",
+      "category": "side",
+      "sort_order": 114,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Helped with the traps",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_bandits_everywhere",
+      "name": "Bandits, Bandits, Everywhere",
+      "description": "Clear bandits from the outskirts of Lothering.",
+      "category": "side",
+      "sort_order": 115,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Cleared the bandits",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_when_bears_attack",
+      "name": "When Bears Attack",
+      "description": "Blighted bears threaten the people north of Lothering.",
+      "category": "side",
+      "sort_order": 116,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dealt with the bears",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_last_keepsake",
+      "name": "A Last Keepsake",
+      "description": "Locate the remains of Goodwife Sarha near Lothering.",
+      "category": "side",
+      "sort_order": 117,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the remains",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_romance",
+      "name": "Romance",
+      "description": "The Warden's romantic relationship.",
+      "category": "companion",
+      "sort_order": 120,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "romanced",
+          "name": "Romance active",
+          "sort_order": 1
+        }
+      ],
+      "location": "Party Camp"
+    },
+    {
+      "quest_key": "dao_recruit_dog",
+      "name": "Recruit Dog",
+      "description": "Recruit the Mabari war hound as a companion.",
+      "category": "companion",
+      "sort_order": 121,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "recruited",
+          "name": "Dog recruited",
+          "sort_order": 1
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_qunari_prisoner",
+      "name": "The Qunari Prisoner",
+      "description": "Free Sten from his cage in Lothering.",
+      "category": "companion",
+      "sort_order": 122,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "freed",
+          "name": "Freed Sten",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "recruited",
+          "name": "Recruited Sten",
+          "sort_order": 2
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_stens_sword",
+      "name": "Sten's Sword",
+      "description": "Find and return Sten's sword Asala.",
+      "category": "companion",
+      "sort_order": 123,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Returned Sten's sword",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_recruit_oghren",
+      "name": "Recruit Oghren",
+      "description": "Recruit the dwarven berserker Oghren in Orzammar.",
+      "category": "companion",
+      "sort_order": 124,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "recruited",
+          "name": "Oghren recruited",
+          "sort_order": 1
+        }
+      ],
+      "location": "Orzammar"
+    },
+    {
+      "quest_key": "dao_recruit_zevran",
+      "name": "Recruit Zevran",
+      "description": "Spare and recruit the Antivan Crow assassin Zevran.",
+      "category": "companion",
+      "sort_order": 125,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "recruited",
+          "name": "Zevran recruited",
+          "sort_order": 1
+        }
+      ],
+      "location": "World Map"
+    },
+    {
+      "quest_key": "dao_recruit_wynne",
+      "name": "Recruit Wynne",
+      "description": "Recruit the Circle mage Wynne at the Broken Circle.",
+      "category": "companion",
+      "sort_order": 126,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "recruited",
+          "name": "Wynne recruited",
+          "sort_order": 1
+        }
+      ],
+      "location": "Circle Tower"
+    },
+    {
+      "quest_key": "dao_recruit_leliana",
+      "name": "Recruit Leliana",
+      "description": "Recruit the Orlesian bard Leliana in Lothering's tavern.",
+      "category": "companion",
+      "sort_order": 127,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "recruited",
+          "name": "Leliana recruited",
+          "sort_order": 1
+        }
+      ],
+      "location": "Lothering"
+    },
+    {
+      "quest_key": "dao_flemeths_grimoire",
+      "name": "Flemeth's Real Grimoire",
+      "description": "Find Flemeth's real grimoire for Morrigan.",
+      "category": "companion",
+      "sort_order": 128,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Grimoire acquired",
+          "sort_order": 1
+        }
+      ],
+      "location": "Korcari Wilds"
+    },
+    {
+      "quest_key": "dao_morrigans_ritual",
+      "name": "Morrigan's Ritual",
+      "description": "Morrigan proposes a dark ritual before the final battle.",
+      "category": "companion",
+      "sort_order": 129,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Ritual decision made",
+          "sort_order": 1
+        }
+      ],
+      "location": "Party Camp"
+    },
+    {
+      "quest_key": "dao_alistairs_family",
+      "name": "Alistair's Family",
+      "description": "Help Alistair track down his half-sister Goldanna in Denerim.",
+      "category": "companion",
+      "sort_order": 130,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Visited Goldanna",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_lelianas_past",
+      "name": "Leliana's Past",
+      "description": "Confront Marjolaine about Leliana's past as a bard.",
+      "category": "companion",
+      "sort_order": 131,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Marjolaine encounter",
+          "sort_order": 1
+        }
+      ],
+      "location": "Denerim"
+    },
+    {
+      "quest_key": "dao_oghrens_old_flame",
+      "name": "Oghren's Old Flame",
+      "description": "Help Oghren reconnect with his old flame Felsi.",
+      "category": "companion",
+      "sort_order": 132,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Oghren's situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Party Camp"
+    },
+    {
+      "quest_key": "dao_wynnes_regret",
+      "name": "Wynne's Regret",
+      "description": "Help Wynne find her former apprentice Aneirin.",
+      "category": "companion",
+      "sort_order": 133,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found Aneirin",
+          "sort_order": 1
+        }
+      ],
+      "location": "Party Camp"
+    },
+    {
+      "quest_key": "dao_chanters_brothers_sons",
+      "name": "Brothers and Sons",
+      "description": "A Chanter's Board quest to deliver news to grieving families.",
+      "category": "board",
+      "sort_order": 140,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the news",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_caravan_down",
+      "name": "Caravan Down",
+      "description": "Investigate a caravan that was attacked on the road.",
+      "category": "board",
+      "sort_order": 141,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Investigated the caravan",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_desperate_haven",
+      "name": "Desperate Haven",
+      "description": "Help refugees fleeing the darkspawn.",
+      "category": "board",
+      "sort_order": 142,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Helped the refugees",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_jowans_intention",
+      "name": "Jowan's Intention",
+      "description": "Investigate Jowan's actions at Redcliffe.",
+      "category": "board",
+      "sort_order": 143,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Jowan's situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_loghains_push",
+      "name": "Loghain's Push",
+      "description": "Disrupt Loghain's supply lines.",
+      "category": "board",
+      "sort_order": 144,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Disrupted the supply lines",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_skin_deep",
+      "name": "Skin Deep",
+      "description": "Deal with bandits targeting travelers.",
+      "category": "board",
+      "sort_order": 145,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Dealt with the bandits",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_chanters_unintended",
+      "name": "Unintended Consequences",
+      "description": "Resolve a situation caused by well-meaning actions gone wrong.",
+      "category": "board",
+      "sort_order": 146,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Chanter's Board"
+    },
+    {
+      "quest_key": "dao_blackstone_dereliction",
+      "name": "Dereliction of Duty",
+      "description": "Track down deserters for the Blackstone Irregulars.",
+      "category": "board",
+      "sort_order": 150,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the deserters",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_blackstone_scraping",
+      "name": "Scraping the Barrel",
+      "description": "Recruit new members for the Blackstone Irregulars.",
+      "category": "board",
+      "sort_order": 151,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Recruited members",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_blackstone_grease",
+      "name": "Grease the Wheels",
+      "description": "Deliver supplies to Blackstone Irregulars outposts.",
+      "category": "board",
+      "sort_order": 152,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered supplies",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_blackstone_notice_death",
+      "name": "Notice of Death",
+      "description": "Deliver death notices for the Blackstone Irregulars.",
+      "category": "board",
+      "sort_order": 153,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the notices",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_blackstone_restocking",
+      "name": "Restocking the Guild",
+      "description": "Collect equipment for the Blackstone Irregulars.",
+      "category": "board",
+      "sort_order": 154,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Collected equipment",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_blackstone_change_leadership",
+      "name": "A Change in Leadership",
+      "description": "Resolve a leadership crisis within the Blackstone Irregulars.",
+      "category": "board",
+      "sort_order": 155,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the crisis",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackstone Irregulars"
+    },
+    {
+      "quest_key": "dao_mages_places_of_power",
+      "name": "Places of Power",
+      "description": "Locate magical sites for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 160,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the sites",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_notice_termination",
+      "name": "Notice of Termination",
+      "description": "Deliver termination notices for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 161,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Delivered the notices",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_have_you_seen_me",
+      "name": "Have You Seen Me?",
+      "description": "Track down missing mages for the Collective.",
+      "category": "board",
+      "sort_order": 162,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the mages",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_scrolls_banastor",
+      "name": "The Scrolls of Banastor",
+      "description": "Recover scrolls for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 163,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Recovered the scrolls",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_herbal_magic",
+      "name": "Herbal Magic",
+      "description": "Gather herbs for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 164,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Gathered the herbs",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_blood_warning",
+      "name": "Blood Warning",
+      "description": "Investigate blood magic for the Collective.",
+      "category": "board",
+      "sort_order": 165,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the investigation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_careless_accusations",
+      "name": "Careless Accusations",
+      "description": "Clear a mage falsely accused of using forbidden magic.",
+      "category": "board",
+      "sort_order": 166,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the accusation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_brothers_killer",
+      "name": "Thy Brother's Killer",
+      "description": "Track a killer for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 167,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Found the killer",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_mages_gift_of_silence",
+      "name": "Justice Must Be Served",
+      "description": "Deliver justice for the Mages' Collective.",
+      "category": "board",
+      "sort_order": 168,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Justice served",
+          "sort_order": 1
+        }
+      ],
+      "location": "Mage Collective"
+    },
+    {
+      "quest_key": "dao_favors_dead_drops",
+      "name": "Dead Drops",
+      "description": "Deliver packages to dead drops for an interested party.",
+      "category": "board",
+      "sort_order": 170,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Made the deliveries",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_false_witness",
+      "name": "False Witness",
+      "description": "Plant false evidence to frame a target.",
+      "category": "board",
+      "sort_order": 171,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the task",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_harsh_decisions",
+      "name": "Harsh Decisions",
+      "description": "Make a difficult choice for an interested party.",
+      "category": "board",
+      "sort_order": 172,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Made the decision",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_negotiation_aids",
+      "name": "Negotiation Aids",
+      "description": "Acquire items to help in negotiations.",
+      "category": "board",
+      "sort_order": 173,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Acquired the aids",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_new_ground",
+      "name": "New Ground",
+      "description": "Establish new territory for an interested party.",
+      "category": "board",
+      "sort_order": 174,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Established the territory",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_signs_safe_passage",
+      "name": "Signs of Safe Passage",
+      "description": "Mark safe routes through dangerous territory.",
+      "category": "board",
+      "sort_order": 175,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Marked the routes",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_solving_problems",
+      "name": "Solving Problems",
+      "description": "Eliminate targets for the Antivan Crows.",
+      "category": "board",
+      "sort_order": 176,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Problems solved",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_favors_untraceable",
+      "name": "Untraceable",
+      "description": "Dispose of evidence for the Crows.",
+      "category": "board",
+      "sort_order": 177,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Evidence disposed",
+          "sort_order": 1
+        }
+      ],
+      "location": "Favors for Certain Interests"
+    },
+    {
+      "quest_key": "dao_soldiers_peak",
+      "name": "Soldier's Peak",
+      "description": "Explore the ancient Grey Warden fortress and deal with Avernus.",
+      "category": "dlc",
+      "sort_order": 200,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "avernus_resolved",
+          "name": "Dealt with Avernus",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "concoction_decided",
+          "name": "Concoction decision made",
+          "sort_order": 2
+        }
+      ],
+      "location": "Soldier's Peak"
+    },
+    {
+      "quest_key": "dao_stone_prisoner",
+      "name": "The Stone Prisoner",
+      "description": "Investigate the village of Honnleath and the stone golem.",
+      "category": "dlc",
+      "sort_order": 210,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "amalia_resolved",
+          "name": "Kitty and Amalia's fate decided",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "shale_recruited",
+          "name": "Shale recruited",
+          "sort_order": 2
+        }
+      ],
+      "location": "Honnleath"
+    },
+    {
+      "quest_key": "dao_golems_memories",
+      "name": "A Golem's Memories",
+      "description": "Help Shale recover memories of her past life.",
+      "category": "dlc",
+      "sort_order": 211,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Recovered Shale's memories",
+          "sort_order": 1
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_return_to_ostagar",
+      "name": "Return to Ostagar",
+      "description": "Return to the ruins of Ostagar to recover King Cailan's arms and armor.",
+      "category": "dlc",
+      "sort_order": 215,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "started",
+          "name": "Returned to Ostagar",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "completed",
+          "name": "Recovered the arms",
+          "sort_order": 2
+        }
+      ],
+      "location": "Ostagar"
+    },
+    {
+      "quest_key": "dao_awakening_architect",
+      "name": "The Architect",
+      "description": "Decide the fate of the intelligent darkspawn known as the Architect.",
+      "category": "dlc",
+      "sort_order": 220,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Architect's fate decided",
+          "sort_order": 1
+        }
+      ],
+      "location": "Amaranthine"
+    },
+    {
+      "quest_key": "dao_awakening_siege",
+      "name": "The Siege",
+      "description": "Defend Vigil's Keep or the city of Amaranthine from darkspawn.",
+      "category": "dlc",
+      "sort_order": 221,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Defense decision made",
+          "sort_order": 1
+        }
+      ],
+      "location": "Amaranthine"
+    },
+    {
+      "quest_key": "dao_awakening_assault_keep",
+      "name": "Assault on Vigil's Keep",
+      "description": "Defend Vigil's Keep from the initial darkspawn attack.",
+      "category": "dlc",
+      "sort_order": 222,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Defended the Keep",
+          "sort_order": 1
+        }
+      ],
+      "location": "Vigil's Keep"
+    },
+    {
+      "quest_key": "dao_awakening_it_comes_beneath",
+      "name": "It Comes From Beneath",
+      "description": "Investigate darkspawn tunnels beneath Vigil's Keep.",
+      "category": "dlc",
+      "sort_order": 223,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Cleared the tunnels",
+          "sort_order": 1
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_awakening_righteous_path",
+      "name": "The Righteous Path",
+      "description": "Travel to the Wending Wood to investigate darkspawn activity.",
+      "category": "dlc",
+      "sort_order": 224,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Completed the investigation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Amaranthine"
+    },
+    {
+      "quest_key": "dao_awakening_last_legion",
+      "name": "Last of the Legion",
+      "description": "Explore Kal'Hirol and its darkspawn threat.",
+      "category": "dlc",
+      "sort_order": 225,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Cleared Kal'Hirol",
+          "sort_order": 1
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_awakening_shadows_blackmarsh",
+      "name": "Shadows of the Blackmarsh",
+      "description": "Investigate the mysterious Blackmarsh and its cursed inhabitants.",
+      "category": "dlc",
+      "sort_order": 226,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved the Blackmarsh",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackmarsh"
+    },
+    {
+      "quest_key": "dao_awakening_depths_depravity",
+      "name": "Depths of Depravity",
+      "description": "Venture into the Deep Roads to confront the Mother.",
+      "category": "dlc",
+      "sort_order": 227,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Confronted the Mother",
+          "sort_order": 1
+        }
+      ],
+      "location": "Deep Roads"
+    },
+    {
+      "quest_key": "dao_awakening_oghren_family",
+      "name": "Oghren the Family Man",
+      "description": "Help Oghren reconnect with Felsi and his child in Awakening.",
+      "category": "dlc",
+      "sort_order": 228,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Oghren's family situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Vigil's Keep"
+    },
+    {
+      "quest_key": "dao_awakening_howe_family",
+      "name": "The Howe Family",
+      "description": "Nathaniel Howe seeks answers about his family's downfall.",
+      "category": "dlc",
+      "sort_order": 229,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Nathaniel's quest",
+          "sort_order": 1
+        }
+      ],
+      "location": "Amaranthine"
+    },
+    {
+      "quest_key": "dao_awakening_freedom_anders",
+      "name": "Freedom for Anders",
+      "description": "Help Anders avoid recapture by the Templars.",
+      "category": "dlc",
+      "sort_order": 230,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Anders' situation",
+          "sort_order": 1
+        }
+      ],
+      "location": "Vigil's Keep"
+    },
+    {
+      "quest_key": "dao_awakening_justice_kristoff",
+      "name": "Justice for Kristoff",
+      "description": "Help the spirit of Justice inhabiting Kristoff's body.",
+      "category": "dlc",
+      "sort_order": 231,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Resolved Justice's quest",
+          "sort_order": 1
+        }
+      ],
+      "location": "Blackmarsh"
+    },
+    {
+      "quest_key": "dao_witch_hunt",
+      "name": "Witch Hunt",
+      "description": "Track down Morrigan and find the eluvian.",
+      "category": "dlc",
+      "sort_order": 240,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "resolved",
+          "name": "Eluvian decision made",
+          "sort_order": 1
+        }
+      ],
+      "location": "Dragonbone Wastes"
+    }
+  ]
+}

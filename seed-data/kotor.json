@@ -1,0 +1,4233 @@
+{
+  "game": {
+    "slug": "kotor",
+    "name": "Star Wars: Knights of the Old Republic"
+  },
+  "quests": [
+    {
+      "quest_key": "tat18ac_dragonhunt",
+      "name": "A Desert Hunt",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Twi'lek hunter Komad has tracked a krayt dragon to its lair and wants assistance drawing the ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Komad maintains that the only way to bait the krayt dragon out of its lair is to tempt it with ba...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Komad is dead, but he already told you how to bait the krayt dragon out of its lair. You'll have ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Like Komad said, you now have the bantha fodder you need to lure the banthas in the Eastern Dune ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "As Komad said to do, you have several banthas following you, lured by the scent of fodder. You mu...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "The banthas are positioned at the mouth of the krayt dragon lair. The beast could emerge any time...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "The hunt was successful and the krayt dragon is dead. Whatever might be hidden in the depths of i...",
+          "sort_order": 70
+        }
+      ]
+    },
+    {
+      "quest_key": "kor25_doubtsith",
+      "name": "A Doubting Sith",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have encountered a student by the name of Kel Algwinn, an unusual student at the Sith academy...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You encountered a Sith by the name of Kel Algwinn who really didn't belong in the academy... and ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You encountered a Sith by the name of Kel Algwinn who really didn't belong in the academy... in f...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You told Lashowe of Kel Algwinn's doubts about remaining in the Sith academy. There is little rea...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Master Uthar has been informed of Kel Algwinn's doubts. He was highly impressed by your ruthlessn...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You encountered a Sith student by the name of Kel Algwinn who was full of doubts about whether or...",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "k_starforge",
+      "name": "A Quest for the Star Forge",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "The Jedi Council has instructed you to seek out the ancient Star Maps scattered about the galaxy ...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've discovered another ancient Star Map in the Sith Tombs of Korriban. As before, the map is i...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You've discovered another ancient Star Map in the Dune Sea of Tatooine. As before, the map is inc...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You've discovered another ancient Star Map on the sunless surface of Kashyyyk. As before, the map...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You've discovered another ancient Star Map beneath the oceans of Manaan. As before, the map is in...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You've discovered the last of the Star Maps and now have the hyperspace coordinates that will lea...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "When approaching the Star Forge, the Ebon Hawk fell victim to a disruptor field and crashed on an...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You have reclaimed your true identity and Bastila has sworn her allegiance to you. But there is s...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "Bastila has turned to the dark side and sworn allegiance to Darth Malak. The Republic is on its w...",
+          "sort_order": 75
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_rancor",
+      "name": "A Rancor in the Sewers",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Mission has warned you of a not so small obstacle between you and the entrance to the Vulkar base...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've managed to get past the rancor, proving once again that size and brute strength aren't eve...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kas23_rorworr",
+      "name": "A Wookiee Lost",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_5",
+          "name": "The Wookiees are worried about a member of their tribe that has recently gone missing.",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "The Wookiees are worried about a popular member of their tribe that has recently gone missing. Ro...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have found the corpse of the missing Wookiee Rorworr in the Shadowlands. A datapad revealing ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have found the corpse of a Wookiee called Rorworr in the Shadowlands. A datapad revealing tha...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The bolt casing found on Rorworr's corpse belongs to Jaarak. Jaarak may be the one that killed Ro...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Jaraak has been accused of killing Rorworr. He has offered no defense and awaits judgment from Wo...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Jaarak has been killed for the murder of Rorworr. No defense was offered.",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Jaarak was not killed for the murder of Rorworr. Rorworr was dealing with the slavers, and was a ...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "The village of Rwookrrorro has been sealed off by Czerka Corporation and Chuundar. You have been ...",
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_aidlashowe",
+      "name": "Aiding Lashowe",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Yuthura has told you that of your rivals Lashowe might be a good one to approach... she might ver...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have convinced Lashowe into allowing you to help her recover a relic she is aware of in the V...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You and your rival, Lashowe, have worked together to defeat a tuk'ata mother beast and recover an...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "Sure enough, Lashowe has turned the corrupt Jedi holocron you worked together to recover over to ...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You and your hopeful rival, Lashowe, worked together to defeat a tuk'ata mother beast and recover...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You turned over the ancient, corrupted Jedi holocron to Master Uthar... who was not only impresse...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "You turned over the ancient, corrupted Jedi holocron to Master Uthar... and while you didn't tell...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Lashowe had betrayed you by bringing the ancient, corrupted Jedi holocron to Master Uthar herself...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "end_attack",
+      "name": "Attack on the Endar Spire",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "The Endar Spire is under attack. Your cabin mate, Trask, has warned you that the Sith have boarde...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "The layout of the Endar Spire and other important information has been loaded into your electroni...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_11",
+          "name": "The layout of the Endar Spire and other important information has been loaded into your electroni...",
+          "sort_order": 11
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You've received a message from Carth Onasi, a highly respected Republic soldier. He's ordered all...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You've reached the bridge, but Bastila is nowhere to be found. She likely made her way to the sta...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The Endar Spire is lost, though Carth Onasi informed you that Bastila managed to get away in one ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You and Carth escaped the Endar Spire on the last remaining pod, jettisoning mere moments before ...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_bastilatalk",
+      "name": "Bastila",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Bastila has been captured by Darth Malak, your old apprentice.",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "Malak has turned Bastila to the dark side. You confronted her atop the Rakatan Temple, but she es...",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_3",
+          "name": "Through your actions you have redeemed Bastila and brought her back to the light, just as you you...",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_4",
+          "name": "You have returned to the dark side and embraced your old life. Bastila has joined you so that tog...",
+          "sort_order": 4
+        },
+        {
+          "stage_key": "entry_5",
+          "name": "You experienced a powerful vision upon first meeting Bastila. The vision could be an indication t...",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Bastila has told you she sees signs that the Force is acting through you. However, she was reluct...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "Because of the bond you and Bastila share, she is extremely interested in learning more about you...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Bastila seems to have taken the role of teacher upon herself, choosing to lecture you about the e...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "In order to prepare you for your meeting with Darth Malak, Bastila described her own encounter wi...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Bastila told you something of her life before the Jedi. She was very adamant in her support of th...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "Apparently Bastila is still playing the role of mentor. She has been studying your progress caref...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You've asked Bastila why the Jedi Council sent the two of you - neither fully trained - on this d...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "Bastila has apologized to you for her earlier attitude, and has admitted how much she respects an...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Bastila is having doubts about her own abilities as a Jedi. Hopefully her uncertainty won't work ...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Bastila's doubts about her own abilites continue to grow. She is actually afraid she may now be a...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You may want to try talking to Bastila again a little later. She might be more willing to talk at...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_65",
+          "name": "Bastila wants to talk to you... but in privacy, away from the others. Speak to her again when you...",
+          "sort_order": 65
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "There's nothing more that needs to be said at the moment. Your relationship with Bastila is going...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "There is nothing more to talk about with Bastila, at least for the time being.",
+          "sort_order": 99
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "Bastila is lost to the dark side, and there was nothing you could do to convince her to return to...",
+          "sort_order": 100
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_helenatalk",
+      "name": "Bastila's Mother",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You encountered someone named Malare who told Bastila that her mother was looking for her. Bastil...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Bastila agreed to consider her mother's request: to locate her father's body and recover his holo...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Bastila's father's holocron has been found out in the desert, still intact. Bastila is unsure, ho...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Bastila and her mother have parted on good terms. Her mother insisted Bastila keep the holocron, ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "The final meeting with Bastila's mother did not go well. Bastila and her mother argued, and Basti...",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_bendakbounty",
+      "name": "Bendak's Bounty",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "There is an official government bounty out on Bendak Starkiller, a famous duelist reknowned for k...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've located Bendak Starkiller in the Upper City cantina, but it looks like the only way you ca...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Bendak is dead. Now all you have to do is go back to Zax and collect his bounty.",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Bendak Starkiller's reign of terror is over, thanks to your efforts in the duel ring. Zax, like m...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_canderous",
+      "name": "Canderous",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been joined by Canderous Ordo, a skilled Mandalorian mercenary. You know little about hi...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Canderous has told you a little bit about himself. He told of the great wars and battles his peop...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Canderous told you about what's it like to drop through the atmosphere in one of the Mandalorian'...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have heard Canderous' tale of his encounter in an asteroid field on the Outer Rim, but do not...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Canderous told you about the honors he won leading a unit in the battle over Althir. It seems tha...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You've heard from Canderous how the Mandalorians started their war on the Republic and the succes...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Canderous described the end of Mandalorian Wars to you. He seemed to admire Revan greatly. Maybe ...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "Canderous described the end of the Mandalorian Wars to you. He seemed to admire you greatly. Mayb...",
+          "sort_order": 75
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "Canderous told how Revan and his forces destroyed the Mandalorians' weaponry and exiled them, sca...",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "You have had a more personal moment with Canderous. He was talking about his work for Davik, and ...",
+          "sort_order": 90
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "Canderous has said that the time of the Mandalorians is past, that his kind no longer have a plac...",
+          "sort_order": 100
+        },
+        {
+          "stage_key": "entry_110",
+          "name": "Canderous was affected oddly by his encounter with Jagi. He probably needs time to think about it...",
+          "sort_order": 110
+        },
+        {
+          "stage_key": "entry_120",
+          "name": "Canderous has said that he will stand by you no matter what path you take or what enemies you face.",
+          "sort_order": 120
+        }
+      ]
+    },
+    {
+      "quest_key": "lev_captured",
+      "name": "Captured by the Leviathan",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_3",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_4",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 4
+        },
+        {
+          "stage_key": "entry_5",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_6",
+          "name": "You've been captured by the Leviathan, a Sith interdictor ship commanded by Saul Karath, Carth's ...",
+          "sort_order": 6
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Now free from your cells you, Carth and Bastila have to get to the Leviathan's bridge and open th...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "You've opened the Leviathan's hangar doors, but you can feel Darth Malak's presence drawing ever ...",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've escaped the Leviathan and survived a confrontation with Darth Malak himself. But the cost ...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_carthtalk",
+      "name": "Carth",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_3",
+          "name": "Carth's revenge is complete, Saul Karath is dead. What Carth will do now is anyone's guess.",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've discovered that Carth's home world was attacked by the Sith, though he was reluctant to ta...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "Although he has agreed to work with you, you've learned that Carth is suspicious and mistrustful ...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Despite being impressed with your abilities, Carth is still not willing to fully open up to you. ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "It's obvious Carth is emotionally scarred by the betrayals of friends and allies at the start of ...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You've learned that Carth's mentor, Saul Karath, was one of the first to defect to the Sith cause...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "Carth feels like he's being left out of the loop where the Jedi Council and Bastila are concerned...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Carth has apologized for his previous behavior, and has promised to try not to punish his current...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_43",
+          "name": "You've learned that Carth's wife and son were lost when Saul Karath led the Sith fleet against Ca...",
+          "sort_order": 43
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "You've learned that Carth's wife and son were lost when Saul Karath led the Sith fleet against Ca...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Carth is worried about you and Bastila. He's afraid the temptation of the dark side might destroy...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Once again Carth has vowed to kill Saul Karath for his betrayal. Hopefully Carth's desire for rev...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Carth has admitted he expects his vengeance against Saul to result in both their deaths. He hasn'...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_65",
+          "name": "It seems you've finally won Carth's full trust, though it wasn't easy. How this will affect the m...",
+          "sort_order": 65
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Carth is devastated after finding out who you truly are. Give him some time. Perhaps once the Sta...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "There is nothing more that remains to be said. Whatever becomes of you and Carth will have to be ...",
+          "sort_order": 75
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Carth and you have nothing more to talk about, for the moment.",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kas23_mainwookplot",
+      "name": "Chieftain in Need",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Wookiee chieftain Chuundar has taken his brother Zaalbar from you and demands that you kill a...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Chuundar is not so beloved as he would have you believe. People doubt him, but there is no one to...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "The Wookiee chieftain Chuundar has taken his brother Zaalbar from you and demands that you kill a...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "A Czerka repulsor field blocks passage into the Lower Shadowlands. You will have to find someone ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "A Czerka repulsor field blocks passage into the Lower Shadowlands, halting your search for the ma...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Jolee Bindo has helped you pass the Czerka repulsor field so you can continue your search for the...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "You have tied the viper corpse to the vine, just as was probably done by years of Wookiees before...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_57",
+          "name": "You have killed a fearsome creature that was lured out of hiding by the Wookiee ritual you stumbl...",
+          "sort_order": 57
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You have encountered the Wookiee that Chuundar sent you to kill. He seems almost feral, and will ...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Freyyr is not the maddened creature Chuundar suggested he was. You have decided to hear him out.",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "Freyyr, Zaalbar's father, has asked that you find Bacca's blade. It was lost in the \"Great Beast'...",
+          "sort_order": 75
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "Freyyr, Zaalbar's father, has asked that you find Bacca's blade. It was lost in the \"Great Beast'...",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_85",
+          "name": "You have set the bait in place, recreating the ritual that should lure out the Great Beast, just ...",
+          "sort_order": 85
+        },
+        {
+          "stage_key": "entry_87",
+          "name": "You have killed the Great Beast. Search the remains for the blade that Freyyr spoke of.",
+          "sort_order": 87
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "Now that it has been recovered, Bacca's blade can be returned to Freyyr so he can raise allies ag...",
+          "sort_order": 90
+        },
+        {
+          "stage_key": "entry_92",
+          "name": "You have recovered the blade of a very ornate looking weapon. This would likely be very important...",
+          "sort_order": 92
+        },
+        {
+          "stage_key": "entry_93",
+          "name": "Freyyr, Zaalbar's father, has asked that you find Bacca's blade. It was lost in the \"Great Beast'...",
+          "sort_order": 93
+        },
+        {
+          "stage_key": "entry_95",
+          "name": "You have returned Bacca's blade to Freyyr. He has gone to rally support and will meet you back in...",
+          "sort_order": 95
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "You have killed the Wookiee Freyyr as Chieftain Chuundar asked. Return to him for your reward.",
+          "sort_order": 100
+        },
+        {
+          "stage_key": "entry_110",
+          "name": "Freyyr has returned to regain leadership of Rwookrrorro, and you have helped Zaalbar decide to jo...",
+          "sort_order": 110
+        },
+        {
+          "stage_key": "entry_120",
+          "name": "Freyyr has returned to regain leadership of Rwookrrorro, but you have prodded Zaalbar to side wit...",
+          "sort_order": 120
+        },
+        {
+          "stage_key": "entry_130",
+          "name": "Chuundar was very appreciative that you killed Freyyr, his and Zaalbar's father. Zaalbar, too, ha...",
+          "sort_order": 130
+        },
+        {
+          "stage_key": "entry_140",
+          "name": "Chuundar was very appreciative that you killed Freyyr, his and Zaalbar's father. With your urging...",
+          "sort_order": 140
+        },
+        {
+          "stage_key": "entry_150",
+          "name": "Freyyr was very grateful that you helped him regain his place as chieftain. He will see that his ...",
+          "sort_order": 150
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_casus",
+      "name": "Dead Settler",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have found the body of Casus Sandral. The journal you found on the body tells that he was an ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have given Casus' journal to his father, Nurik. This may help ease the pain of his loss.",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "tat_ambush",
+      "name": "Desert Ambush",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been ambushed in the desert by Gamorrean hunters. They will want payment of some kind to...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The Gamorrean ambush has ended in violence.",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You managed to appease the Gamorreans that ambushed you, and they left without violence.",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You successfully intimidated the Gamorreans who ambushed you. They fled into the desert.",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_diabounty",
+      "name": "Dia's Bounty",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "A waitress named Dia has had an illegal bounty placed on her by Holdan, one of Davik's men. Appar...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Dia has explained to you that she attacked Holdan in self-defense when he began making drunken ad...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Holdan has agreed to remove the bounty from Dia's head in exchange for enough credits to soothe h...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Thanks to your intervention, Holdan has withdrawn the bounty from Dia's head. Now the only thing ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Dia is dead. Now all you have to do is go back to Zax to collect the bounty.",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "Zax was waiting for you when you returned. Dia's life was just business between you.",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Not surprisingly, Dia was very excited to discover that the bounty on her head has been lifted. T...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17ad_buyinghk47",
+      "name": "Droid For Sale",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Yuka Laka claims to have a unique droid for sale, one that can apparenly even translate the diale...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have spoken to HK-47, a droid eager to be purchased from Yuka Laka in Anchorhead. It is a tra...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have purchased HK-47 from Yuka Laka in Anchorhead. It is apparently able to translate the San...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "ebo_supplies",
+      "name": "Dwindling Supplies",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Zaalbar is concerned about the emergency food stores in the Ebon Hawk's cargo hold. The Wookiee's...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Something, or possibly someone, has been into the food supplies. You might want to conduct a sear...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "The mystery of the missing supplies is solved: a girl has been hiding on the ship and stealing fo...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "man_elora",
+      "name": "Elora, Sunry's Wife",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Elora professes Sunry's innocence. She claims that this is some sort of frame-up by someone who w...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "Elora professes Sunry's innocence. She claims that this is some sort of frame-up by someone who w...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Elora professes Sunry's innocence. She claims that this is some sort of frame-up by someone who w...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "kor33_enteracademy",
+      "name": "Enter the Sith Academy",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "In order to get inside the Sith academy in Dreshdae, you will have to be approved by one of the S...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "In order to get inside the Sith academy in Dreshdae, you will have to be approved by one of the S...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You have heard that when a Sith accepts a hopeful as worthy they are given a medallion... which m...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have spoken to the Sith Master Yuthura Ban, but she is not yet convinced that you are worthy ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "You have acquired one of the Sith medallions. Presenting this to the Sith Master Yuthura Ban migh...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_46",
+          "name": "You have acquired one of the Sith medallions. Presenting this to the Sith Master Yuthura Ban migh...",
+          "sort_order": 46
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have convinced Yuthura Ban to accept you into the Sith academy on Korriban. She will take you...",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_escape",
+      "name": "Escaping Taris",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Bastila has been found, but you still have no way to escape Taris. Not only do you need the depar...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "A messenger has informed you that Canderous Ordo, a Mandalorian working for the local crime lord,...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You've recovered the departure codes you need to escape Taris. Now you just have to find a fast s...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Canderous Ordo, a Mandalorian mercenary working for Davik will help you get off the planet if you...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You've recovered the departure codes you need to escape Taris. Now you just have to bring them ba...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "With the departure codes you recovered from the Sith base and a fast ship you should be able to e...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "As promised, Canderous got you inside Davik's estate. The Taris crime lord gave you a tour of his...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have the codes to disable the Ebon Hawk's security system. Now you just have to get to the ha...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've managed to escape Taris just in time, though there was nothing you could do to stop the Si...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17aa_jawarescue",
+      "name": "Fair Trade",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Jawas are in need of someone to help rescue members of their tribe. Speak with their leader I...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Iziz has asked that you help rescue members of his tribe from the Sand People enclave. He will re...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Iziz says he knows where the Star Map is, and will trade you the information for help rescuing hi...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have found some captive Jawas within the Sand People enclave, but releasing them without the ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "The Sand People chieftain has given you permission to release the Jawas they currently hold captive.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "The Jawas held captive in the Sand People enclave were very glad for your help, and have promised...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Iziz was very grateful for your help in rescuing his tribe members from the Sand People enclave.",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "Iziz gave you some information about the Star Map. He said it may be in the Eastern Dune Sea, in ...",
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_findingdustil",
+      "name": "Finding Dustil",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You ran into an old friend of Carth's... who stunned Carth with the news that he had seen Carth's...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Carth's son has been found, but the reunion was not exactly what he'd hoped. Dustil does not beli...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "Carth's son has been found, but the reunion was not exactly what he'd hoped. Dustil does not beli...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Dustil's eyes have been opened to the true nature of the Sith. He has determined that he will sta...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Carth's son was found. Dustil was an angry young man... a Sith in training who blamed Carth for a...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "man_firith",
+      "name": "Firith Me the Pazaak Player",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Firith was staying at the hotel when the murder occurred. He claims he saw nothing and that that'...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Firith told you he once brushed up against Elassa and her cloak fell open to reveal that she was ...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "genoharadan",
+      "name": "Genoharadan",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "A Twi'lek named Senni Vek has given you a datapad he claims you dropped. On the datapad is a cryp...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "You tried talking to Hulas about the Genoharadan, but he claimed not to know anything. Maybe he w...",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_3",
+          "name": "Hulas has revealed that the Genoharadan are a secret society of bounty hunters and assassins that...",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Hulas has played you for a fool. One of the four leaders of the Genoharadan, he used you to elimi...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "You've learned that the Genoharadan are a secret society of bounty hunters and assassins. They ex...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Hulas has played you for a fool. One of the four leaders of the Genoharadan, he used you to elimi...",
+          "sort_order": 99
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "You met Hulas in the Dune Sea, but the traitor was not alone. He and his followers ambushed you i...",
+          "sort_order": 100
+        },
+        {
+          "stage_key": "entry_101",
+          "name": "You have failed in your effort to join the Genoharadan. Hulas has disappeared, and it is unlikely...",
+          "sort_order": 101
+        },
+        {
+          "stage_key": "entry_102",
+          "name": "You have brought your companions with you to confront Hulas in the Dune Sea. This violates the Ge...",
+          "sort_order": 102
+        }
+      ]
+    },
+    {
+      "quest_key": "geno_ithorak",
+      "name": "Genoharadan: Ithorak",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been instructed to kill a Selkath named Ithorak Guldar. You've been told to go speak to hi...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Vek has agreed to set up a meeting between you and Ithorak. You can meet him in the second dockin...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_11",
+          "name": "You've convinced Vek to abandon Ithorak; not very difficult considering how the Twi'lek felt towa...",
+          "sort_order": 11
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Ithorak is dead. Now you just have to return to Hulas and collect his bounty.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've collected the bounty for Ithorak.",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "geno_lorgal",
+      "name": "Genoharadan: Lorgal",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been instructed to kill a Rodian named Lorgal. He is currently being held as a prisoner in...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "Lorgal is dead. Now you just have to return to Hulas and collect his bounty.",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "Now that you are no longer working for the Genoharadan, there isn't much point in collecting the ...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've collected the bounty for Lorgal.",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "geno_rulan",
+      "name": "Genoharadan: Rulan",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been instructed to kill a shapeshifting alien named Rulan. Hulas has advised you to look f...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_3",
+          "name": "Using stealth and his shapeshifting ability, Rulan has escaped you.",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_4",
+          "name": "Because Rulan is still alive, Hulas has refused to give you the bounty for him. Maybe you should ...",
+          "sort_order": 4
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Rulan is dead. Now you just have to return to Hulas and collect his bounty.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've collected the bounty for Rulan.",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "geno_vorn",
+      "name": "Genoharadan: Vorn",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been instructed to kill a Gammorean named Vorn Daasraad. He is suspected to be on Tatooine...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "Vorn is dead. Now you just have to return to Hulas and collect his bounty.",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've collected the bounty for Vorn.",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "geno_zuulan",
+      "name": "Genoharadan: Zuulan",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been instructed to kill a Gran slaver named Zuulan Sentar. You should look for him on Dant...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "Zuulan Sentar is dead. Now you have to go back to Hulas on Manaan to collect your reward.",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_3",
+          "name": "You let Zuulan go in exchange for a handful of credits. It will be interesting to see how Hulas r...",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "Now that you are no longer working for the Genoharadan, there isn't much point in collecting the ...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You have collected the bounty for Zuulan from Hulas.",
+          "sort_order": 99
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "Hulas was not impressed by your failure to kill Zuulan.",
+          "sort_order": 100
+        }
+      ]
+    },
+    {
+      "quest_key": "man_gluupor",
+      "name": "Gluupor the Rodian",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Gluupor was staying in one of the rooms of the hotel when the murder took place. He says that he ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Gluupor confessed that the Sith made him plant the medal as evidence against Sunry after the murd...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "kas25_mandalorians",
+      "name": "Hidden Hunters",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "This note from a dying Wookiee in the Shadowlands says that his hunting party was attacked by out...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The injured Wookiee Grrrwahrr's hunting party was attacked by camouflaged outsiders. He would rew...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "A group of Mandalorians is preying on creatures in the Shadowlands. A datapad mentioned \"blending...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "A group of Mandalorians is in the Shadowlands training new recruits and attacking unarmed creatur...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have killed the leader of the Mandalorians hunting in the Shadowlands.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You have killed the leader of the Mandalorians hunting in the Shadowlands. The injured Wookiee Gr...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Grrrwahrr rewarded you for avenging the fallen members of his hunting party.",
+          "sort_order": 70
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_hk47talk",
+      "name": "HK-47",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The deeper functions of HK-47's memory core require some sort of stimulus in order to restore the...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Successful tampering with HK-47's memory core has recovered the droid's memory of his most recent...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Memories of HK-47's owner prior to the corporate executive have been recovered. The death of that...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "It appears that prior to the senator, HK-47 was owned by a feared gangster on Sleheyron known as ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Prior to the Hutt, it appears that HK-47 was owned by a Mandalorian soldier. This is the last of ...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "It seems the mystery of HK-47 has finally been solved. The person who sent the droid on his origi...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "kas22_elimatton",
+      "name": "Honest Debt",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The merchant Eli Gand is holding Matton Dasol as an indentured servant. Matton's crew apparently ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The scrambled memory of the malfunctioning droid found in the Shadowlands reveals the violent las...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The scrambled memory of the malfunctioning droid found in the Shadowlands reveals the violent las...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_34",
+          "name": "The scrambled memory of the malfunctioning droid found in the Shadowlands reveals the violent las...",
+          "sort_order": 34
+        },
+        {
+          "stage_key": "entry_37",
+          "name": "The scrambled memory of the malfunctioning droid found in the Shadowlands reveals the violent las...",
+          "sort_order": 37
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Matton was interested in the malfunctioning droid in the Shadowlands, but Eli said it was just ru...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Matton was outraged that Eli would be so devious, and has reacted with understandable violence.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Matton was grateful that the truth about what happened to his crew was revealed and that Eli was ...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Matton was grateful that Eli was exposed as a thief and a murderer. Because of your prodding, Mat...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "The newfound courage of the Wookiees has put a premature end to whatever business Matton and Eli ...",
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "quest_key": "man_ignus",
+      "name": "Ignus the Hotel Owner",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Ignus is the proprietor of the hotel that the murder of Elassa occurred at. He told you that he h...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have managed to persuade Ignus, the hotel owner, to tell the court that he saw Sunry leaving ...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_infectedoutcasts",
+      "name": "Infected Outcasts",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Several of the Outcasts have been infected with the rakghoul disease. They have been placed in qu...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "A number of the infected Outcasts have already transformed into rakghouls, it's too late for them...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "You've decided it would be more efficient to just slaughter the infected Outcasts rather than hel...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You have cured the infected Outcasts of the rakghoul disease, and they have been welcomed back in...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_vulkarbase",
+      "name": "Inside the Vulkar Base",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You're inside the Vulkar base, but you still have to locate the prototype accelerator. It's proba...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "The prototype accelerator is stored in the basement, but the only way down is through a security ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You've reactivated the heating system in the Vulkar base. The rapid increase in temperature is su...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You've successfully shut down the thermal security system protecting the elevator to the garage l...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've found the prototype accelerator and, not surprisingly, it was under heavy guard by a Twi'l...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_ruins",
+      "name": "Investigate Ruins",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Jedi Council has ordered you to investigate some strange ruins on Dantooine. It would seem th...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You have encountered an ancient droid in these ruins, which purports to be a remanent of a vast, ...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have solved the puzzles of the ancient Builder computers and were able to open the doors deep...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "unk_invis",
+      "name": "Invisible Mandalorians",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been told that there are Mandalorian raiders near the Temple of the Ancients, that have ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You were ambushed by some Mandalorians. They thought they could defeat you, but you proved them w...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have slain the Mandalorian leader who has been killing the Rakatans recently. You should brin...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have brought the head of the leader of the raiders back and proven that you have slain them. ...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_party",
+      "name": "Invited to a Party",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been invited to a party by one of the Sith. According to the directions on your datapad th...",
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "quest_key": "k_jagi",
+      "name": "Jagi's Challenge",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Canderous was approached by a man who had fought under him a long time ago. A man named Jagi.\n\nJa...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Canderous and Jagi fought in the Dune Sea. Jagi was expecting that you would accompany Canderous,...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "Jagi didn't have to fight Canderous, and you tried to persuade him not to. The Mandalorian sense ...",
+          "sort_order": 25
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_trials",
+      "name": "Jedi Trials",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Jedi Council on Dantooine has decided to train you in the ways of the ancient Jedi Order. Aft...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "The Jedi Council on Dantooine has decided to train you in the ways of the ancient Jedi Order. Aft...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Having completed the first trial, your second task to become a Jedi is to speak to Master Dorak a...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "Having completed the first trial, your second task to become a Jedi is to speak to Master Dorak a...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_26",
+          "name": "Having completed the first trial, your second task to become a Jedi is to speak to Master Dorak a...",
+          "sort_order": 26
+        },
+        {
+          "stage_key": "entry_27",
+          "name": "Having completed the first trial, your second task to become a Jedi is to speak to Master Dorak a...",
+          "sort_order": 27
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You must cleanse a meditation grove to the southeast of the dark taint that has been infesting it...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "The young Cathar apprentice Juhani is the source of the dark taint permeating the meditation grov...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have slain the fallen Jedi Padawan Juhani, and removed the dark taint from the meditation grove.",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "You have redeemed the fallen Jedi Padawan Juhani, and removed the dark taint from the meditation ...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_46",
+          "name": "Juhani has been accepted back into the Enclave while the Council debates her case. It seems that ...",
+          "sort_order": 46
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have completed the final stages of your training and have been accepted into the Jedi Order a...",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_joleetalk",
+      "name": "Jolee Bindo",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You and Jolee have talked a little about his past. You may continue the conversation with him in ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You prodded Jolee in an effort to find out why he decided to come with you. In the end, he did me...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You got Jolee to talk a little about his adventuring days... and during his tale he mentioned the...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Jolee talked a little bit about his wife and why he didn't agree with the Jedi credo that love sh...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You successfully got Jolee to talk about the Jedi, and he told a tale about how they are often le...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Jolee talked about the Sith and mentioned that he had been involved in the Sith War involving the...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You successfully convinced Jolee to talk about the Sith War, how his wife turned to the dark side...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "You asked Jolee a little about his time on Kashyyyk. You can ask him more about it later, once yo...",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "You've dragged more out of Jolee about his past than he probably intended... and he has no more t...",
+          "sort_order": 90
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "For some reason, Jolee isn't about to talk to you anymore. He will accompany you on your mission,...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kas24_removepoachers",
+      "name": "Jolee's Request",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Jolee has offered to join with you and help \"remove barriers from your path\", but he first wants ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have decided to harvest tach for a group of Czerka poachers in the Shadowlands, the same grou...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Jolee has offered to join with you and help \"remove barriers from your path\", but he first wants ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_34",
+          "name": "Jolee wants you to remove a group of poachers before he will help you. Speaking with the poachers...",
+          "sort_order": 34
+        },
+        {
+          "stage_key": "entry_37",
+          "name": "Jolee wants you to remove a group of poachers before he will help you. Speaking with the poachers...",
+          "sort_order": 37
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have removed the poachers as Jolee requested. He will now show you how to go deeper into the ...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "k_swg_juhani",
+      "name": "Juhani",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Jedi Council have said that you will be accompanied by Juhani, a young Cathar Jedi. She seems...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Juhani has apologized for the way she acted towards you. She seems to be very hard on herself for...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Juhani has told you of how she idolized Jedi in her youth and dreamed of being a Jedi. It would s...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have heard from Juhani that her people were oppressed and ostracized by the human majority. I...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have learned a lot about Juhani's past now. She was, in fact, raised on Taris - the world whi...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Juhani's parents fled to Taris from the homeworld of her species. Unfortunately for them, Taris w...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Juhani has told of how she lived with her parents on Taris, and how her father was killed one day...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "You have learned that after her father died, Juhani had been sold into slavery. When the Jedi cam...",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "Juhani has revealed that it was Revan's army that freed her, and it was Revan that she idolized s...",
+          "sort_order": 90
+        },
+        {
+          "stage_key": "entry_95",
+          "name": "Juhani has revealed that it was your army, as Revan, that freed her, and it was you that she idol...",
+          "sort_order": 95
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "Juhani has taken the news of your past rather well. She believes that the good in you she knew as...",
+          "sort_order": 100
+        },
+        {
+          "stage_key": "entry_105",
+          "name": "Juhani doesn't think that the path you tread now is the same one you followed when your armies fr...",
+          "sort_order": 105
+        },
+        {
+          "stage_key": "entry_110",
+          "name": "Juhani has thanked you for everything you have done for her. For saving her and for what you have...",
+          "sort_order": 110
+        },
+        {
+          "stage_key": "entry_115",
+          "name": "Juhani has thanked you for everything you have done for her, and has expressed her feelings for y...",
+          "sort_order": 115
+        },
+        {
+          "stage_key": "entry_120",
+          "name": "Juhani will stand by your side no matter what Malak may send against you.",
+          "sort_order": 120
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_largobounty",
+      "name": "Largo's Bounty",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "A merchant named Largo owes a large sum of money to Davik Kang. Because he is unable to pay the d...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Out of the goodness of your heart, you've given Largo the money to pay Davik back, likely saving ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_65",
+          "name": "You've killed Largo, who apparently had a bounty on his head. Now, if only you knew where to go t...",
+          "sort_order": 65
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Largo is dead. Now all you have to do is go back to Zax and collect the bounty.",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "According to Zax, Largo no longer has a price on his head. Hopefully he can stay out of trouble i...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You returned to Zax to collect the posted bounty for Largo's death. The hapless merchant's fate w...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "man26ab_swoopraces",
+      "name": "Manaan Swoop Races",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Swoop races on Manaan are open to anyone willing to pay the 100 credit racing fee. There are thre...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have spoken to Queedle, an amateur racer on Manaan. He needs money to upgrade his swoop so he...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have given Queedle some credits to upgrade his swoop. Once he has had some time to upgrade hi...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Queedle has won the swoop races on Manaan, becoming Sector Champion. He has surprised everyone, a...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have beaten the first round of races on Manaan.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "You beat his first round time, so Queedle has decided to quit racing. Whether it was time or mone...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You have beaten the second round of races on Manaan.",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_65",
+          "name": "The race organizer on Manaan says that current Sector Champion Hukta Jax wants to speak with you ...",
+          "sort_order": 65
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "The current champion of the Manaan races has told you that you should give up racing. He has prom...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "You have beaten the third round of races on Manaan, and become Sector Champion.",
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_raiders",
+      "name": "Mandalorian Raiders",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have heard that bands of Mandalorian raiders have been harassing the settlers on Dantooine.",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Jon has told you of the attacks by the raiders that killed his daughter. He has begged you to fin...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have encountered some of the Mandalorian raiders plaguing Dantooine and slain them. They did ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "You have met and slain the Mandalorian leader, Sherruk. He liked to collect lightsabers, and sure...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Jon has thanked you for slaying the leader of the Mandalorian raiders. Perhaps now the settlers c...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_matrik",
+      "name": "Matrik's Bounty",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Davik Kang has put out an illegal bounty on a former associate named Matrik who turned state's ev...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Matrik thinks he can escape his bounty by faking his own death. He's asked you to bring him a per...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Matrik's apartment is nothing but a pile of charred rubble, and Matrik himself has vanished into ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Zax gladly paid you the bounty on Matrik's head, so it seems the plan to fake Matrik's death was ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Matrik is dead. Now all you have to do is go back to Zax to collect the bounty.",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "By completing the bounty on Matrik's head, you further strengthened Davik's hold on the hearts an...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_meetcand",
+      "name": "Meeting Canderous",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've been told that Canderous Ordo, the Mandalorian mercenary working for Davik Kang, wants to ...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've met with Canderous, and he's offered you a deal to get off of Taris. The only catch is you...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17aa_middleman",
+      "name": "Middleman",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "A distraught woman outside Fazza's hunting lodge needs someone to buy a wraid plate from her.",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have convinced the woman outside Fazza's to give you the wraid plate so you can sell it for h...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have paid the woman outside Fazza's lodge for the wraid plate. She was very grateful.",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have paid the woman outside Fazza's lodge for the wraid plate, offering more than she was ask...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have paid the woman outside Fazza's lodge for the wraid plate, offering half what she was ask...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You have made it clear to the woman outside Fazza's that you will not be paying her for the wraid...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You have taken the wraid plate from the woman outside Fazza's. She could do nothing to stop you.",
+          "sort_order": 70
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_companion",
+      "name": "Missing Companion",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have met Elise Montagne, who has lost her... companion. Her droid companion.\n\nIt is all that ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The droid that fled from Elise, C8-42, ran away because he feared his mistress was spending too m...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_23",
+          "name": "The droid that fled from Elise, C8-42, ran away because he feared his mistress was spending too m...",
+          "sort_order": 23
+        },
+        {
+          "stage_key": "entry_26",
+          "name": "The droid that fled from Elise, C8-42, ran away because he feared his mistress was spending too m...",
+          "sort_order": 26
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You told Elise that her droid had been destroyed. She was devastated.\n\nShe ran off towards the Je...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_31",
+          "name": "You met Elise in the Jedi Enclave. It turns out that not everything had ended badly after the des...",
+          "sort_order": 31
+        },
+        {
+          "stage_key": "entry_33",
+          "name": "You met Elise and C8-42 back near the Enclave. Elise was overjoyed that you returned her droid to...",
+          "sort_order": 33
+        },
+        {
+          "stage_key": "entry_36",
+          "name": "You fooled Elise into thinking that her droid was still out there, so she flew off after him. May...",
+          "sort_order": 36
+        }
+      ]
+    },
+    {
+      "quest_key": "man_missing",
+      "name": "Missing Selkath",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been approached by a Selkath named Shaelas. He claims that many young Selkath have been ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have been approached by a Selkath named Shaelas. He claims that many young Selkath have been ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have found the young Selkath that were missing. They have been taken by the Sith and given so...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_34",
+          "name": "You have found the young Selkath that were missing. They have been taken by the Sith and given so...",
+          "sort_order": 34
+        },
+        {
+          "stage_key": "entry_38",
+          "name": "You have found the young Selkath that were missing. They have been taken by the Sith and given so...",
+          "sort_order": 38
+        },
+        {
+          "stage_key": "entry_39",
+          "name": "You have managed to convince Shasa and the other Selkath that the Sith were only using them to ga...",
+          "sort_order": 39
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have told Shaelas that you had to kill his daughter. He is most upset, but understands that y...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_44",
+          "name": "You have told Shaelas that his daughter has gone over to the Sith. He is very distraut at this ne...",
+          "sort_order": 44
+        },
+        {
+          "stage_key": "entry_48",
+          "name": "You have told Shaelas what had been happening to Shasa and the other Selkath youths. He has thank...",
+          "sort_order": 48
+        }
+      ]
+    },
+    {
+      "quest_key": "man_planet",
+      "name": "Mission for the Republic",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have spoken to Roland Wann, the representative of the Republic Embassy on Manaan. He says tha...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You managed to retrieve the encrypted data module from the Sith base. Now you need to return it t...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Roland Wann, the representative of the Republic on Manaan, has told you that the Republic has mad...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have found out that all the Selkath and defensive systems in the station in the Hrakert Rift ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "There are ancient ruins near the Rift that kolto is harvested from, but there is also some sort o...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You fed the toxin into the machine and killed the giant firaxan shark. Unfortunately, it has had ...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_65",
+          "name": "You overloaded the fuel tanks for the kolto harvesting machinery and caused it to explode. With t...",
+          "sort_order": 65
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You told Roland Wann about the giant firaxan shark, the kolto, and what happened at the Hrakert s...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "You told Roland Wann about the giant firaxan shark, the kolto, and what happened at the Hrakert s...",
+          "sort_order": 75
+        }
+      ]
+    },
+    {
+      "quest_key": "k_missbroth",
+      "name": "Mission's Brother",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've run into Lena, an old girlfriend of Mission's brother, Griff. Lena informed Mission that i...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "According to the Czerka rep on Tatooine, Griff was captured during a Sand People raid on one of t...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You found Griff alive and well and being held prisoner in the Sand People enclave. But his reunio...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Mission's brother is free from the clutches of the Sand People, thanks to you. Griff is eager to ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Griff and Mission have been reunited, though Mission is still resentful about Griff deserting her...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Griff wants you to bring him a tach gland so he can brew up some Tarisian ale to sell to a 'busin...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Griff rushed off to brew up a batch of Tarisian ale to deliver to his business connection. Howeve...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Due to his own incompetence, Griff's Tarisian ale deal has turned sour. True to form, he's decide...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_murder",
+      "name": "Murdered Settler",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been approached by a Jedi, Bolook, who requires your assistance in resolving a complicat...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You solved the case, sort of. You rightfully concluded that Handon was the one who actually kille...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_74",
+          "name": "You solved the case, sort of. You rightfully concluded that Rickard was at the scene to kill Cald...",
+          "sort_order": 74
+        },
+        {
+          "stage_key": "entry_78",
+          "name": "You've successfully solved the crime by realizing that both men were guilty. Although it was Hand...",
+          "sort_order": 78
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Bolook has taken the two suspects in Calder's murder back to the enclave, though it was obvious t...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "k_pazaak",
+      "name": "Pazaak Rules",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Basics: The object of the game is to have your face up cards total higher than your opponent's ha...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Basics: The object of the game is to have your face up cards total higher than your opponent's ha...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "main_premium",
+      "name": "Premium Merchant",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been told by Ziagrom that there is a special merchant on Korriban. In the Cantina in Dre...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have been told by Ziagrom that there is a special merchant on Korriban. In the Cantina in Dre...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_buydroid",
+      "name": "Purchasing a Droid",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You're interested in purchasing a T3-M4 droid, but unfortunately it's being held for another buye...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Canderous has told you that Janice Nall has a droid in the her Upper City shop that could get you...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've purchased the T3-M4 droid. If Canderous is right, it should be able to get you inside the ...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "unk_research",
+      "name": "Rakatan Research",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have discovered that the Elders are researching the genetic history of their people in an att...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have retrieved some genetic data from the ancient computer in the catacombs of the Temple of ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have given the genetic data you found in the Temple of the Ancients to the Elder Researchers....",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_rakghoulserum",
+      "name": "Rakghoul Serum",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Zelka at the Upper City medical center is eager to acquire a sample of the rakghoul serum used by...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "Zelka at the Upper City medical center is eager to acquire a sample of the rakghoul serum used by...",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_5",
+          "name": "You've acquired a sample of rakghoul serum. This could be very valuable to the right people.",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've delivered the rakghoul serum to Zelka. He plans to mass produce it so that it will always ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You've delivered the rakghoul serum to Zax, who will forward it on to Davik so the crime lord can...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "k_rapidtransit",
+      "name": "Rapid Transit System",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "STAR WARS Knights of the Old Republic has a rapid transit system to allow you to move quickly thr...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "STAR WARS Knights of the Old Republic has a rapid transit system to allow you to move quickly thr...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_renegadesith",
+      "name": "Renegade Sith",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been told about some renegade Sith students who disobeyed a direct order given by Master...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have encountered a group of renegade Sith students trapped within the shyrack caverns. They a...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have successfully killed a small group of renegade Sith students that were holed up in shyrac...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "With the creature in the shyrack caverns killed, the renegade Sith students were able to escape t...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Having killed the renegade Sith students who were hiding out in the shyrack caverns, you have inf...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Even though you had freed the renegade Sith students from the shyrack caverns, you were also able...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "man_emb",
+      "name": "Republic Embassy",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "The Republic soldier you met in the docking bays on Manaan seemed to think you might have a hard ...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "You finally managed to find the Republic Embassy on Manaan.",
+          "sort_order": 2
+        }
+      ]
+    },
+    {
+      "quest_key": "man_merc",
+      "name": "Republic Hiring Mercenaries",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Selkath Nilko is suspicious about the Republic hiring mercenaries. He claims to be a friend o...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You told Nilko about the Republic facility in the Hrakert Rift. He thanked you and said he would ...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "kor38_roguedroid",
+      "name": "Rogue Droid",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been told about a rogue Sith droid that has escaped from the labs and holed itself up in...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You encountered a rogue Sith assassin droid within one of the valley's tombs. You were able to de...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You encountered a rogue Sith assassin droid within one of the valley's tombs and in the end you w...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have informed Master Uthar of your destruction of the rogue assassin droid in the tombs, an a...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Even though you did not destroy the rogue assassin droid in the tombs, you did get rid of Master ...",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_rukilapprentice",
+      "name": "Rukil's Apprentice",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Rukil of the Outcast village has asked you to discover the fate of his missing apprentice, a youn...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You've found the journal of Rukil's apprentice near her corpse. You should return to the old man ...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "You've given Rukil the journal of his missing apprentice, confirming what the old man suspected: ...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17ag_sandbounty",
+      "name": "Sand People",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_5",
+          "name": "Czerka Corporation has offered to allow you to leave Anchorhead and enter the Dune Sea if you hel...",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_7",
+          "name": "Czerka Corporation wants someone to put an end to a community of Sand People that has been attack...",
+          "sort_order": 7
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Czerka Corporation has given you permission to enter the Dune Sea on the condition that you stop ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "Czerka Corporation is allowing you to enter the Dune Sea on the condition that you stop the Sand ...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The leader of a group of Czerka employees near a damaged sandcrawler said there was a Sand People...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The leader of a group of Czerka employees near a damaged sandcrawler said there was a Sand People...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have acquired Sand People robes. They should allow you to pass yourself off as a Sand People ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Your Sand People robes are no good at short range, but seem to be an effective disguise at a dist...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Your Sand People robes are no good at short range, but you managed to leave the enclave before st...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You made it inside the Sand People enclave, having walked past the turrets outside. You'll have t...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "You successfully made it into the Sand People enclave, momentarily surprising the guards inside. ...",
+          "sort_order": 90
+        },
+        {
+          "stage_key": "entry_100",
+          "name": "You have been brought before the Sand People chieftain. He will order the attacks against Czerka ...",
+          "sort_order": 100
+        },
+        {
+          "stage_key": "entry_110",
+          "name": "The Czerka have made it clear they are not interested in a peaceful solution to the Sand People a...",
+          "sort_order": 110
+        },
+        {
+          "stage_key": "entry_120",
+          "name": "You have purchased two moisture vaporators from the Czerka office. Take them to the Sand People c...",
+          "sort_order": 120
+        },
+        {
+          "stage_key": "entry_125",
+          "name": "You have broken the short-lived peace with the Sand People and will have to acquire the chieftain...",
+          "sort_order": 125
+        },
+        {
+          "stage_key": "entry_126",
+          "name": "You have killed the Sand People chieftain. Find his personal gaffi stick and take it to the Czerk...",
+          "sort_order": 126
+        },
+        {
+          "stage_key": "entry_127",
+          "name": "You have acquired the Sand People chieftain's gaffi stick. Return it to the Czerka office in Anch...",
+          "sort_order": 127
+        },
+        {
+          "stage_key": "entry_130",
+          "name": "The Sand People chieftain was surprised that you returned with the vaporators. He will reduce the...",
+          "sort_order": 130
+        },
+        {
+          "stage_key": "entry_140",
+          "name": "The short-lived peace with the Sand People has failed. You'll have to kill the lot of them.",
+          "sort_order": 140
+        },
+        {
+          "stage_key": "entry_150",
+          "name": "You brought the Sand People chieftain's gaffi to the Czerka office, fulfilling your agreement wit...",
+          "sort_order": 150
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_romance",
+      "name": "Sandral-Matale Feud",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Ahlan Matale has approached the Jedi Council and demanded action. He believes that the head of th...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have spoken to Ahlan Matale and he is very adamant about his belief that the Sandrals to the ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have spoken to Nurik Sandral and his daughter Rahasia. Nurik denies any involvement in Shen's...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_31",
+          "name": "You have spoken to Nurik Sandral and his daughter Rahasia. Nurik denies any involvement in Shen's...",
+          "sort_order": 31
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Shen says that he will not leave the estate so long as Rahasia stays behind. He fears for what he...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Rahasia has agreed to meet you and Shen outside the estate. Now all that remains is to get him ou...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Shen and Rahasia met outside the Sandral estate, but were ambushed by Ahlan Matale. Shortly there...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_62",
+          "name": "Shen and Rahasia met outside the Sandral estate, but were ambushed by Ahlan Matale. Shortly there...",
+          "sort_order": 62
+        },
+        {
+          "stage_key": "entry_64",
+          "name": "Shen and Rahasia met outside the Sandral estate, but were ambushed by Ahlan Matale. Shortly there...",
+          "sort_order": 64
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Shen and Rahasia met outside the Sandral estate, but were ambushed by Ahlan Matale. Shortly there...",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_68",
+          "name": "Shen and Rahasia met outside the Sandral estate, but were ambushed by Ahlan Matale. Shortly there...",
+          "sort_order": 68
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_selvenbounty",
+      "name": "Selven's Bounty",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "There is an official government bounty out on a woman named Selven. She is a known assassin, and ...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_66",
+          "name": "Selven is dead. Now all you have to do is go back to Zax to collect her bounty.",
+          "sort_order": 66
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Where others have failed you have once again found success in managing to kill the assassin Selve...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17ae_signingnico",
+      "name": "Signing Nico",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "A young racer named Nico is being bullied into a bad contract with the Hutt running the races on ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Motta the Hutt wants you to help him bully the young racer Nico into a very restrictive racing co...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Nico won't listen to what you have to say about Motta's contract until you have proven you are as...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have convinced Nico that he should sign Motta's contract. He was resigned to his fate. Time t...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have convinced Motta to give Nico a better contract that will benefit both of them in the lon...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Even though you've arranged a better deal for him, Nico won't listen to what you have to say abou...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Motta has rewarded you for helping sign Nico to a very restrictive contract.",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "Nico has expressed his thanks for securing him a better deal with Motta.",
+          "sort_order": 70
+        }
+      ]
+    },
+    {
+      "quest_key": "kas22_starmap",
+      "name": "Star Map: Kashyyyk",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "People seem to know nothing about a possible Star Map on Kashyyyk, though much of the planet is u...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Wookiee chieftain Chuundar has asked that you descend into the Shadowlands and perform a task for...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "A repulsor field blocks the passage into the Lower Shadowlands. You will have to find someone who...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The reclusive Jolee Bindo has offered to remove barriers from your path if you do a task for him ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Having the reclusive Jolee Bindo in your group will allow you to access the Lower Shadowlands.",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Having the reclusive Jolee Bindo in your group has allowed you to access the Lower Shadowlands an...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "There is a strange computer in the Lower Shadowlands, northwest of Freyyr, that may hold a clue a...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "You have acquired the Star Map from the ancient computer on Kashyyyk.",
+          "sort_order": 70
+        }
+      ]
+    },
+    {
+      "quest_key": "kor33_findstarmap",
+      "name": "Star Map: Korriban",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_5",
+          "name": "You have heard that there are ancient ruins of unknown origin located on the surface of Korriban....",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You have heard mention that the Sith are performing excavations on the surface of Korriban in a p...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "It seems that only the Sith of the local monastery have access to the ruins on the surface. If yo...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The Star Map on Korriban lies in the tomb of Naga Sadow within the Valley of the Dark Lords. The ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have found the Star Map from the Tomb of Naga Sadow on Korriban.",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "man26_starmap",
+      "name": "Star Map: Manaan",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Manaan is an ocean world covered completely by water. The only surface settlement on the planet i...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You have been advised to see Roland Wann at the Republic Embassy for further information on Manaan.",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_17",
+          "name": "Roland Wann, the Republic diplomat on Manaan, has indicated that he may know something about anci...",
+          "sort_order": 17
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Roland Wann, the Republic diplomat on Manaan, has indicated that he may know something about anci...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The Republic has constructed a secret facility at the bottom of the Hrakert Rift with the purpose...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have acquired the Star Map from the Hrakert Rift on Manaan.",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17_starmap",
+      "name": "Star Map: Tatooine",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "If anyone would know about odd or ancient things on Tatooine, it would have to be the indigenous ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Iziz claims that he knows where the Star Map is. He will trade this information for help in rescu...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have found a map to the Eastern Dune Sea, an area far from civilization. If the Star Map is o...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The Sand People chieftain claims that there is something like the Star Map in the Eastern Dune Se...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Iziz has thanked you for helping his people, and now says that the Star Map may be located in a c...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "There is a krayt dragon in a cavern in the Eastern Dune Sea. The beast will have to be dealt with...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "The krayt dragon has been killed. Whatever might be hidden in the depths of its lair is now yours...",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "You have acquired the Star Map from the lair of the krayt dragon on Tatooine.",
+          "sort_order": 90
+        }
+      ]
+    },
+    {
+      "quest_key": "k_pebo_stowaway",
+      "name": "Strange Stowaway",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have encountered a young girl on board the Ebon Hawk... obviously a stowaway. The language sh...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "After considerable effort, you have managed to communicate with the young stowaway... whose name ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "A Twi'lek who claims to be working for a Dantooine citizen is looking for a young human girl name...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Sasha has been handed over to the Lur Arka, and hopefully is now on her way back to her family. P...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Problem solved, the easy way: the odd stowaway has been ordered off your ship. It isn't really yo...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Your little stowaway is gone. For reasons you can only guess at, she decided to take her chances ...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "man_murder",
+      "name": "Sunry Murder Trial",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been approached by Elora, wife of Jolee's friend Sunry. She has begged you to bring Jole...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Elora has told Jolee that her husband has been imprisoned for the murder of a Sith woman. Elora i...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have spoken to the judges in the court and they have consented to appoint you Arbiter in this...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "As Arbiter you must defend Sunry to the best of your ability. However, you have found a data reco...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "You have presented the data recording of Sunry killing Elassa to the court and they have summaril...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_52",
+          "name": "You have failed in your efforts to prove Sunry's innocence. The court has found him guilty as cha...",
+          "sort_order": 52
+        },
+        {
+          "stage_key": "entry_54",
+          "name": "You have managed to convince the Selkath court that Sunry is innocent of his crime. Sunry and Elo...",
+          "sort_order": 54
+        },
+        {
+          "stage_key": "entry_56",
+          "name": "You have managed to convince the Selkath court that Sunry is innocent of his crime. Sunry and Elo...",
+          "sort_order": 56
+        }
+      ]
+    },
+    {
+      "quest_key": "man_sunry",
+      "name": "Sunry's Story",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Sunry claims that he's been set up by someone to take the fall for Elassa's murder. He claims tha...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Sunry has admitted that he was having an affair with Elassa, but that he was going there to end i...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Confronted with the evidence of the recording of him killing Elassa, Sunry admitted to his crime....",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "kas24_tachpoaching",
+      "name": "Tach Poaching",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Poachers in the Shadowlands have made an offer. They want you to help harvest tach, small creatur...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The poachers Jolee wants removed have made an offer. They want you to help harvest tach, small cr...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have decided to harvest tach for a group of Czerka poachers in the Shadowlands.",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have decided to harvest tach for a group of Czerka poachers in the Shadowlands, the same grou...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "The poachers have been removed from the Shadowlands. Jolee will join with you now.",
+          "sort_order": 50
+        }
+      ]
+    },
+    {
+      "quest_key": "tat18aa_tanistrapped",
+      "name": "Tanis Trapped",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Tanis, a wraid hunter, is stuck in the desert, the victim of a trap laid by his estranged wife. H...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Three more of Tanis' droids need to be repaired before he can safely move.",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Three of Tanis' droids need to be repaired before he can safely move. One has already self-destru...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Two more of Tanis' droids need to be repaired before he can safely move.",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Two more of Tanis' droids need to be repaired before he can safely move. One has already self-des...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "One more of Tanis' droids needs to be repaired before he can safely move.",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_70",
+          "name": "One more of Tanis' droids needs to be repaired before he can safely move. One has already self-de...",
+          "sort_order": 70
+        },
+        {
+          "stage_key": "entry_75",
+          "name": "Tanis is free to move. The trap left by his estranged wife has been disarmed. He'll be glad to he...",
+          "sort_order": 75
+        },
+        {
+          "stage_key": "entry_80",
+          "name": "Tanis has been rescued from the trap laid by his estranged wife.",
+          "sort_order": 80
+        },
+        {
+          "stage_key": "entry_90",
+          "name": "Tanis has been killed in the trap set by his estranged wife.",
+          "sort_order": 90
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_planetinfo",
+      "name": "Taris: Planetary Information",
+      "description": "",
+      "category": "companion",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Taris is a sharply divided world. The rich live in the Upper City, while the Lower City is run by...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Taris has been reduced to a desolate wasteland of rubble and permacrete dust. No doubt a few citi...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "tat17ae_swoopracing",
+      "name": "Tatooine Swoop Racing",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have signed up for the swoop races on Tatooine. Motta the Hutt runs the races and will keep t...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have won the first tier of races on Tatooine.",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have won the second tier of races on Tatooine.",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You are now champion of the swoop track on Tatooine, having won all three official time tiers.",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "category000",
+      "name": "The Code of the Sith",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Yuthura has instructed you on the Code of the Sith. Master Uthar already stated that the first ho...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You did not learn the Code of the Sith well enough to impress Master Uthar. You will have to find...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You were successful in demonstrating to Master Uthar your knowledge of the Code of the Sith. He w...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_doublecross",
+      "name": "The Double-Cross",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Yuthura Ban has chosen you to be part of her plot to overthrow Master Uthar and take over the aca...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Yuthura has given you a small device which she says will secretly poison Master Uthar. It must be...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have placed Yuthura's device in Master Uthar's bed, meaning he should be poisoned in time for...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_doublecross2",
+      "name": "The Double-Double-Cross",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Master Uthar has co-opted you into his own plan to turn the tables around on Yuthura. He has give...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have turned over Master Uthar's datapad to Yuthura, effectively eliminating any possibility o...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Master Uthar's datapad has been turned over to Adrenas. This means that when (and if) you go to t...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You have informed Yuthura about the poison that Master Uthar intends to use on her, ultimately nu...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_duelring",
+      "name": "The Duel Ring",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've agreed to join the Taris dueling circuit. The non-lethal duels seem quite popular with the...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've claimed your first victory in the dueling ring by defeating Deadeye Duncan. Unfortunately,...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Gerlon Two-fingers has fallen before you in battle, gaining you some measure of respect among aff...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "With your victory over Ice people are beginning to notice your accomplishments in the ring. If yo...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "By defeating Marl, you've solidly staked your claim among the duel ring's elite. In fact, only on...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Like all the others, Twitch was no match for you in the duel ring. The title of duel champion is ...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "You are the reigning duel champion on Taris, but only by facing the legendary Bendak Starkiller i...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Bendak Starkiller will face you in an illegal death match. The death match will take Ajuur some t...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Bendak is dead, both in the ring and in the minds of the people. Now it is you they talk about: t...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "k_ebonhawk",
+      "name": "The Ebon Hawk",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You have now gained possession of the Ebon Hawk, your own space vessel. With it, you can travel t...",
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "quest_key": "sta_confront",
+      "name": "The Final Confrontation",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "With an escort of Jedi snub fighters, you were able to penetrate the Sith defenses and land the E...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_2",
+          "name": "You tricked an escort of Jedi snub fighters into helping you penetrate the Sith defenses and land...",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You've saved Bastila from the dark side, and she is now using her Battle Meditation against the S...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_11",
+          "name": "You were unable to save Bastila from the dark side, and in the end you had no choice but to kill ...",
+          "sort_order": 11
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Bastila is using her Battle Meditation to wipe the Republic fleet from the face of the galaxy wit...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "You have slain Malak and once again rule unchallenged as Lord of the Sith. With the bulk of their...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Malak has come to a violent end, the eventual fate of all who follow the dark side. The Sith flee...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kor38_hermit",
+      "name": "The Hermit in the Hills",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have been told about a mad hermit who can be found in the hills surrounding the Valley of the...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You have been told about the \"mad hermit\" in the hills surrounding the Valley of the Dark Lords. ...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You encountered Jorak Uln in his lair deep within one of the valley's tombs. He tested you for Si...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You encountered Jorak Uln in his lair deep within one of the valley's tombs. He tested you for Si...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The ancient Sith tablet that included Jorak Uln's own musings has been turned over to Master Utha...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "dan_council",
+      "name": "The Jedi Council",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The Council are likely finished their deliberations now, and you will want to find out what they ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Now that you have been accepted as a Padawan, the Jedi Council might tell you more about the bigg...",
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_mandalorian",
+      "name": "The Mandalorian Weapons Cache",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "A Sith \"information extractor\" has been having difficulty getting the location of a secret weapon...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You managed to extract the location of a weapons cache from a Mandalorian prisoner, but the Sith ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You managed to extract the location of a weapons cache from a Mandalorian prisoner... and had to ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You managed to save a Mandalorian prisoner by rendering him catatonic... his body will be presume...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "The location of the Mandalorian prisoner's weapons cache has been turned over to Master Uthar. He...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "You attempted to extract the location of a weapons cache from a Mandalorian prisoner within the a...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_promisedland",
+      "name": "The Promised Land",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "Rukil has offered to tell you the history of the Outcasts who dwell in the Undercity. It seems to...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Rukil believes that with his apprentice's journal and the journals of his father and grandfather ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The shopkeeper Igear wants you to bring him the missing journals of those who died searching for ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_22",
+          "name": "You have found a journal detailing the search for the Promised Land. Alone it isn't worth much, b...",
+          "sort_order": 22
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You have found another journal detailing the search for the Promised Land. With the journal of Ru...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You've given the journals to Igear, forever condemning Rukil and the other Outcasts to their curr...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "The Outcasts have left in a mass exodus, going to seek out the fabled paradise of the Promised La...",
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "quest_key": "tar_bastsearch",
+      "name": "The Search for Bastila",
+      "description": "",
+      "category": "main",
+      "sort_order": 0,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You are stranded on Taris, a planet under Sith control. Now you and Carth Onasi must find  Bastil...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "Your efforts to search for Bastila in the lower regions of Taris have hit a snag. The Sith guard ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You've been invited to a party being given by one of the off duty Sith officers. Going there migh...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_17",
+          "name": "The Sith at the party underestimated the infamous kick of Tarisian ale, giving you ample opportun...",
+          "sort_order": 17
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Your Sith disguise has fooled the guard at the Upper City elevator, giving you access to the Lowe...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "The Sith guard in the Lower City refuses to let you into the Undercity without the proper authori...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_28",
+          "name": "You've learned that Bastila has been captured by the Black Vulkar swoop gang. However, finding a ...",
+          "sort_order": 28
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Gadon Thek, leader of the Hidden Bek swoop gang, will help you get Bastila back if you recover a ...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_33",
+          "name": "You've met Mission Vao, a young Twi'lek who can get you inside the Black Vulkar base to recover t...",
+          "sort_order": 33
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "Mission has agreed to help you sneak into the Black Vulkar base to recover the stolen swoop accel...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_37",
+          "name": "You've managed to get your hands on the prototype swoop accelerator. Now you just have to bring i...",
+          "sort_order": 37
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You've saved Zaalbar from the Gamorrean slavers, prompting the Wookiee to swear a life debt to yo...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "Kandon Ark, one of the Black Vulkars, has given you a counter to Gadon Thek's offer. He claims th...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_47",
+          "name": "Kandon Ark, one of the Black Vulkars, has given you a counter to Gadon Thek's offer. He claims th...",
+          "sort_order": 47
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Gadon has entered you as a rider in the swoop race. If you can post the fastest time, you'll win ...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "The Black Vulkars have entered you as a rider in the swoop race. If you can post the fastest time...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Despite all odds, you managed to win the swoop race. However, Brejik refused to give Bastila to y...",
+          "sort_order": 60
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "By winning the swoop race, you've managed to secure Bastila's freedom from the Black Vulkars. But...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "kor37_ajuntapall",
+      "name": "The Sword of Ajunta Pall",
+      "description": "",
+      "category": "side",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_5",
+          "name": "You have heard mention of a powerful sword that might be found within the tomb of an ancient Sith...",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "You have encountered none other than the restless and regret-filled spirit of the ancient Sith Lo...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Having selected the wrong sword to place in the statue, the spirit of the Sith Lord, Ajunta Pall,...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You were able to select the blade that once belonged to the Sith Lord Ajunta Pall, and his spirit...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "You encountered Shaardan on the way out of Ajunta Pall's tomb and surrendered the spirit's blade ...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "On the way out of Ajunta Pall's tomb, you encountered one of your rivals: Shaardan. The Sith hope...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "The dark sword of the Sith Lord Ajunta Pall has been turned over to Master Uthar, bringing you on...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "k_pebo_gizkatrouble",
+      "name": "The Trouble With Gizka",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "The fates seem to be conspiring against you. The disorganized port authorities on Tatooine appear...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have managed to convince a Selkath on Manaan to take the gizka off your hands, though it was ...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The infected gizka should soon rid the Ebon Hawk of its unwanted visitors, though you might want ...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "kor35_waysith",
+      "name": "The Way of the Sith",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have managed to enter the Sith academy as a hopeful vying with several others to become the o...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "You have managed to gain some prestige, impressing Master Uthar, but it is not yet enough for him...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "Master Uthar has been impressed enough to declare you worthy of taking the final test at the tomb...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Master Uthar and Yuthura Ban have brought you to the tomb of Naga Sadow... and there is no way ou...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_50",
+          "name": "Your final test within the tomb is over, and both Master Uthar and Yuthura are dead. You are unsu...",
+          "sort_order": 50
+        },
+        {
+          "stage_key": "entry_55",
+          "name": "Your final test within the tomb is over, and Yuthura is dead. You spared Master Uthar, who has re...",
+          "sort_order": 55
+        },
+        {
+          "stage_key": "entry_56",
+          "name": "Your final test within the tomb is over, and Master Uthar is dead. Yuthura turned on you, but you...",
+          "sort_order": 56
+        },
+        {
+          "stage_key": "entry_60",
+          "name": "Your final test within the tomb is over, and Master Uthar is dead. Yuthura turned on you, but you...",
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "quest_key": "k_xor",
+      "name": "Threat from Xor",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "Juhani ran into a being named Xor, who bears her race a special grudge. He was a member of the fl...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Xor attacked you unexpectedly, but you were able to defeat him. In his dying moments, he tried to...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "Xor attacked you unexpectedly, but you were able to defeat him. In his dying moments, he tried to...",
+          "sort_order": 25
+        }
+      ]
+    },
+    {
+      "quest_key": "unk_trapped",
+      "name": "Trapped on a Nameless World",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_1",
+          "name": "You've crashed on a small, uncharted planet. In order to escape, you'll need to find some new sta...",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "entry_5",
+          "name": "You've crashed on a small, uncharted planet. In order to escape, you'll need to find some new sta...",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "entry_10",
+          "name": "The One, leader of a Rakata tribe, has made a deal with you. He has agreed to help you enter the ...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "The Elders have offered to get you inside the Temple of the Ancients if you rescue one of their t...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You've loaded the information on ancient Rakata weapons and technology into your datapad. Now you...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The One is dead, slaughtered by your hand. You won't be able to count on help from him or his tri...",
+          "sort_order": 30
+        },
+        {
+          "stage_key": "entry_32",
+          "name": "The One is dead, slaughtered by your hand. You won't be able to count on help from him or his tri...",
+          "sort_order": 32
+        },
+        {
+          "stage_key": "entry_33",
+          "name": "You've rescued a Rakata being held prisoner by the One. Now that he's been saved, it is likely hi...",
+          "sort_order": 33
+        },
+        {
+          "stage_key": "entry_35",
+          "name": "The One has agreed to help you enter the Temple of the Ancients. However, he refuses to perform t...",
+          "sort_order": 35
+        },
+        {
+          "stage_key": "entry_37",
+          "name": "The Elders have agreed to help you get inside the Temple of the Ancients. Once inside, you should...",
+          "sort_order": 37
+        },
+        {
+          "stage_key": "entry_40",
+          "name": "Despite the wishes of the Rakata, Jolee has come with you into the ancient Rakata temple. Togethe...",
+          "sort_order": 40
+        },
+        {
+          "stage_key": "entry_45",
+          "name": "Despite the wishes of the Rakata, Jolee and Juhani have come with you into the ancient Rakata tem...",
+          "sort_order": 45
+        },
+        {
+          "stage_key": "entry_98",
+          "name": "You have reclaimed your true identity as Lord of the Sith, and Bastila has sworn allegiance to yo...",
+          "sort_order": 98
+        },
+        {
+          "stage_key": "entry_99",
+          "name": "Bastila has fallen to the dark side and sworn allegiance to Darth Malak. She fled to the Star For...",
+          "sort_order": 99
+        }
+      ]
+    },
+    {
+      "quest_key": "ebo46_unfinishedbusiness",
+      "name": "Unfinished Business",
+      "description": "",
+      "category": "side",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have encountered an alien by the name of Lurze who mentions that there is a container on boar...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_12",
+          "name": "You have discovered a stash of spice inside the secret compartment on the Ebon Hawk. You will hav...",
+          "sort_order": 12
+        },
+        {
+          "stage_key": "entry_15",
+          "name": "You encountered an alien by the name of Lurze who wanted some spice that was apparently put on th...",
+          "sort_order": 15
+        },
+        {
+          "stage_key": "entry_16",
+          "name": "You found the spice on board the Ebon Hawk that Lurze told you about, but upon refusing to give i...",
+          "sort_order": 16
+        },
+        {
+          "stage_key": "entry_17",
+          "name": "You turned over a shipment of spice that Davik had left on board the Ebon Hawk to an alien named ...",
+          "sort_order": 17
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "Upon turning over the spice to Lurze, he offered you further employment: take a strange box to Mo...",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_25",
+          "name": "You managed to escape from the prison world inside the box, but it was a narrow thing. Apparently...",
+          "sort_order": 25
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "The mysterious box has been turned over to Motta the Hutt, who paid you for your trouble without ...",
+          "sort_order": 30
+        }
+      ]
+    },
+    {
+      "quest_key": "tat20aa_worthy",
+      "name": "Worthy of History",
+      "description": "",
+      "category": "side",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "entry_10",
+          "name": "You have asked to hear the history of the Sand People, but the chieftain has said that you must f...",
+          "sort_order": 10
+        },
+        {
+          "stage_key": "entry_20",
+          "name": "The Sand People have been angered. There is no way you will gain their trust now.",
+          "sort_order": 20
+        },
+        {
+          "stage_key": "entry_30",
+          "name": "You have brought a dragon pearl to the Sand People chieftain. He will now allow you to speak with...",
+          "sort_order": 30
+        }
+      ]
+    }
+  ]
+}

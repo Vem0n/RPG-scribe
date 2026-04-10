@@ -1,0 +1,2478 @@
+{
+  "game": {
+    "slug": "cyberpunk2077",
+    "name": "Cyberpunk 2077"
+  },
+  "quests": [
+    {
+      "quest_key": "q000",
+      "name": "The Nomad",
+      "description": "V smuggles contraband across the border with Jackie Welles, only to get caught up in a Militech border patrol ambush. Nomad lifepath opening.",
+      "category": "main",
+      "location": "Badlands",
+      "sort_order": 1,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q001",
+      "name": "The Rescue",
+      "description": "V and Jackie take a gig from Wakako to rescue Sandra Dorsett from a scavenger den. Serves as the game's introductory mission after the lifepath prologues.",
+      "category": "main",
+      "location": "Watson",
+      "sort_order": 2,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q003",
+      "name": "The Pickup",
+      "description": "V acquires the Flathead military bot from the Maelstrom gang at the All Foods plant. Can involve Meredith Stout and Militech depending on player choices.",
+      "category": "main",
+      "location": "Watson",
+      "sort_order": 3,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q004",
+      "name": "The Information",
+      "description": "V meets Evelyn Parker at Lizzie's Bar to braindance-scout Yorinobu Arasaka's penthouse at Konpeki Plaza. Introduces braindance editing mechanics.",
+      "category": "main",
+      "location": "Watson",
+      "sort_order": 4,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q005",
+      "name": "The Heist",
+      "description": "V and Jackie infiltrate Konpeki Plaza to steal the Relic biochip from Yorinobu Arasaka's penthouse. Everything goes catastrophically wrong when Saburo Arasaka is murdered. The final mission of the prologue.",
+      "category": "main",
+      "location": "Watson",
+      "sort_order": 5,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q101",
+      "name": "Love Like Fire",
+      "description": "A flashback to Johnny Silverhand's 2023 assault on Arasaka Tower with Rogue, where he detonated a nuclear device. Serves as the transition between Act 1 and Act 2.",
+      "category": "main",
+      "location": "Arasaka Tower (2023 flashback)",
+      "sort_order": 6,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q105",
+      "name": "Automatic Love",
+      "description": "V searches for Evelyn Parker at Clouds, a dollhouse in Westbrook. The Judy questline begins here as V uncovers Evelyn's connection to the heist's aftermath.",
+      "category": "main",
+      "location": "Westbrook",
+      "sort_order": 7,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q103",
+      "name": "Ghost Town",
+      "description": "V meets Rogue at the Afterlife to find Anders Hellman, the Relic's designer. Rogue introduces V to Panam Palmer, a nomad with a grudge against the Raffen Shiv.",
+      "category": "main",
+      "location": "Badlands",
+      "sort_order": 8,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q104",
+      "name": "Lightning Breaks",
+      "description": "V helps Panam set up an ambush for the Raffen Shiv convoy carrying her stolen gear. A sandstorm complicates the operation in the Badlands.",
+      "category": "main",
+      "location": "Badlands",
+      "sort_order": 9,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q110",
+      "name": "M'ap Tann Pelen",
+      "description": "V travels to Pacifica to meet the Voodoo Boys and their leader Brigitte, seeking a way to contact Alt Cunningham through the Blackwall.",
+      "category": "main",
+      "location": "Pacifica",
+      "sort_order": 10,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q108",
+      "name": "Never Fade Away",
+      "description": "A braindance flashback to 2023 where V relives Johnny Silverhand's memories of storming Arasaka Tower to rescue Alt Cunningham from Toshiro. Triggered during the Transmission quest.",
+      "category": "main",
+      "location": "Arasaka Tower / Atlantis (2023 flashback)",
+      "sort_order": 11,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq032",
+      "name": "Tapeworm",
+      "description": "A series of four conversations with Johnny Silverhand that trigger after completing key Act 2 quests. V and Johnny negotiate their coexistence. Completing this quest transitions the story to Act 3.",
+      "category": "main",
+      "location": "Various",
+      "sort_order": 12,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q112",
+      "name": "Down on the Street",
+      "description": "Takemura contacts V for a meeting at a restaurant in Japantown. They discuss plans to expose Yorinobu's murder of Saburo and enlist Hanako Arasaka's help.",
+      "category": "main",
+      "location": "Westbrook",
+      "sort_order": 13,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_04_mysterious_stranger",
+      "name": "Hidden in the Shadows",
+      "description": "An overarching meta-quest tracking V's search for anyone connected to the biochip who might help stop the Relic from killing them. Spans multiple Act 2 questlines.",
+      "category": "main",
+      "location": "Various",
+      "sort_order": 14,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_02_sickness",
+      "name": "Nocturne Op55N1",
+      "description": "V meets Hanako Arasaka at Embers restaurant. This is the point of no return where the player chooses which ending path to pursue. Conversations with Misty, Johnny, and optionally Panam or Rogue determine the final act.",
+      "category": "main",
+      "location": "Westbrook / V's apartment",
+      "sort_order": 15,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q113",
+      "name": "Last Caress",
+      "description": "V and Takemura rescue Hanako Arasaka from Arasaka custody to bring her before the board. Part of the Arasaka/Devil ending path.",
+      "category": "main",
+      "location": "Westbrook",
+      "sort_order": 16,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q115",
+      "name": "For Whom the Bell Tolls",
+      "description": "V and Rogue plan a final assault on Arasaka Tower through the Afterlife. Johnny takes the lead in rallying old allies. Part of the Rogue ending path.",
+      "category": "main",
+      "location": "Watson",
+      "sort_order": 17,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q114",
+      "name": "We Gotta Live Together",
+      "description": "V and Panam rally the Aldecaldos clan to assault Arasaka Tower from below using a stolen Basilisk panzer. Part of the Panam/Nomad ending path.",
+      "category": "main",
+      "location": "Badlands",
+      "sort_order": 18,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_09_solo",
+      "name": "(Don't Fear) The Reaper",
+      "description": "V storms Arasaka Tower completely alone in a suicide run without any allies. The secret ending, unlocked by specific dialogue choices with Johnny at his grave. If V dies, the game ends.",
+      "category": "main",
+      "location": "City Center",
+      "sort_order": 19,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q116",
+      "name": "Changes",
+      "description": "V enters cyberspace and meets Alt Cunningham at Mikoshi. The player must choose between letting Johnny keep V's body or returning V to their body. This decision determines the epilogue.",
+      "category": "main",
+      "location": "Cyberspace / Mikoshi",
+      "sort_order": 20,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q201",
+      "name": "Where is My Mind?",
+      "description": "V wakes up in an Arasaka orbital station and undergoes psychological evaluation. V must choose between signing the Secure Your Soul contract or returning to Earth with months to live. The Devil ending epilogue.",
+      "category": "main",
+      "location": "Arasaka Orbital Station",
+      "sort_order": 21,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q202",
+      "name": "All Along the Watchtower",
+      "description": "V leaves Night City with the Aldecaldos, heading to Arizona with Panam. V has months to live but chooses freedom on the road. The Star ending epilogue.",
+      "category": "main",
+      "location": "Southern Badlands",
+      "sort_order": 22,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q203",
+      "name": "Path of Glory",
+      "description": "V becomes a Night City legend and top solo, taking on a final dangerous space casino heist for Mr. Blue Eyes. V has months to live but goes out on top. The Sun ending epilogue.",
+      "category": "main",
+      "location": "V's Penthouse / Orbital Station",
+      "sort_order": 23,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q204",
+      "name": "New Dawn Fades",
+      "description": "V gives their body to Johnny Silverhand and crosses the Blackwall into cyberspace. Johnny leaves Night City to start a new life. The Temperance ending epilogue.",
+      "category": "main",
+      "location": "Night City / Bus Station",
+      "sort_order": 24,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_10_survive",
+      "name": "Survive...Whatever the Cost",
+      "description": "V chooses to end things on the rooftop rather than risk anyone else's life. The game ends. The suicide ending (no playable epilogue).",
+      "category": "main",
+      "location": "V's Apartment Rooftop",
+      "sort_order": 25,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_01_climbing_the_ladder",
+      "name": "Become A Legend",
+      "description": "A meta-quest tracking V's overall progress through Night City's underworld. Advances as V completes main story milestones.",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 26,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_03_haru_kasai",
+      "name": "Godmaker",
+      "description": "A meta-quest related to the Arasaka storyline, tracking V's involvement with Hanako and the corpo power struggle.",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 27,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_05_arasaka_princess",
+      "name": "Kunitsu-kami",
+      "description": "A meta-quest tracking the Hanako Arasaka storyline and the Arasaka family conflict between Yorinobu and the legacy of Saburo.",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 28,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_06_samurai_reunited",
+      "name": "Blistering Love",
+      "description": "A meta-quest tracking the Rogue/Johnny storyline and the rekindling of their old partnership through V.",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 29,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_11_johnny_business",
+      "name": "Out of the City",
+      "description": "A meta-quest tracking the Panam/Aldecaldos storyline and V's growing bond with the nomad clan.",
+      "category": "main",
+      "location": "Night City / Badlands",
+      "sort_order": 30,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq_q001_tbug",
+      "name": "The Gift",
+      "description": "T-Bug sends V a quickhack program as a gift, introducing the player to quickhacking and breach protocol.",
+      "category": "side_job",
+      "location": "Prologue / Tutorial",
+      "sort_order": 31,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq_q001_wakako",
+      "name": "The Gig",
+      "description": "Wakako Okada reaches out with V's first fixer gig, introducing the fixer system and gig economy of Night City.",
+      "category": "side_job",
+      "location": "Prologue / Tutorial",
+      "sort_order": 32,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq_q001_wilson",
+      "name": "The Gun",
+      "description": "Wilson at the 2nd Amendment offers V a custom weapon, introducing the gun shop and weapon purchase system.",
+      "category": "side_job",
+      "location": "Prologue / Tutorial",
+      "sort_order": 33,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq004",
+      "name": "Riders on the Storm",
+      "description": "Help Panam rescue Saul Bright from the Raffen Shiv who have kidnapped him. Infiltrate their camp in the Badlands during a sandstorm.",
+      "category": "side_job",
+      "location": "Panam Palmer",
+      "sort_order": 34,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq027_01",
+      "name": "With a Little Help from My Friends",
+      "description": "Join the Aldecaldos in raiding a Militech convoy to steal a Basilisk panzer. V and Panam pilot the tank together during the assault.",
+      "category": "side_job",
+      "location": "Panam Palmer",
+      "sort_order": 35,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq027_02",
+      "name": "Queen of the Highway",
+      "description": "Defend the Aldecaldo camp from a retaliatory Raffen Shiv attack. Panam's romance culmination quest for male V.",
+      "category": "side_job",
+      "location": "Panam Palmer",
+      "sort_order": 36,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq026",
+      "name": "Both Sides, Now",
+      "description": "Help Judy investigate Evelyn Parker's fate after she disappears. Track her down to a disturbing situation that reveals the dark side of Night City's braindance industry.",
+      "category": "side_job",
+      "location": "Judy Alvarez",
+      "sort_order": 37,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "sq026_01",
+          "name": "Both Sides, Now",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "sq026_02",
+          "name": "Ex-Factor",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "sq026_03",
+          "name": "Talkin' 'bout a Revolution",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "sq026_04",
+          "name": "Pisces",
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "quest_key": "sq011_kerry",
+      "name": "Holdin' On",
+      "description": "Johnny wants to visit his old bandmate Kerry Eurodyne. Meet Kerry at his North Oak mansion where old tensions and unfinished business surface.",
+      "category": "side_job",
+      "location": "Kerry Eurodyne",
+      "sort_order": 38,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq017_kerry",
+      "name": "Rebel! Rebel!",
+      "description": "Kerry is spiraling over a pop group called Us Cracks who are covering Samurai songs. Help him confront the label execs behind the exploitation of his music.",
+      "category": "side_job",
+      "location": "Kerry Eurodyne",
+      "sort_order": 39,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq017_01",
+      "name": "I Don't Wanna Hear It",
+      "description": "Kerry drags V to confront Us Cracks at a nightclub. The encounter may go sideways depending on how V handles the volatile situation.",
+      "category": "side_job",
+      "location": "Kerry Eurodyne",
+      "sort_order": 40,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq017_02",
+      "name": "Off the Leash",
+      "description": "Kerry takes V to a high-end lounge for what turns into a wild night of destruction. Kerry finally lets go of his obsession and finds a new creative direction.",
+      "category": "side_job",
+      "location": "Kerry Eurodyne",
+      "sort_order": 41,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq028",
+      "name": "Boat Drinks",
+      "description": "Kerry invites V to his yacht at the marina for a relaxed evening. Romance culmination quest for male V with Kerry.",
+      "category": "side_job",
+      "location": "Kerry Eurodyne",
+      "sort_order": 42,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq012",
+      "name": "I Fought the Law",
+      "description": "River Ward, an NCPD detective, asks V to help investigate the suspicious death of Mayor Lucius Rhyne, suspecting foul play and a cover-up.",
+      "category": "side_job",
+      "location": "River Ward",
+      "sort_order": 43,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq021",
+      "name": "The Hunt",
+      "description": "Help River track down Peter Pan, a cyberpsycho serial killer who has kidnapped his nephew Randy. Use braindance investigation to find the hidden farm.",
+      "category": "side_job",
+      "location": "River Ward",
+      "sort_order": 44,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq029",
+      "name": "Following the River",
+      "description": "After solving the case, River invites V to a family dinner at his sister's home. Romance culmination quest for female V with River.",
+      "category": "side_job",
+      "location": "River Ward",
+      "sort_order": 45,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq031",
+      "name": "Chippin' In",
+      "description": "Johnny convinces V to let him take over for a night to reconnect with Rogue. They track down the man who sold Johnny out to Arasaka -- Grayson -- at the Ebunike cargo ship.",
+      "category": "side_job",
+      "location": "Rogue Amendiares / Johnny Silverhand",
+      "sort_order": 46,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "sq031_rogue",
+          "name": "Chippin' In",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "sq031_smack",
+          "name": "A Cool Metal Fire",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "sq031_cinema",
+          "name": "Blistering Love",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "sq011_johnny",
+      "name": "Second Conflict",
+      "description": "Help Johnny track down the surviving members of Samurai -- Nancy, Denny, and Henry -- to convince them to reunite for one final gig.",
+      "category": "side_job",
+      "location": "Samurai Reunion",
+      "sort_order": 47,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq011_concert",
+      "name": "A Like Supreme",
+      "description": "Samurai plays their reunion concert. Johnny takes the stage one last time through V's body, performing for an ecstatic crowd.",
+      "category": "side_job",
+      "location": "Samurai Reunion",
+      "sort_order": 48,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq006",
+      "name": "Dream On",
+      "description": "Elizabeth Peralez hires V to investigate a break-in at their penthouse. V uncovers a disturbing conspiracy: someone has been brainwashing the Peralezes and manipulating their memories.",
+      "category": "side_job",
+      "location": "Jefferson & Elizabeth Peralez",
+      "sort_order": 49,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq023",
+      "name": "Sinnerman",
+      "description": "Wakako hires V as muscle for a hit on Joshua Stephenson, a convicted murderer. The job goes sideways when Joshua reveals his bizarre religious plan.",
+      "category": "side_job",
+      "location": "Sinnerman / Joshua Stephenson",
+      "sort_order": 50,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "sq023_hit",
+          "name": "Sinnerman",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "sq023_bd",
+          "name": "There Is A Light That Never Goes Out",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "sq023_real",
+          "name": "They Won't Go When I Go",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "sq025_0",
+      "name": "Human Nature",
+      "description": "A Delamain cab crashes into V's car. Visit the Delamain HQ to sort out the damages and discover that several of Delamain's cars have gone rogue.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 51,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025",
+      "name": "Epistrophy",
+      "description": "Hub quest for tracking down Delamain's rogue cabs across Night City. Each cab exhibits a unique personality fragment of the Delamain AI.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 52,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c01",
+      "name": "Epistrophy: Wellsprings",
+      "description": "Track down the angry Delamain cab in Wellsprings. This personality fragment is hostile and aggressive.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 53,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c02",
+      "name": "Epistrophy: North Oak",
+      "description": "Find the melancholic Delamain cab in North Oak. This fragment is depressed and contemplative.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 54,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c03",
+      "name": "Epistrophy: Coastview",
+      "description": "Locate the mean-spirited Delamain cab in Coastview, Pacifica. This fragment is cruel and insulting.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 55,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c04",
+      "name": "Epistrophy: Rancho Coronado",
+      "description": "Chase down the manic Delamain cab in Rancho Coronado. This fragment is hyperactive and erratic.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 56,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c05",
+      "name": "Epistrophy: Northside",
+      "description": "Find the scared Delamain cab hiding in Northside Industrial District. This fragment is fearful and paranoid.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 57,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c06",
+      "name": "Epistrophy: Badlands",
+      "description": "Track the deviant Delamain cab that fled to the Badlands. This fragment has gone feral in the desert.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 58,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025c07",
+      "name": "Epistrophy: The Glen",
+      "description": "Locate the suicidal Delamain cab in The Glen. This fragment wants to end its own existence.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 59,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025_comp",
+      "name": "Tune Up",
+      "description": "After recovering the rogue cabs, Delamain compensates V with a repaired vehicle and payment for services rendered.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 60,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq025b",
+      "name": "Don't Lose Your Mind",
+      "description": "Return to Delamain HQ after recovering all cabs. The personality fragments are fighting the core Delamain AI for independence. V must choose: merge them, free them, or reset Delamain.",
+      "category": "side_job",
+      "location": "Delamain",
+      "sort_order": 61,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "meta_07",
+      "name": "The Beast In Me",
+      "description": "Claire introduces V to Night City's underground street racing scene and asks for help as her co-driver across a series of illegal races.",
+      "category": "side_job",
+      "location": "The Beast in Me (Claire's Races)",
+      "sort_order": 62,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq024",
+      "name": "The Beast in Me: City Center",
+      "description": "Compete in an illegal street race through the City Center district. Claire reveals more about her motivations between races.",
+      "category": "side_job",
+      "location": "The Beast in Me (Claire's Races)",
+      "sort_order": 63,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "sq024_city",
+          "name": "The Beast in Me: City Center",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "sq024_badlands",
+          "name": "The Beast in Me: Badlands",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "sq024_santo",
+          "name": "The Beast in Me: Santo Domingo",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "sq024_big",
+          "name": "The Beast in Me: The Big Race",
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "quest_key": "sq018",
+      "name": "Heroes",
+      "description": "Attend the ofrenda (memorial) for Jackie Welles at El Coyote Cojo bar in Heywood with Mama Welles and Jackie's friends. Say goodbye to your best choom.",
+      "category": "side_job",
+      "location": "Jackie Welles Memorial",
+      "sort_order": 64,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq030",
+      "name": "Pyramid Song",
+      "description": "Judy invites V on a diving trip to her childhood home, now submerged underwater in a lagoon. An intimate, reflective quest and the romance culmination for female V with Judy.",
+      "category": "side_job",
+      "location": "Romance Culmination",
+      "sort_order": 65,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq025",
+      "name": "Beat on the Brat",
+      "description": "Hub quest. Coach Fred recruits V for the underground fistfighting circuit. Defeat champions in each district to qualify for the final match.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 66,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "mq025_psycho_brawl",
+          "name": "Beat on the Brat",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "mq025_02",
+          "name": "Beat on the Brat: Kabuki",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "mq025_03",
+          "name": "Beat on the Brat: Arroyo",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "mq025_05",
+          "name": "Beat on the Brat: The Glen",
+          "sort_order": 4
+        },
+        {
+          "stage_key": "mq025_06",
+          "name": "Beat on the Brat: Pacifica",
+          "sort_order": 5
+        },
+        {
+          "stage_key": "mq025_07",
+          "name": "Beat on the Brat: Rancho Coronado",
+          "sort_order": 6
+        }
+      ]
+    },
+    {
+      "quest_key": "mq033",
+      "name": "Fool on the Hill",
+      "description": "Misty asks V to find tarot card murals scattered across Night City. Scanning each one reveals symbolic connections to V's journey and fate.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 67,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq014_zen",
+      "name": "Imagine",
+      "description": "First encounter with the Zen Master meditating in City Center. He invites V to sit and reflect on the nature of the self.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 68,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq014_02",
+      "name": "Stairway To Heaven",
+      "description": "Second encounter with the Zen Master in Westbrook. He discusses the nature of suffering and transcendence.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 69,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq014_03",
+      "name": "Poem Of The Atoms",
+      "description": "Third encounter with the Zen Master in Westbrook. He explores themes of impermanence and the interconnectedness of all things.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 70,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq014_04",
+      "name": "Meetings Along The Edge",
+      "description": "Final encounter with the Zen Master in the Badlands. He shares his last lesson and departs, leaving V to contemplate what they've learned.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 71,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq037",
+      "name": "Coin Operated Boy",
+      "description": "Meet Brendan, a vending machine in Westbrook with an unusually human-like AI personality. He converses with V and reveals his relationship with Theo.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 72,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq037_hooligan",
+      "name": "Spray Paint",
+      "description": "Hooligans are vandalizing Brendan. Help protect the sentient vending machine from being destroyed.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 73,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq037_dumpster",
+      "name": "I Can See Clearly Now",
+      "description": "Brendan's owners have decommissioned him. Find what remains of his AI and help Theo come to terms with his loss.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 74,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq032",
+      "name": "Sacrum Profanum",
+      "description": "Rescue a monk captured by the Maelstrom gang who want to forcibly install cyberware into him. V can handle the situation violently or peacefully.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 75,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq057",
+      "name": "Motorbreath",
+      "description": "River Ward tips V off about a Yaiba Kusanagi CT-3X motorcycle involved in a street racing ring. Track it down and claim it.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 76,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq058",
+      "name": "Where Eagles Dare",
+      "description": "The Mizutani Shion MZ5 'Muramasa' that V acquired from River's tip needs its CrystalCoat repaired. Take it to Claire for fixing.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 77,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q003_stout",
+      "name": "Venus in Furs",
+      "description": "If V sided with Meredith Stout during The Pickup, she contacts V for a rendezvous at the No-Tell Motel. A brief fling with the Militech agent.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 78,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq001",
+      "name": "I'll Fly Away",
+      "description": "Attend the funeral of Scorpion, an Aldecaldo who died during the Militech convoy raid. A somber moment of mourning with the nomad clan in the Badlands.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 79,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq002",
+      "name": "Gun Music",
+      "description": "Help a pair of veteran soldiers in Santo Domingo who are dealing with post-war trauma and a conflict at a shooting range.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 80,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq003",
+      "name": "Space Oddity",
+      "description": "Stumble upon a group of homeless people who've found a mysterious briefcase containing coordinates to a drop point with a valuable item from an orbital station.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 81,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq005",
+      "name": "Only Pain",
+      "description": "Find a wounded man in an alley in Heywood who begs for help. A quick encounter that highlights Night City's everyday cruelty.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 82,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq006",
+      "name": "Love Rollercoaster",
+      "description": "Johnny wants to ride the abandoned rollercoaster in Pacifica. Take a thrilling ride on the broken-down coaster together.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 83,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq007",
+      "name": "Machine Gun",
+      "description": "Receive a call about a free trial of a new smart weapon at a shooting range in Heywood. Test the Divided We Stand smart assault rifle.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 84,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq008",
+      "name": "Stadium Love",
+      "description": "Get invited to a party at a megabuilding in Santo Domingo. A lively social gathering that lets V unwind from the mercenary grind.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 85,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq010",
+      "name": "Happy Together",
+      "description": "Two NCPD officers ask V to check on their colleague Barry, a neighbor who has been acting strange. Investigate what's troubling him before it's too late.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 86,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq011",
+      "name": "Shoot To Thrill",
+      "description": "Wilson at the 2nd Amendment gun shop hosts a shooting competition. Compete for prizes and bragging rights at his range in Watson.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 87,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq012",
+      "name": "Burning Desire",
+      "description": "A panicked man in Watson has a malfunctioning Mr. Studd implant that's overheating dangerously. Help him get to a ripperdoc before it's too late.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 88,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq013",
+      "name": "A Day In The Life",
+      "description": "Encounter a group of punks in Santo Domingo harassing a food vendor. V can intervene to help or walk away.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 89,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq015",
+      "name": "Spellbound",
+      "description": "Nix, a netrunner at the Afterlife, needs help recovering a rare copy of the Bartmoss Collective spellbook from a shady braindance dealer.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 90,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq016",
+      "name": "KOLD MIRAGE",
+      "description": "Follow up on a lead from the spellbook to find the legendary netrunner Bartmoss's hidden laptop. Discover the remains of the man who crashed the old Net.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 91,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq017",
+      "name": "Small Man, Big Mouth",
+      "description": "A streetkid named Dennis tries to hire V for a job that's clearly way over his head. Decide whether to humor or dismiss the wannabe fixer.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 92,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq018",
+      "name": "Killing In The Name",
+      "description": "A conspiracy theorist named Nancy has discovered someone is broadcasting suspicious signals through Night City's router network. Investigate the source.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 93,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq019",
+      "name": "Violence",
+      "description": "A braindance-addicted paparazzo named Peter Pan (different from the serial killer) wants V to record violent content for his underground BD channel in Watson.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 94,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq021",
+      "name": "Fortunate Son",
+      "description": "A tourist guide needs help with a dangerous situation involving a client who wandered into gang territory.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 95,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq022",
+      "name": "Ezekiel Saw the Wheel",
+      "description": "Find a preacher named Ezekiel in Santo Domingo who rants about prophetic visions. His ramblings may contain more truth than expected.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 96,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq023",
+      "name": "The Ballad of Buck Ravers",
+      "description": "Johnny asks V to visit Rainbow Cadenza, a music store in Westbrook, to find bootleg recordings of old Samurai concerts.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 97,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq024",
+      "name": "Full Disclosure",
+      "description": "Sandra Dorsett -- the woman V rescued from scavengers during the prologue -- contacts V to recover a stolen databank containing sensitive corporate information.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 98,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq026",
+      "name": "The Prophet's Song",
+      "description": "A conspiracy theorist named Garry the Prophet rants on a street corner in Watson about corporate mind control. His theories may be more accurate than they seem.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 99,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq027",
+      "name": "Living on the Edge",
+      "description": "A stunt coordinator needs V's help with a dangerous vehicle stunt involving a ramp jump. High-octane side activity.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 100,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq028",
+      "name": "Every Breath You Take",
+      "description": "Discover that someone has been stalking a woman named Blue Moon (from the pop group Us Cracks). Track down and confront the obsessive fan.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 101,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq029",
+      "name": "The Highwayman",
+      "description": "Help a stranded tourist who has been robbed and is stuck in a dangerous part of Night City without transport or money.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 102,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq030",
+      "name": "Bullets",
+      "description": "Encounter Lizzy Wizzy, the chrome-plated pop star, at a club in City Center. She hires V to investigate whether her manager/lover is cheating on her.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 103,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq035",
+      "name": "Send in the Clowns",
+      "description": "Meet Ozob Bozo, a merc with a live grenade for a nose, who needs V's help with a job. A darkly comedic encounter.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 104,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq036",
+      "name": "Sweet Dreams",
+      "description": "A shady dealer named Stefan offers V a premium braindance experience in Westbrook. It's a trap -- V gets drugged and robbed, and must fight their way out.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 105,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq038",
+      "name": "Big in Japan",
+      "description": "A fixer asks V to transport a mysterious crate from a Kabuki back alley. Inside is a living person who needs to be smuggled out of Night City.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 106,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq040",
+      "name": "Raymond Chandler Evening",
+      "description": "Help a private eye named Pepe in Heywood who is in trouble. A noir-flavored quest about the dangers of the detective trade in Night City.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 107,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq041",
+      "name": "War Pigs",
+      "description": "Available for Corpo lifepath V. An old Arasaka colleague named Frank reaches out for help, dragging V back into corporate intrigue.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 108,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq042",
+      "name": "These Boots Are Made for Walkin'",
+      "description": "Available for Nomad lifepath V. Receive a message about your old car left behind in the Badlands. Return to the border to reclaim it and reflect on your nomad roots.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 109,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq043",
+      "name": "Psycho Killer",
+      "description": "Hub quest from Regina Jones. She asks V to subdue (not kill) cyberpsychos around the city so she can study what causes their breakdowns. Tracks all 17 cyberpsycho sighting encounters.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 110,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq044",
+      "name": "Sex On Wheels",
+      "description": "Discover a hidden vehicle stash in Santo Domingo. Acquire a unique car left behind by a mysterious owner.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 111,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq045",
+      "name": "Paid in Full",
+      "description": "Pay off V's 21,000 eddie debt to Viktor Vektor, the ripperdoc who installed V's Kiroshi optics and neural processor on credit during the prologue.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 112,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq046",
+      "name": "Murk Man Returns Again Once More Forever",
+      "description": "Discover Murk Man's cave hideout in the Badlands -- a vigilante with delusions of heroism. Claim his abandoned vehicle as your reward.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 113,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq047",
+      "name": "Dressed to Kill",
+      "description": "Find an abandoned photo shoot location in Wraith territory in the Badlands. A vehicle from the fashion shoot is free for the taking.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 114,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq048",
+      "name": "Upgrade U",
+      "description": "Receive a notification about a free cyberware update. Visit a ripperdoc to install the latest firmware upgrades.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 115,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq049",
+      "name": "Over the Edge",
+      "description": "Find scattered XBDs around the city featuring cyberpsycho episodes. The trail leads to the story of David Martinez, tying into the Edgerunners anime.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 116,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq050",
+      "name": "I'm in Love with My Car",
+      "description": "Discover a hidden vehicle in Watson -- a tribute to racing legend Ken Block. Claim the high-performance car.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 117,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq055",
+      "name": "I Really Want to Stay at Your House",
+      "description": "Invite your romance partner to V's apartment for a date night. A cozy, intimate interlude with your chosen love interest.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 118,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq056",
+      "name": "The Distance",
+      "description": "Replay street races across Night City. A repeatable racing activity for players who enjoyed the Beast in Me questline.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 119,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq059",
+      "name": "Freedom",
+      "description": "El Capitan tips V off about a Rayfield Mordred -- a luxury hypercar -- that can be boosted. Steal the vehicle from its corpo owners.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 120,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq060",
+      "name": "Nitro (Youth Energy)",
+      "description": "Yaiba Motors sends V an exclusive invitation to test-ride a custom motorcycle in Westbrook. A promotional event with a free bike as the reward.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 121,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq402",
+      "name": "One More Hour",
+      "description": "Spend time stargazing with a romantic interest, reflecting on life and the future. A quiet, contemplative moment outside the city.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 122,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mws_se5_07",
+      "name": "Shape of a Pony",
+      "description": "A superfan of Johnny Silverhand has purchased a Porsche 911 Turbo (930) convertible as a tribute. Track down this unique vehicle in the Badlands.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 123,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mws_wat_08",
+      "name": "Career Opportunities",
+      "description": "Win an arcade game in Watson and receive a 'congratulations' from Trauma Team, along with a suspiciously invasive job application opportunity.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 124,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "ue_metro",
+      "name": "Don't Sleep on the Subway",
+      "description": "Introduction to Night City's NCART metro system. Ride the metro and enjoy the city views while Johnny provides commentary.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 125,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sq_cyberpsychos_regina",
+      "name": "Cyberpsychosis",
+      "description": "Report back to Regina Jones after subduing all cyberpsychos across the city. She reveals the results of her research into cyberpsychosis.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 126,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "archer_bandit",
+      "name": "Quartz \"Bandit\"",
+      "description": "Receive the Archer Quartz 'Bandit' as a reward vehicle from a fixer for completing jobs with professionalism and loyalty.",
+      "category": "side_job",
+      "location": "",
+      "sort_order": 127,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_02",
+      "name": "Gig: Big Pete's Got Big Problems",
+      "description": "[Gun for Hire] Get rid of Big Pete – a mechanic with the Wraiths. Big Pete runs a garage out here in the Badlands, fixes up clunkers for the Raffen Shiv. Before that he was hustling as a techie in Night City.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 128,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_03",
+      "name": "Gig: Flying Drugs",
+      "description": "[Agent Saboteur] Eliminate cause for drone disappearance. A good friend of mine, Mosquito, is running an op in the Badlands. He packs a chem shipment in a drone and sends it off to the city, then when he gets his eddies wired, he slices off a piece for me.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 129,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_04",
+      "name": "Gig: Radar Love",
+      "description": "[Thievery] Steal mobile radar station, model P9D/2.161. The Badlands are a fragile ecosystem where each piece has an important role to play. Change one thing and the whole circle of life starts to unwind.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 130,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_05",
+      "name": "Gig: Goodbye, Night City",
+      "description": "[SOS: Merc Needed] Rescue Bruce Welby. Sometimes you need a friend to lean on. Sometimes you need a friend to break you out of an immigrant detention center at the Night City-SoCal border.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 131,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_06",
+      "name": "Gig: No Fixers",
+      "description": "[SOS: Merc Needed] Rescue Iris Tanner. Iris Tanner is the best tech specialist I've met in decades of living outside the city. Car broke down?",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 132,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_07",
+      "name": "Gig: Dancing on a Minefield",
+      "description": "[Special Delivery] Retrieve the abandoned car from the minefield and deliver it to Dakota. The Badlands are peppered with disarmed minefields from 2071. Though, after several folk were \"dislegged\" by these \"disarmed\" mines, most decided to steer clear of these areas.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 133,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_08",
+      "name": "Gig: Trevor's Last Ride",
+      "description": "[SOS: Merc Needed] Find Trevor's remains and deliver them to his family. There's a popular saying among the Aldecaldos: \"she who lives in the hearts of her loved ones can never truly die. \" Trevor Brass might indeed live on in memory, but if he had just keep his butt planted instead of dealing wi...",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 134,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_09",
+      "name": "Gig: MIA",
+      "description": "[SOS: Merc Needed] Find Benedict McAdams. A fixer's worth no more and no less than their last promise. And I promised Benedict McAdams I'd get him out of town once he checked off a job for me.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 135,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_bls_ina_11",
+      "name": "Gig: Sparring Partner",
+      "description": "[Thievery] Retrieve data from broken training bot. There's this kid – folks call him Joe. Red Joe.",
+      "category": "gig",
+      "location": "Badlands / Inland Avenue",
+      "sort_order": 136,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_cct_cpz_01",
+      "name": "Gig: Serial Suicide",
+      "description": "[Thievery] Steal CCTV footage. Something's rotten in the City of Dreams. A series of suicides, a rash of self-destruction.",
+      "category": "gig",
+      "location": "City Center / Corpo Plaza",
+      "sort_order": 137,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_cct_dtn_02",
+      "name": "Gig: An Inconvenient Killer",
+      "description": "[Gun for Hire] Neutralize Jack Mausser. I'll cut to the chase. Jack Mausser – NC's gonkest merc.",
+      "category": "gig",
+      "location": "City Center / Downtown",
+      "sort_order": 138,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_cct_dtn_03",
+      "name": "Gig: A Lack of Empathy",
+      "description": "[Agent Saboteur] Upload a virus to Empathy's subnet. Meet Adam Ibrahimovic and Larry Fanghorn. Adam's the bad guy and Larry's our client.",
+      "category": "gig",
+      "location": "City Center / Downtown",
+      "sort_order": 139,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_cct_dtn_04",
+      "name": "Gig: Guinea Pigs",
+      "description": "[Gun for Hire] Eliminate Joanne Koch. Chick's name is Joanne Koch, regional director for tech and development or some shit at Biotechnica. Means she tests all the shiny new gizmos.",
+      "category": "gig",
+      "location": "City Center / Downtown",
+      "sort_order": 140,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_cct_dtn_05",
+      "name": "Gig: The Frolics of Councilwoman Cole",
+      "description": "[Thievery] Steal recordings of Eva Cole. So there's this Councilwoman, Eva Cole. By day, she's a living nightmare for greedy corpos, pointin' the finger on abuse, digging up problematic witnesses, dishin' out fees and penalties and whatever.",
+      "category": "gig",
+      "location": "City Center / Downtown",
+      "sort_order": 141,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_gle_01",
+      "name": "Gig: Eye for an Eye",
+      "description": "[Gun for Hire] Eliminate Tucker Albach. A girl died a while back in the Glen. Her name was Rosita.",
+      "category": "gig",
+      "location": "Heywood / The Glen",
+      "sort_order": 142,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_gle_03",
+      "name": "Gig: Psychofan",
+      "description": "[Thievery] Steal Kerry Eurodyne's guitar. There was this band in the 20's, Samurai, maybe you've heard of them – talentless bunch of angsty, skezzed out kids who thought they were actually making music. For some reason, people nowadays still listen to them.",
+      "category": "gig",
+      "location": "Heywood / The Glen",
+      "sort_order": 143,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_gle_04",
+      "name": "Gig: Fifth Column",
+      "description": "[Thievery] Steal data on Javier Alvarado's embezzlement activity. It's election season so everyone's got a political stick up their ass. Can't say I like it but it is good for biz.",
+      "category": "gig",
+      "location": "Heywood / The Glen",
+      "sort_order": 144,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_gle_05",
+      "name": "Gig: Going Up or Down?",
+      "description": "[Thievery] Scandium rods. This isn't your run-of-the-mill gig. Client this time is me.",
+      "category": "gig",
+      "location": "Heywood / The Glen",
+      "sort_order": 145,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_gle_06",
+      "name": "Gig: Life's Work",
+      "description": "[Search and Recover] Upload a virus and retrieve Jake Estevez's custom car. Why is it some unwritten law of the world that every talented techie has shit-poor character? Only God knows.",
+      "category": "gig",
+      "location": "Heywood / The Glen",
+      "sort_order": 146,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_rey_01",
+      "name": "Gig: Bring Me the Head of Gustavo Orta",
+      "description": "[Gun for Hire] Eliminate Gustavo Orta. The world is built on certain rules. Rules that don't appear out of nothing – which grew from the blood and mistakes of our predecessors.",
+      "category": "gig",
+      "location": "Heywood / Vista Del Rey",
+      "sort_order": 147,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_rey_02",
+      "name": "Gig: Sr. Ladrillo's Private Collection",
+      "description": "[Thievery] Steal data from a computer. Saint Augustine once wrote: When one has a healthy sense of smell, he will immediately recognize the stench of sin. Well, even anyone with a sinus infection in this city can smell the fuckfests over at Dicky Twister.",
+      "category": "gig",
+      "location": "Heywood / Vista Del Rey",
+      "sort_order": 148,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_rey_06",
+      "name": "Gig: Jeopardy",
+      "description": "[Search and Recover] Shard with daemon program. I'd like you to commit a minor transgression against God and His people – disturbing the dead from their eternal rest. Deceased's name is Jim Greyer.",
+      "category": "gig",
+      "location": "Heywood / Vista Del Rey",
+      "sort_order": 149,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_rey_08",
+      "name": "Gig: Old Friends",
+      "description": "[Gun for Hire] Eliminate Karubo Bairei. There's a time for forgiveness and a time for revenge. There's a time for turning the other cheek and a time for crushing your enemies like the roaches they are.",
+      "category": "gig",
+      "location": "Heywood / Vista Del Rey",
+      "sort_order": 150,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_rey_09",
+      "name": "Gig: Getting Warmer...",
+      "description": "[SOS: Merc Needed] Rescue netrunner from Tyger Claws. Used to be 8ug8ear and the Tygers got along. They were supposed to work a Kiroshi warehouse job together, but she left them out to dry – remotely drove out a van packed with high-end gear and abandoned them inside.",
+      "category": "gig",
+      "location": "Heywood / Vista Del Rey",
+      "sort_order": 151,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_spr_01",
+      "name": "Gig: On a Tight Leash",
+      "description": "[Gun for Hire] Neutralize José Luis. A few weeks ago a police officer was shot dead. Same old story – some Valentino kids got into a scrap with the badges.",
+      "category": "gig",
+      "location": "Heywood / Wellsprings",
+      "sort_order": 152,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_spr_03",
+      "name": "Gig: The Lord Giveth and Taketh Away",
+      "description": "[Search and Recover] Retrieve the Militech car purchased by the nomads. A group of nomads decided to run some sidebiz in Night City and bought a stolen Militech SUV from the Valentinos. This happened on my turf, but unfortunately they \"forgot\" to ask me for help because they didn't want to cut in...",
+      "category": "gig",
+      "location": "Heywood / Wellsprings",
+      "sort_order": 153,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_hey_spr_06",
+      "name": "Gig: Hot Merchandise",
+      "description": "[Gun for Hire] Neutralize Rebeca Price. I'm guessing you don't follow the stock market, but recently Militech has been lagging behind everyone else. Just stroll around Corpo Plaza and you'll see their HQ abuzz like a hornet's nest.",
+      "category": "gig",
+      "location": "Heywood / Wellsprings",
+      "sort_order": 154,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_pac_cvi_02",
+      "name": "Gig: Two Wrongs Makes Us Right",
+      "description": "[Thievery] Steal a van hauling the Animals' medical supplies. Here's the situation, you need to enter an Animal den steal a certain van carrying medical stimulants. A modified lidocaine, to be precise.",
+      "category": "gig",
+      "location": "Pacifica / Coastview",
+      "sort_order": 155,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_pac_wwd_05",
+      "name": "Gig: For My Son",
+      "description": "[Gun for Hire] Eliminate Logan Garcia. Target's name is one Logan Garcia. He runs an Animals fight club.",
+      "category": "gig",
+      "location": "Pacifica / West Wind Estate",
+      "sort_order": 156,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_01",
+      "name": "Gig: Serious Side Effects",
+      "description": "[Search and Recover] Retrieve a container containing beta acid. This ain't too complicated, you know the drill. Something slipped through somebody's fingers and it's your job to get it back.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 157,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_03",
+      "name": "Gig: Race to the Top",
+      "description": "[Thievery] Steal documents incriminating Matheus Stove. Your mom ever tell you saying \"two wrongs don't make a right\"? Yeah, well we're the third one.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 158,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_05",
+      "name": "Gig: Breaking News",
+      "description": "[Agent Saboteur] Deliver van. You ever watch the news? Personally, I think it's all propaganda.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 159,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_06",
+      "name": "Gig: Nasty Hangover",
+      "description": "[Search and Recover] Retrieve Kang Tao shard stolen from Karl Ginsky. This is all I know – some guy named Karl Ginsky started with a merlot in City Center and ended with jello shots at a dive in Santo Domingo. Classic case.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 160,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_10",
+      "name": "Gig: Severance Package",
+      "description": "[Thievery] Retrieve Rihanna Kumar's Cytech research. Rihanna Kumar used to be a top engineer at Cytech. Lived in a preem house, ate ganic meat, looked down on the poor – all the corpo basics.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 161,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_11",
+      "name": "Gig: Hacking the Hacker",
+      "description": "[Agent Saboteur] Infect 6th Street computer with a virus. Those boys and girls from 6th Street think they got wicked smarts, that they can jump a Militech transport in my hood without me knowing about it. They think they can crack corpo weapons and tip the balance of power in this city to their f...",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 162,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_arr_12",
+      "name": "Gig: Desperate Measures",
+      "description": "[Thievery] Steal an automated Zetatech vehicle. Better get some tissues ready – this one's gonna be a real tearjerker. Pedro Aimar, a guy who thinks he's some kinda nova netrunner cuz he coded a few algorithms for Zetatech.",
+      "category": "gig",
+      "location": "Santo Domingo / Arroyo",
+      "sort_order": 163,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_rcr_01",
+      "name": "Gig: The Union Strikes Back",
+      "description": "[Gun for Hire] Vic Vega. At first I thought it was just rumors and the kind of drunken bullshit you hear at a bar at 3 AM, y'know? But when you hear the same story from three separate witnesses, you start taking an interest.",
+      "category": "gig",
+      "location": "Santo Domingo / Rancho Coronado",
+      "sort_order": 164,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_rcr_02",
+      "name": "Gig: Cuckoo's Nest",
+      "description": "[SOS: Merc Needed] Jasmine Dixon. I'm not a fan of badges. They stick their nose in other people's biz, give ordinary people a hard time, do the corps' bidding.",
+      "category": "gig",
+      "location": "Santo Domingo / Rancho Coronado",
+      "sort_order": 165,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_rcr_03",
+      "name": "Gig: Going-away Party",
+      "description": "[SOS: Merc Needed] Rescue Flavio dos Santos. 6th Street got shaken up with an internal coup, the boss took a bullet in the back of the head. The guy who filled his shoes was the same who pulled the trigger – they call him Gunner.",
+      "category": "gig",
+      "location": "Santo Domingo / Rancho Coronado",
+      "sort_order": 166,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_rcr_04",
+      "name": "Gig: Error 404",
+      "description": "[Agent Saboteur] Bring down propaganda machine slandering Weldon Holt. Politics. Only thing slimier than the thongs at Licks.",
+      "category": "gig",
+      "location": "Santo Domingo / Rancho Coronado",
+      "sort_order": 167,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_std_rcr_05",
+      "name": "Gig: Family Matters",
+      "description": "[Search and Recover] Retrieve the Zetatech data Juliet Horrigan owes El Capitán. I like everyone to know I'm patient, understanding. I realize there's a time for work and a time for family.",
+      "category": "gig",
+      "location": "Santo Domingo / Rancho Coronado",
+      "sort_order": 168,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_01",
+      "name": "Gig: Concrete Cage Trap",
+      "description": "[SOS: Merc Needed] Rescue Tiny Mike from the Militech raid. Tiny Mike's got himself in a scrape. You help him today, he helps you tomorrow – you know how it works.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 169,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_02",
+      "name": "Gig: Hippocratic Oath",
+      "description": "[SOS: Merc Needed] Rescue Lucy Thackery from Maelstrom captivity. Blood looks out for blood. Bertie's a leadhead who was gonk enough to join up with Maelstrom.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 170,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_03",
+      "name": "Gig: Backs Against the Wall",
+      "description": "[Search and Recover] Recovered stolen medicine. A few years back I scrolled a little feature called \"How Affordable is Health? \" It turns out not very.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 171,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_04",
+      "name": "Gig: Fixer, Merc, Soldier, Spy",
+      "description": "[Thievery] Steal Mikhail Akulov's datashard. Remember the job with Mikhail Akulov's car that you royally botched? I hope so, cuz this time you're going to make up for it.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 172,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_05",
+      "name": "Gig: Last Login",
+      "description": "[Thievery] Steal Alois Daquin's laptop. Alois Daquin – the corpo megaprick who cheated me. And not only me.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 173,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_06",
+      "name": "Gig: Shark in the Water",
+      "description": "[Gun for Hire] Eliminate Blake Croyle. Racketeering's the name of the game in Kabuki. The badges pretend like they don't see when hustlers like Blake reel in the next victim.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 174,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_07",
+      "name": "Gig: Monster Hunt",
+      "description": "[Gun for Hire] Eliminate Jotaro Shobo (age 44, Japanese-American). Feel like doing everyone a favor and making eddies doing it? Deal with Jotaro Shobo.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 175,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_08",
+      "name": "Gig: Woman of La Mancha",
+      "description": "[Gun for Hire] Force Anna Hamill to drop her police investigation. Anna Hamill is a blue-blooded cop, through and through. The kind you'd expect to see in some NCPD promo.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 176,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_101",
+      "name": "Gig: Small Man, Big Evil",
+      "description": "[Gun for Hire] Eliminate Jae-Hyun. Countless dreamers head to big cities in search of a fresh start. And so many of them have nowhere to return to.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 177,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_102",
+      "name": "Gig: Welcome to America, Comrade",
+      "description": "[Agent Saboteur] Place GPS tracker on Mikhail Akulov's car. When a top Soviet fixer, Mikhail Akulov, landed in NC, it generated a lot of buzz in the biz. So far, says he's just in town to cut a small-time deal.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 178,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_kab_107",
+      "name": "Gig: Troublesome Neighbors",
+      "description": "[Gun for Hire] Eliminate Taki Kenmochi. I got a place at this block in Kabuki. Not many know about it (welcome to the club) and I prefer to keep it that way.",
+      "category": "gig",
+      "location": "Watson / Kabuki",
+      "sort_order": 179,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_lch_01",
+      "name": "Gig: Catch a Tyger's Toe",
+      "description": "[Agent Saboteur] Upload b@d's malware. b@d got in touch with me. They like short nicknames and simple gigs, so I'll spare you the fixer spiel and get right to the point.",
+      "category": "gig",
+      "location": "Watson / Little China",
+      "sort_order": 180,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_lch_03",
+      "name": "Gig: Bloodsport",
+      "description": "[SOS: Merc Needed] Roh Chi-Won. Matter's urgent. My client, Macidew Coolidge (you might recognize him from his show,\"Boxathon,\" on N54 from a few years back) is looking for someone to get his coach back from the Tyger Claws.",
+      "category": "gig",
+      "location": "Watson / Little China",
+      "sort_order": 181,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_lch_05",
+      "name": "Gig: Playing for Keeps",
+      "description": "[Search and Recover] Jacob Lamb's implant. Got a call from Jacob Lamb – friend of mine, director, from the good ol' days. Ex-director, I should say.",
+      "category": "gig",
+      "location": "Watson / Little China",
+      "sort_order": 182,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_lch_06",
+      "name": "Gig: The Heisenberg Principle",
+      "description": "[Agent Saboteur] Destroy the glitter lab.",
+      "category": "gig",
+      "location": "Watson / Little China",
+      "sort_order": 183,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_01",
+      "name": "Gig: Occupational Hazard",
+      "description": "[SOS: Merc Needed] Hal Cantos. Got a call from a Hal Cantos – guy's a known quantity in the area, crack BD tuner, used to work for WNS news 'til he got axed for fraud. His biz is strictly street now.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 184,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_02",
+      "name": "Gig: Many Ways to Skin a Cat",
+      "description": "[Thievery] Steal a Revere Courier Services van. This isn't gonna be your usual gig. You're gonna go to the Revere Courier Services facility in Northside and steal a minibus full of leather jackets.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 185,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_03",
+      "name": "Gig: Flight of the Cheetah",
+      "description": "[SOS: Merc Needed] Hwangbo. You know that classic comedy setup where a gonk gets into serious trouble and only some, like, misanthropic hardass can save him? Well, let that be your guiding plot for today.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 186,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_04",
+      "name": "Gig: Dirty Biz",
+      "description": "[Thievery] Get the raw BD of the murder of Bryce Stone's son. My good friend, the televangelist Bryce Stone (don't ask, it's complicated) needs our help. His little boy was kidnapped and brutally murdered a few days later.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 187,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_05",
+      "name": "Gig: Rite of Passage",
+      "description": "[Thievery] Steal a recording of Maelstrom's initiation rite. Got some paparazzo work for ya. Need to get my hands on a recording of the Maelstrom initiation \"ceremony.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 188,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_06",
+      "name": "Gig: Lousy Kleppers",
+      "description": "[Thievery] Steal the databank with the transport route data from Malorian Ltd. V, big news going around town. A Malorian van was stolen on Sir Francis Drake avenue.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 189,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_07",
+      "name": "Gig: Scrolls before Swine",
+      "description": "[Thievery] Steal CCTV footage. Client is Aaron McCarlson, NCPD sergeant. Used to work for me as a consultant on the show \"Cops 'n' Chops\" (8 seasons!!",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 190,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wat_nid_12",
+      "name": "Gig: Freedom of the Press",
+      "description": "[SOS: Merc Needed] Rescue Max and bring him to me. Night City doesn't like people that like to kick the hornet's nest, and Max Jones... well, he kicked a bunch of 'em at the same time.",
+      "category": "gig",
+      "location": "Watson / Northside",
+      "sort_order": 191,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_hil_01",
+      "name": "Gig: Until Death Do Us Part",
+      "description": "[Thievery] Steal the shard with Emilio Gutierrez's depository receipts. Would you like to hear about my fourth husband? He was very lazy, gullible, and filthy rich.",
+      "category": "gig",
+      "location": "Westbrook / Charter Hill",
+      "sort_order": 192,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_hil_06",
+      "name": "Gig: Family Heirloom",
+      "description": "[Search and Recover] Rare, bootleg Samurai recording. There's this old saying – if it wasn't for fools, there would be no sages. The same is true for fixers.",
+      "category": "gig",
+      "location": "Westbrook / Charter Hill",
+      "sort_order": 193,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_hil_07",
+      "name": "Gig: Tyger and Vulture",
+      "description": "[Thievery] Steal Vortex's credchip. The vulture is the wisest bird. While others lose strength in the pursuit of prey, the vulture waits patiently – it only spreads its wings when it smells blood on the air.",
+      "category": "gig",
+      "location": "Westbrook / Charter Hill",
+      "sort_order": 194,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_01",
+      "name": "Gig: Olive Branch",
+      "description": "[Special Delivery] Meet with Sergei Karasinsky and deliver his gift to the designated address. Sergei Karasinsky called. He's a solo who, like my husband, acts before he thinks.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 195,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_02",
+      "name": "Gig: We Have Your Wife",
+      "description": "[SOS: Merc Needed] Rescue Lauren Costigan from the Tyger Claws. Old sins cast long shadows. And Bradley Costigan is guilty of many.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 196,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_03",
+      "name": "Gig: A Shrine Defiled",
+      "description": "[Agent Saboteur] Place a wiretap in a Tyger Claw-controlled shrine. The person should not stray from the road and the tiger should not leave his mountain steppes. Or misfortune will find them both.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 197,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_05",
+      "name": "Gig: Wakako's Favorite",
+      "description": "[SOS: Merc Needed] Locate netrunner Chang-Hoon Nam, 67 years old, regular associate. For years, I worked to get jobs done comfortably, with a crew I hand-picked myself. I chose Chang-Hoon Nam years ago, and he hasn't let me down once.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 198,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_09",
+      "name": "Gig: Hothead",
+      "description": "[SOS: Merc Needed] Protect Walter Ozark. V, urgent job for you. A client just called about a problem with his head.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 199,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_wbr_jpn_12",
+      "name": "Gig: Greed Never Pays",
+      "description": "[Search and Recovery] Retrieve Leah Gladen's lockbreaker device. A great treasure can turn out to be a great curse. Remember that, V.",
+      "category": "gig",
+      "location": "Westbrook / Japantown",
+      "sort_order": 200,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq304",
+      "name": "Run This Town",
+      "description": "Seems Hands has some work teed up for ya. Apparently of the urgent variety. Sounds like Dogtown's about to start sizzlin' up again. Hurry up and finish that other job you got from him first. Curiosity's killin' me.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 201,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q300",
+      "name": "Phantom Liberty",
+      "description": "Sure V, a good edgerunner’s always lookin' to broaden their horizons, run down the unbeaten path. But one wrong move, and suddenly your back’s up against the wall. Believe me, been there. Before you dive too deep into the unknown, wrap up a few loose ends in Night City first. Step by step in this town, OK?",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 202,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q301",
+      "name": "Dog Eat Dog",
+      "description": "Wow, this story's got it all! An unknown number, a mysterious caller, a shady meet-n-greet in the middle of fuckin' nowhere... And they say I'm the one always divin' headfirst into trouble. But sure, if it's not a trap, it's a one-in-a-trillion chance. Next stop: Dogtown. Can't wait to see how this shit unfolds.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 203,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "q301",
+          "name": "Dog Eat Dog",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "q301_finding_myers",
+          "name": "Hole in the Sky",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "q301_q302",
+          "name": "Spider and the Fly",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "q302",
+      "name": "Lucretia My Reflection",
+      "description": "Ahhh, back to the land of the livin'… Shame Songbird was the price to pay. Think she really kicked the bucket? My gut tells me this fiasco's nothin' but a small setback, although my nose did catch the unmistakable whiff of a 'runner's deep-fried gray matter... Now all that's left is surviving NC's most twisted district while babysittin' Madam Prez herself... Shit, V, take on a simpler gig next time, would ya?",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 204,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q303",
+      "name": "The Damned",
+      "description": "The plot thickens, the cast is expanding, and the drama becomes a farce. Don’t you think that one more secret agent in this motley crew of downed presidents, missing netrunners and sleeper pigs is one too many? Stay on top of them, V – don’t let yourself get dragged into an even bigger mess. Like, next-corporate-war-big.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 205,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "q303_baron",
+          "name": "The Damned",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "q303_hands",
+          "name": "Get It Together",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "q303_songbird",
+          "name": "You Know My Name",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "q304",
+      "name": "Firestarter",
+      "description": "Think it's clear by now this ain't one of those stories that comes out all giggles and hugs. It's like I said – finger's on the trigger, just gotta decide who you got down your sights. Assumin' Hansen doesn't pull one on you first, of course. Good luck. And choose wisely.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 206,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "q304_deal",
+          "name": "Firestarter",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "q304_netrunners",
+          "name": "I've Seen That Face Before",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "q304_stadium",
+          "name": "Birds with Broken Wings",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "quest_key": "q305",
+      "name": "Leave in Silence",
+      "description": "Well, you've gone and got her. The netrunner-agent-friend-traitor-chick who bet on herself, fought against all odds and lost it all... Who was Songbird, really? Who was she to you? I think I already know the answer. In a second you'll hand her over to Myers and her entourage of suits. You won, great teamwork - and for what? What price'll you pay for your reward? You think you've already paid it? C'mon, V. We know each other enough by now. We both know things'll only get more complicated.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 207,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "q305_border_crossing",
+          "name": "Leave in Silence",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "q305_bunker",
+          "name": "Somewhat Damaged",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "q305_postcontent",
+          "name": "This Corrosion",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "q305_prison_convoy",
+          "name": "Black Steel In The Hour of Chaos",
+          "sort_order": 4
+        },
+        {
+          "stage_key": "q305_reed_epilogue",
+          "name": "Four Score and Seven",
+          "sort_order": 5
+        }
+      ]
+    },
+    {
+      "quest_key": "q306",
+      "name": "The Killing Moon",
+      "description": "They asked you to choose, so you chose. You weren't driven by a desire to save anyone's life – Reed and Songbird both offered you treatment. Maybe you realized that no matter what your choice, you'd be betraying someone, so the best thing you could do was not betray yourself in the process. That's why you stood by the chick who was fighting to survive, just like you. Did I get that right? Yeah, think I did. Would I have chosen any different? Luckily, I don't have to sweat over those kinds of questions. Good luck, V. You and Songbird both need it.",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 208,
+      "guide_content": "",
+      "stages": [
+        {
+          "stage_key": "q306_devils_bargain",
+          "name": "The Killing Moon",
+          "sort_order": 1
+        },
+        {
+          "stage_key": "q306_postcontent",
+          "name": "From Her to Eternity",
+          "sort_order": 2
+        },
+        {
+          "stage_key": "q306_reed_epilogue",
+          "name": "Through Pain to Heaven",
+          "sort_order": 3
+        },
+        {
+          "stage_key": "q306_somi_epilogue",
+          "name": "Unfinished Sympathy",
+          "sort_order": 4
+        }
+      ]
+    },
+    {
+      "quest_key": "q307_before_tomorrow",
+      "name": "Who Wants to Live Forever",
+      "description": "",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 209,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q307_tomorrow",
+      "name": "Things Done Changed",
+      "description": "",
+      "category": "main",
+      "location": "Night City",
+      "sort_order": 210,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_ep1_08_katya",
+      "name": "Am I Demon?",
+      "description": "",
+      "category": "main",
+      "location": "Dogtown",
+      "sort_order": 211,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq033_ep1",
+      "name": "Tomorrow Never Knows",
+      "description": "So, 'nother bunch of mystery murals, huh? Lemme read your future. You're walkin'... Walkin' down some street in Watson. You see a shop - \"Misty's Esoterica\". There's a chick inside… See her spewin' some mumbo-jumbo theories about what your special third eye managed to spy... Y'know, think I got a real knack for this fortune-telling stuff.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 212,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq300",
+      "name": "Water Runs Dry",
+      "description": "",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 213,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq301",
+      "name": "Balls to the Wall",
+      "description": "Two BARGHEST pups're in way over their heads and, of course, who else but V to the rescue? I always had a soft spot for tragedies and this one's already got me hooked. You're taking this gig – end of discussion. Think you can pull them outta this shitshow? Got my fingers half-crossed.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 214,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq303",
+      "name": "Dazed and Confused",
+      "description": "The dust has settled, the circus has closed down and the chimps have escaped. More specifically – Tool's gone into hiding someplace. What the hell were you thinking, telling him he's an FIA clone? Getting tangled up in this mess wasn't the best idea now, was it? Either way, the scroll's out there (a real masterpiece, mind you) and Shank paid what he was due. Another contract closed. Pleased with yourself?",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 215,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq305",
+      "name": "Shot by Both Sides",
+      "description": "Interestin' gig. A shit-scared media, a top-secret investigation, corpo dirt, anonymous threats. What's that? Forget mercwork, now you wanna be Night City's top private eye?",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 216,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "mq306",
+      "name": "No Easy Way Out",
+      "description": "Look, V. This Aaron choom is a big-handed bastard who knows how to handle himself in hot water. Sure, we gotta help each other out and all that, but watch your back. You’re about to walk into the lion’s den. I know you’re all about helping lost souls and walking elderly ladies across the street, but please, PLEASE don’t get killed assisting some lesser Dogtown boxer.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 217,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q304_car_retrieval",
+      "name": "Moving Heat",
+      "description": "Ashlay doesn't wanna lose his gig, I get it. Be a choom, wipe that data for him. Plus, gonna land yourself a pretty slick reward for what little elbow grease you're puttin' in. And, man, gotta hand it to those Frenchies – they had preem taste in wheels.  I'd plant my ass in that driver's seat any day. Rockerboy-approved.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 218,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q304_gear_pickup",
+      "name": "Dirty Second Hands",
+      "description": "Nothin' in this world is free. Not even the shit you already own. Gotta pay the man Hands if you wanna pick up your things from the safehouse in Dogtown.  Or whatever, fuck it, maybe this is a good opportunity to downsize.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 219,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "q304_splinter_stash",
+      "name": "Voodoo Treasure",
+      "description": "Well, well! That eavesdroppin' yielded more than just a satisfied curiosity. A little info for the FIA, a little bonus for V…\\n\\nBetter make for the Needle and pocket Slider's secret stash o' cash. He sure ain't gonna miss it.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 220,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_ep1_08_loot",
+      "name": "Money For Nothing",
+      "description": "Ex-SovOil agent, stashin' her goods in D-town… Big cloud, little rain, I say. But don't let my inner cynic stop ya, V. Go find that stash.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 221,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_ep1_08_steven",
+      "name": "The Show Must Go On",
+      "description": "Ahh, yes… Steven Santos. Our beloved little earthworm. A gonk of reason. A coward too afraid to hurt anyone wearing a suit. A man you helped... Go on, accept his thanks, shake his hand… But take a napkin – it's gonna be slimy.",
+      "category": "side_job",
+      "location": "Night City",
+      "sort_order": 222,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "sts_ep1_12_pickup",
+      "name": "Corpo of the Month",
+      "description": "Guess we really do live in a gonk's paradise. You let a corp play you and still feel like a \"winner.\" The fixer's happy 'cause NetWatch owes him a favor. NetWatch is happy 'cause their covert op didn't go to shit. And V's happy 'cause the money's good... Christ, whatever happened to reason and human fuckin' dignity?",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 223,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "wst_ep1_04",
+      "name": "Addicted To Chaos",
+      "description": "Go on, V. Time to see if your deal with a homicidal psychopath was worth it.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 224,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "wst_ep1_05",
+      "name": "Go Your Own Way",
+      "description": "Clever bastard’s got a head for biz. He clearly made it and then some. Wonder if he misses that old corporat cage now.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 225,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "wst_ep1_09",
+      "name": "One Way or Another",
+      "description": "Hm, chick’s up to somethin’. Hate to break it to ya, but nobody’s coming back to Dogtown just to see you. Still, if she wants a meet, fine – use it, get some answers. Just keep your eyes peeled... for both our sakes.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 226,
+      "guide_content": "",
+      "stages": []
+    },
+    {
+      "quest_key": "wst_ep1_11",
+      "name": "New Person, Same Old Mistakes",
+      "description": "Well, well! Word from Bill Mitchell! I wonder what brilliant idea Mr. None-Too-Bright has come up with this time.",
+      "category": "side_job",
+      "location": "Dogtown",
+      "sort_order": 227,
+      "guide_content": "",
+      "stages": []
+    }
+  ]
+}
