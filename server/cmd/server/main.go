@@ -43,8 +43,9 @@ func main() {
 	r := setupRouter(cfg, pool)
 
 	srv := &http.Server{
-		Addr:    ":" + cfg.Port,
-		Handler: r,
+		Addr:              ":" + cfg.Port,
+		Handler:           r,
+		ReadHeaderTimeout: 10 * time.Second, // Slowloris guard (gosec G112)
 	}
 
 	go func() {

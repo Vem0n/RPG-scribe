@@ -163,7 +163,7 @@ func (c *WSClient) readPump() {
 			log.Printf("ws: readPump panic recovered: %v", r)
 		}
 		c.hub.unregister <- c
-		c.conn.Close()
+		_ = c.conn.Close()
 	}()
 
 	c.conn.SetReadLimit(4096)
@@ -216,7 +216,7 @@ func (c *WSClient) writePump() {
 			log.Printf("ws: writePump panic recovered: %v", r)
 		}
 		ticker.Stop()
-		c.conn.Close()
+		_ = c.conn.Close()
 	}()
 
 	for {

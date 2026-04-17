@@ -56,7 +56,9 @@ func LoadAndSeed(ctx context.Context, pool *pgxpool.Pool, dataDir string) error 
 }
 
 func seedFile(ctx context.Context, pool *pgxpool.Pool, path string) error {
-	data, err := os.ReadFile(path)
+	// `path` only ever comes from filepath.Glob over the operator-controlled
+	// SEED_DATA_DIR — never user input. Safe to read directly.
+	data, err := os.ReadFile(path) // #nosec G304
 	if err != nil {
 		return fmt.Errorf("reading file: %w", err)
 	}
