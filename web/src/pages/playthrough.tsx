@@ -3,7 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { getPlaythrough, getQuestDetail } from "@/lib/api";
 import type { Playthrough, Game, QuestWithStatus, QuestDetail } from "@/lib/types";
 import { useSyncRefresh } from "@/lib/useQuestEvents";
-import { ProgressDial, SyncStamp, useThemeStyle } from "@/lib/theme";
+import { useThemeStyle } from "@/lib/theme";
+import { ProgressDial, SyncStamp } from "@/components/themed";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import {

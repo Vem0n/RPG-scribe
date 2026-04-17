@@ -12,7 +12,6 @@ KOTOR quest tracking:
 Usage:
     python extract.py <save_dir> [--username NAME] [--server URL] [--api-key KEY]
 """
-import struct
 import json
 import argparse
 from pathlib import Path
@@ -210,8 +209,6 @@ GLOBAL_VAR_TO_TAG = {
     "tat_JawaCaptive": "tat17ad_buyinghk47",
     # Honest Debt, Signing Nico
     "tat_MissCaptive": "tat17ae_signingnico",
-    # Tach Poaching
-    "kas_MandalorPlot": "kas25_mandalorians",
 }
 
 # Boolean variables that indicate quest completion.
@@ -445,7 +442,6 @@ def determine_quest_states(numbers: dict, booleans: dict,
 
         entries = quest["entries"]
         end_ids = {e["id"] for e in entries if e["end"]}
-        valid_ids = {e["id"] for e in entries}
         state_value = info["state"]
         source = info["source"]
 

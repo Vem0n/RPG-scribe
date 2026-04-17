@@ -167,9 +167,9 @@ func (c *WSClient) readPump() {
 	}()
 
 	c.conn.SetReadLimit(4096)
-	c.conn.SetReadDeadline(time.Now().Add(60 * time.Second))
+	_ = c.conn.SetReadDeadline(time.Now().Add(60 * time.Second))
 	c.conn.SetPongHandler(func(string) error {
-		c.conn.SetReadDeadline(time.Now().Add(60 * time.Second))
+		_ = c.conn.SetReadDeadline(time.Now().Add(60 * time.Second))
 		return nil
 	})
 
@@ -191,7 +191,10 @@ func (c *WSClient) readPump() {
 				Role     string `json:"role"`
 				Username string `json:"username"`
 			}
-			json.Unmarshal(msg.Data, &id)
+			if err := json.Unmarshal(msg.Data, &id); err != nil {
+				log.Printf("ws: identify: bad payload: %v", err)
+				continue
+			}
 			c.Role = id.Role
 			c.Username = id.Username
 			log.Printf("ws: client identified as role=%s user=%s", c.Role, c.Username)
@@ -219,9 +222,9 @@ func (c *WSClient) writePump() {
 	for {
 		select {
 		case msg, ok := <-c.send:
-			c.conn.SetWriteDeadline(time.Now().Add(10 * time.Second))
+			_ = c.conn.SetWriteDeadline(time.Now().Add(10 * time.Second))
 			if !ok {
-				c.conn.WriteMessage(websocket.CloseMessage, []byte{})
+				_ = c.conn.WriteMessage(websocket.CloseMessage, []byte{})
 				return
 			}
 			if err := c.conn.WriteMessage(websocket.TextMessage, msg); err != nil {
@@ -229,7 +232,7 @@ func (c *WSClient) writePump() {
 			}
 
 		case <-ticker.C:
-			c.conn.SetWriteDeadline(time.Now().Add(10 * time.Second))
+			_ = c.conn.SetWriteDeadline(time.Now().Add(10 * time.Second))
 			if err := c.conn.WriteMessage(websocket.PingMessage, nil); err != nil {
 				return
 			}

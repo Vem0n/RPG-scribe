@@ -77,7 +77,7 @@ def scan_esm_quests(esm_path: Path) -> dict:
                     if fl & 0x00040000:  # Compressed
                         try:
                             rd = zlib.decompress(rd[4:])
-                        except:
+                        except zlib.error:
                             p += H + rs2
                             continue
 

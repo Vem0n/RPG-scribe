@@ -75,7 +75,10 @@ function connect() {
     try {
       const msg: WSMessage = JSON.parse(event.data);
       handleMessage(msg);
-    } catch {}
+    } catch {
+      // Ignore unparseable frames — server only sends JSON, so this would
+      // only trigger on transport-level corruption we can't recover from.
+    }
   };
 
   ws.onclose = () => {
@@ -129,7 +132,11 @@ export function useQuestEvents() {
  */
 export function useSyncRefresh(refetch: () => void, filter?: { playthroughId?: number; username?: string }) {
   const refetchRef = useRef(refetch);
-  refetchRef.current = refetch;
+  // Update the ref inside an effect so we don't mutate during render
+  // (react-hooks/refs).
+  useEffect(() => {
+    refetchRef.current = refetch;
+  }, [refetch]);
 
   useEffect(() => {
     return onSyncComplete((event) => {

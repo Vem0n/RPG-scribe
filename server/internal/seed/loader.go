@@ -70,7 +70,7 @@ func seedFile(ctx context.Context, pool *pgxpool.Pool, path string) error {
 	if err != nil {
 		return fmt.Errorf("begin tx: %w", err)
 	}
-	defer tx.Rollback(ctx)
+	defer func() { _ = tx.Rollback(ctx) }()
 
 	var gameID int
 	err = tx.QueryRow(ctx,

@@ -16,7 +16,6 @@ With --server: POSTs directly to the sync endpoint
 """
 
 import sys
-import os
 import json
 import argparse
 from pathlib import Path
