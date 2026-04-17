@@ -1,13 +1,10 @@
-use notify_debouncer_mini::{new_debouncer, DebouncedEventKind};
-use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::path::PathBuf;
 use std::sync::Mutex;
-use std::time::Duration;
 use tauri::{
     menu::{Menu, MenuItem},
     tray::TrayIconBuilder,
-    Emitter, Manager,
+    Manager,
 };
 
 mod watcher;
