@@ -22,7 +22,9 @@ func RunMigrations(databaseURL string) error {
 	if err != nil {
 		return fmt.Errorf("creating migrator: %w", err)
 	}
-	defer m.Close()
+	// migrate.Migrate.Close() returns the source-close + db-close errors,
+	// neither actionable here — the migration outcome is what we care about.
+	defer func() { _, _ = m.Close() }()
 
 	if err := m.Up(); err != nil && err != migrate.ErrNoChange {
 		return fmt.Errorf("running migrations: %w", err)
