@@ -4,7 +4,6 @@ import { Toaster } from "sonner";
 import HomePage from "./pages/home";
 import UserPage from "./pages/user";
 import PlaythroughPage from "./pages/playthrough";
-import QuestPage from "./pages/quest";
 import { useQuestEvents } from "./lib/useQuestEvents";
 
 function useWindowFocused() {
@@ -77,10 +76,6 @@ export default function App() {
           <Route
             path="/:username/:playthroughId"
             element={<PlaythroughPage />}
-          />
-          <Route
-            path="/:username/:playthroughId/:questId"
-            element={<QuestPage />}
           />
         </Routes>
       </Layout>
