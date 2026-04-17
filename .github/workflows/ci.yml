@@ -57,7 +57,10 @@ jobs:
       - name: golangci-lint
         uses: golangci/golangci-lint-action@55c2c1448f86e01eaae002a5a3a9624417608d84  # v6
         with:
-          version: latest
+          # Pinned: action's "latest" was resolving to a binary built with
+          # Go 1.24, which refuses to lint our Go 1.25.0 module. v2.11.4
+          # was built with a newer toolchain.
+          version: v2.11.4
           working-directory: server
       - name: go test (race + coverage)
         working-directory: server
