@@ -1,13 +1,27 @@
-# Tag-driven release: multi-arch image to GHCR + SBOM + Cosign keyless signing.
+# Tag-driven release: container image (multi-arch, dual-registry, signed +
+# SBOM) + Tauri desktop binaries (.deb / .AppImage / .exe / .msi).
 #
-#   git tag v0.1.0 && git push --tags
+# Trigger:  git tag v0.1.0 && git push --tags
 #
-# Produces:
-#   - ghcr.io/vem0n/rpg-scribe:0.1.0       (linux/amd64, linux/arm64)
-#   - ghcr.io/vem0n/rpg-scribe:0.1
-#   - ghcr.io/vem0n/rpg-scribe:latest
-#   - SPDX SBOM attached to the GitHub release and attested to the image
-#   - Cosign signature on the image (Sigstore keyless OIDC, no key mgmt)
+# Both jobs target the `production` GitHub Environment, which is configured
+# with required reviewers — the workflow pauses at the first reviewable
+# step until a designated approver clicks "Approve and deploy" in the UI.
+# Builds + pushes do not run before approval.
+#
+# Produces (after a v0.1.0 tag):
+#   ghcr.io/vem0n/rpg-scribe:0.1.0     (linux/amd64 + linux/arm64)
+#   ghcr.io/vem0n/rpg-scribe:0.1
+#   ghcr.io/vem0n/rpg-scribe:latest
+#   docker.io/vem0n/rpg-scribe:0.1.0   (mirrored, same digest)
+#   docker.io/vem0n/rpg-scribe:0.1
+#   docker.io/vem0n/rpg-scribe:latest
+#   github.com/Vem0n/RPG-scribe/releases/tag/v0.1.0
+#     - sbom.spdx.json
+#     - rpg-scribe_0.1.0_amd64.deb
+#     - rpg-scribe_0.1.0_amd64.AppImage
+#     - rpg-scribe_0.1.0_x64-setup.exe
+#     - rpg-scribe_0.1.0_x64_en-US.msi
+#   Cosign keyless signatures + SBOM attestations on both registries.
 name: Release
 
 on:
@@ -16,18 +30,20 @@ on:
       - 'v*'
 
 permissions:
-  contents: write       # create the GitHub Release
-  packages: write       # push to GHCR
+  contents: write       # GitHub Release create + asset upload
+  packages: write       # GHCR push
   id-token: write       # cosign keyless OIDC token
   attestations: write   # SBOM attestation
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  GHCR_IMAGE: ghcr.io/${{ github.repository }}
+  DH_IMAGE: docker.io/vem0n/rpg-scribe
 
 jobs:
-  release:
+  image:
+    name: Container image
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
@@ -37,21 +53,33 @@ jobs:
       - name: Log in to GHCR
         uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9  # v3
         with:
-          registry: ${{ env.REGISTRY }}
+          registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9  # v3
+        with:
+          registry: docker.io
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Image tags + labels
         id: meta
         uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051  # v5
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          # build-push-action builds the image once and pushes the same
+          # digest to every entry in `images:`. metadata-action handles
+          # lowercasing automatically.
+          images: |
+            ${{ env.GHCR_IMAGE }}
+            ${{ env.DH_IMAGE }}
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=raw,value=latest
 
-      - name: Build & push (multi-arch)
+      - name: Build & push (multi-arch, dual-registry)
         id: build
         uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8  # v6
         with:
@@ -67,7 +95,7 @@ jobs:
       - name: Install cosign
         uses: sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac  # v3
 
-      - name: Sign image (keyless)
+      - name: Sign image — both registries
         env:
           DIGEST: ${{ steps.build.outputs.digest }}
           TAGS: ${{ steps.meta.outputs.tags }}
@@ -79,20 +107,86 @@ jobs:
       - name: Generate SBOM (SPDX)
         uses: anchore/sbom-action@e22c389904149dbc22b58101806040fa8d37a610  # v0
         with:
-          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}@${{ steps.build.outputs.digest }}
+          image: ${{ env.GHCR_IMAGE }}@${{ steps.build.outputs.digest }}
           format: spdx-json
           output-file: sbom.spdx.json
           upload-artifact: false
 
-      - name: Attest SBOM to image
+      - name: Attest SBOM to image — both registries
         env:
           DIGEST: ${{ steps.build.outputs.digest }}
         run: |
           cosign attest --yes --predicate sbom.spdx.json --type spdx \
-            "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}@${DIGEST}"
+            "${{ env.GHCR_IMAGE }}@${DIGEST}"
+          cosign attest --yes --predicate sbom.spdx.json --type spdx \
+            "${{ env.DH_IMAGE }}@${DIGEST}"
 
       - name: GitHub Release (auto changelog + SBOM asset)
         uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65  # v2
         with:
           generate_release_notes: true
           files: sbom.spdx.json
+
+  desktop:
+    name: Desktop bundle (${{ matrix.platform }})
+    runs-on: ${{ matrix.runner }}
+    environment: production
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: linux
+            runner: ubuntu-latest
+          - platform: windows
+            runner: windows-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: desktop/package-lock.json
+
+      - uses: actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7  # v1
+        with:
+          toolchain: stable
+
+      # Tauri 2 on Linux pulls in WebKitGTK 4.1 + libsoup 3 from system
+      # packages — the windows runner only needs the bundled Rust + node.
+      - name: Install Linux WebKit deps
+        if: matrix.platform == 'linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            libsoup-3.0-dev \
+            patchelf
+
+      - name: Install desktop deps
+        working-directory: desktop
+        run: npm ci
+
+      - name: Build Tauri bundle
+        uses: tauri-apps/tauri-action@84b9d35b5fc46c1e45415bdb6144030364f7ebc5  # v0
+        with:
+          projectPath: desktop
+
+      # Both matrix runners attach to the same release object — softprops
+      # creates the release on first call and updates it on subsequent
+      # ones, so order between the image job and these doesn't matter.
+      # fail_on_unmatched_files=false because each runner only produces
+      # its own platform's bundles; cross-platform globs are expected to
+      # miss on the other runner.
+      - name: Attach binaries to release
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65  # v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          files: |
+            desktop/src-tauri/target/release/bundle/deb/*.deb
+            desktop/src-tauri/target/release/bundle/appimage/*.AppImage
+            desktop/src-tauri/target/release/bundle/nsis/*.exe
+            desktop/src-tauri/target/release/bundle/msi/*.msi
+          fail_on_unmatched_files: false
