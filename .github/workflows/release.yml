@@ -1,5 +1,5 @@
-# Tag-driven release: container image (multi-arch, dual-registry, signed +
-# SBOM) + Tauri desktop binaries (.deb / .AppImage / .exe / .msi).
+# Tag-driven release: container image (multi-arch, signed + SBOM) + Tauri
+# desktop binaries (.deb / .AppImage / .exe / .msi).
 #
 # Trigger:  git tag v0.1.0 && git push --tags
 #
@@ -12,16 +12,13 @@
 #   ghcr.io/vem0n/rpg-scribe:0.1.0     (linux/amd64 + linux/arm64)
 #   ghcr.io/vem0n/rpg-scribe:0.1
 #   ghcr.io/vem0n/rpg-scribe:latest
-#   docker.io/vem0n/rpg-scribe:0.1.0   (mirrored, same digest)
-#   docker.io/vem0n/rpg-scribe:0.1
-#   docker.io/vem0n/rpg-scribe:latest
 #   github.com/Vem0n/RPG-scribe/releases/tag/v0.1.0
 #     - sbom.spdx.json
 #     - rpg-scribe_0.1.0_amd64.deb
 #     - rpg-scribe_0.1.0_amd64.AppImage
 #     - rpg-scribe_0.1.0_x64-setup.exe
 #     - rpg-scribe_0.1.0_x64_en-US.msi
-#   Cosign keyless signatures + SBOM attestations on both registries.
+#   Cosign keyless signatures + SBOM attestations on the image.
 name: Release
 
 on:
@@ -37,7 +34,6 @@ permissions:
 
 env:
   GHCR_IMAGE: ghcr.io/${{ github.repository }}
-  DH_IMAGE: docker.io/vem0n/rpg-scribe
 
 jobs:
   image:
@@ -57,29 +53,17 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Log in to Docker Hub
-        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9  # v3
-        with:
-          registry: docker.io
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
       - name: Image tags + labels
         id: meta
         uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051  # v5
         with:
-          # build-push-action builds the image once and pushes the same
-          # digest to every entry in `images:`. metadata-action handles
-          # lowercasing automatically.
-          images: |
-            ${{ env.GHCR_IMAGE }}
-            ${{ env.DH_IMAGE }}
+          images: ${{ env.GHCR_IMAGE }}
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=raw,value=latest
 
-      - name: Build & push (multi-arch, dual-registry)
+      - name: Build & push (multi-arch)
         id: build
         uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8  # v6
         with:
@@ -95,7 +79,7 @@ jobs:
       - name: Install cosign
         uses: sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac  # v3
 
-      - name: Sign image — both registries
+      - name: Sign image
         env:
           DIGEST: ${{ steps.build.outputs.digest }}
           TAGS: ${{ steps.meta.outputs.tags }}
@@ -112,14 +96,12 @@ jobs:
           output-file: sbom.spdx.json
           upload-artifact: false
 
-      - name: Attest SBOM to image — both registries
+      - name: Attest SBOM to image
         env:
           DIGEST: ${{ steps.build.outputs.digest }}
         run: |
           cosign attest --yes --predicate sbom.spdx.json --type spdx \
             "${{ env.GHCR_IMAGE }}@${DIGEST}"
-          cosign attest --yes --predicate sbom.spdx.json --type spdx \
-            "${{ env.DH_IMAGE }}@${DIGEST}"
 
       - name: GitHub Release (auto changelog + SBOM asset)
         uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65  # v2
