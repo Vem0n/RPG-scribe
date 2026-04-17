@@ -1,0 +1,42 @@
+version: 2
+updates:
+  # Keeps the SHA pins in .github/workflows up to date with their tagged
+  # commits — without this, "pin by SHA" silently rots into "pinned to
+  # ancient compromised SHA".
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ['*']
+
+  - package-ecosystem: gomod
+    directory: /server
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    groups:
+      dev-deps:
+        dependency-type: development
+      prod-deps:
+        dependency-type: production
+
+  - package-ecosystem: npm
+    directory: /desktop
+    schedule:
+      interval: weekly
+    groups:
+      dev-deps:
+        dependency-type: development
+      prod-deps:
+        dependency-type: production
+
+  - package-ecosystem: docker
+    directory: /deploy
+    schedule:
+      interval: weekly

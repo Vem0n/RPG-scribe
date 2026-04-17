@@ -325,7 +325,9 @@ FORMID_TO_QUEST_KEY = {
     0x000E2C14: "wang_dang_atomic_tango",  # TTW remap
     0x001300F2: "talent_pool",  # TTW remap
     0x00130127: "young_hearts",  # TTW remap
-    0x00135BB7: "for_the_republic_2",  # TTW remap
+    # 0x00135BB7 is intentionally defined further down with the corrected
+    # quest_key "for_the_republic_part_2" — the original "for_the_republic_2"
+    # mapping above was wrong and superseded by the entry at the bottom.
     0x0014B0EA: "birds_of_a_feather",  # TTW remap
     0x00154A69: "the_coyotes",  # TTW remap
     0x00168C40: "how_little_we_know",  # TTW remap
@@ -589,7 +591,7 @@ def build_sync_payload(save_path: Path, username="default", playthrough_name=Non
 
     If auto_seed=True, also updates the seed data with newly discovered quests.
     """
-    from esm_resolver import ESMResolver, build_dynamic_seed
+    from esm_resolver import ESMResolver
 
     result = parse_save(save_path)
     header = result["header"]
@@ -625,11 +627,9 @@ def build_sync_payload(save_path: Path, username="default", playthrough_name=Non
         # Try dynamic resolution first
         esm_info = resolved.get(formid)
         quest_key = None
-        quest_name = None
 
         if esm_info:
             quest_key = esm_info["quest_key"]
-            quest_name = esm_info["name"]
         else:
             # Fallback to hardcoded table
             quest_key = FORMID_TO_QUEST_KEY.get(formid)
@@ -688,7 +688,7 @@ def _update_seed_data(new_quests: list[dict]):
     try:
         with open(SEED_DATA_PATH, "r", encoding="utf-8") as f:
             seed = json.load(f)
-    except:
+    except (OSError, json.JSONDecodeError):
         return
 
     existing_keys = {q["quest_key"] for q in seed["quests"]}

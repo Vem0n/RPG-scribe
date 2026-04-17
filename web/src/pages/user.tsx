@@ -3,7 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { getUserPlaythroughs } from "@/lib/api";
 import type { PlaythroughWithGame } from "@/lib/types";
 import { useSyncRefresh } from "@/lib/useQuestEvents";
-import { ProgressDial, SyncStamp, getThemeStyle } from "@/lib/theme";
+import { getThemeStyle } from "@/lib/theme";
+import { ProgressDial, SyncStamp } from "@/components/themed";
 
 export default function UserPage() {
   const { username } = useParams<{ username: string }>();

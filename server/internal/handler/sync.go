@@ -100,7 +100,7 @@ func (h *SyncHandler) Sync(c *gin.Context) {
 		log.Printf("begin tx: %v", err)
 		return
 	}
-	defer tx.Rollback(ctx)
+	defer func() { _ = tx.Rollback(ctx) }()
 
 	if err := h.quests.DeletePlaythroughState(ctx, tx, playthrough.ID); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to clear playthrough state"})

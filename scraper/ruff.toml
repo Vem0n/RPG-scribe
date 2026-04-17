@@ -1,0 +1,14 @@
+# Ruff configuration for the save-file parsers.
+target-version = "py312"
+
+[lint]
+# Default selection (E/F/W). E402 is excluded because the per-game extract.py
+# scripts deliberately do `sys.path.append("...vendored-lib...")` before
+# importing — required for the third-party DASaveReader / CyberpunkPythonHacks
+# packages that aren't on PyPI.
+ignore = ["E402"]
+
+[lint.per-file-ignores]
+# explore_save.py scripts are interactive parser-bring-up tools — they lint
+# output across cramped one-liners and inspect-only locals on purpose.
+"**/explore_save.py" = ["E702", "F841"]

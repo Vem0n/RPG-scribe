@@ -20,4 +20,14 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  // shadcn/ui files are expected to co-export variant objects
+  // (e.g. `buttonVariants`) alongside the component. That's the canonical
+  // shadcn pattern copied straight from the shadcn CLI — relaxing the
+  // Fast Refresh rule only in this directory keeps HMR working elsewhere.
+  {
+    files: ['src/components/ui/**/*.{ts,tsx}'],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
+  },
 ])

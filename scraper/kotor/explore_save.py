@@ -175,17 +175,17 @@ def main():
     booleans = globals_data["booleans"]
     numbers = globals_data["numbers"]
 
-    print(f"\n=== GLOBAL VARIABLES ===")
+    print("\n=== GLOBAL VARIABLES ===")
     print(f"  Booleans: {len(booleans)}")
     print(f"  Numbers: {len(numbers)}")
 
     # Show quest-related globals (journal entries use specific variable names)
-    print(f"\n=== QUEST-RELATED BOOLEANS (non-zero) ===")
+    print("\n=== QUEST-RELATED BOOLEANS (non-zero) ===")
     quest_bools = {k: v for k, v in sorted(booleans.items()) if v}
     for name, val in sorted(quest_bools.items()):
         print(f"  {name} = {val}")
 
-    print(f"\n=== QUEST-RELATED NUMBERS (non-zero) ===")
+    print("\n=== QUEST-RELATED NUMBERS (non-zero) ===")
     quest_nums = {k: v for k, v in sorted(numbers.items()) if v != 0}
     for name, val in sorted(quest_nums.items()):
         print(f"  {name} = {val}")

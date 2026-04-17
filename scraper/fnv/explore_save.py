@@ -4,8 +4,6 @@ Parses header, plugin list, file location table, and change form records
 to extract quest stage data.
 """
 import struct
-import sys
-from pathlib import Path
 
 
 def read_uint8(data: bytes, offset: int) -> tuple[int, int]:
