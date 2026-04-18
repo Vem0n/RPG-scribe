@@ -9,6 +9,46 @@ use tauri::{
 
 mod watcher;
 
+// Identifier used by the OS keyring to scope our entry. Both fields together
+// form the lookup key in Windows Credential Manager / macOS Keychain / Linux
+// Secret Service.
+const KEYRING_SERVICE: &str = "com.rpgscribe.desktop";
+const KEYRING_USER: &str = "api-key";
+
+fn api_key_entry() -> Result<keyring::Entry, String> {
+    keyring::Entry::new(KEYRING_SERVICE, KEYRING_USER).map_err(|e| e.to_string())
+}
+
+/// Read the API key from the OS-native credential store.
+/// Returns an empty string if no key has been stored yet — this lets the
+/// frontend treat "missing" the same as "not yet set up" without special-
+/// casing NotFound errors.
+#[tauri::command]
+fn get_api_key() -> Result<String, String> {
+    let entry = api_key_entry()?;
+    match entry.get_password() {
+        Ok(s) => Ok(s),
+        Err(keyring::Error::NoEntry) => Ok(String::new()),
+        Err(e) => Err(e.to_string()),
+    }
+}
+
+/// Persist the API key to the OS-native credential store. An empty string
+/// deletes the entry — keeps the frontend "clear API key" path symmetric
+/// with how it sets it.
+#[tauri::command]
+fn set_api_key(key: String) -> Result<(), String> {
+    let entry = api_key_entry()?;
+    if key.is_empty() {
+        match entry.delete_credential() {
+            Ok(()) | Err(keyring::Error::NoEntry) => Ok(()),
+            Err(e) => Err(e.to_string()),
+        }
+    } else {
+        entry.set_password(&key).map_err(|e| e.to_string())
+    }
+}
+
 /// Shared app state
 pub struct AppState {
     pub watchers: Mutex<HashMap<String, watcher::WatcherHandle>>,
@@ -165,6 +205,8 @@ pub fn run() {
             start_watching,
             stop_watching,
             run_scraper,
+            get_api_key,
+            set_api_key,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

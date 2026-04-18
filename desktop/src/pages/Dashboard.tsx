@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { SUPPORTED_GAMES, type GameConfig } from "../games";
-import { saveConfig, type AppConfig, type GameState, getActiveUser, getEnabledGames } from "../store";
+import { saveConfig, getApiKey, setApiKey, type AppConfig, type GameState, getActiveUser, getEnabledGames } from "../store";
 import GameSetup from "../components/GameSetup";
 
 declare global {
@@ -32,7 +32,19 @@ export default function Dashboard({ config, setConfig }: DashboardProps) {
   const [editingServer, setEditingServer] = useState(false);
   const [serverDraft, setServerDraft] = useState(config.serverUrl);
   const [editingApiKey, setEditingApiKey] = useState(false);
-  const [apiKeyDraft, setApiKeyDraft] = useState(config.apiKey);
+  const [apiKeyDraft, setApiKeyDraft] = useState("");
+  // Mirror of "is a key stored in the keyring?" — kept as state so the UI
+  // can render "••••••••" vs "Not set" without an async read on every paint.
+  const [hasApiKey, setHasApiKey] = useState(false);
+
+  // Load the apiKey-set flag on mount. We don't keep the raw key in React
+  // state — it's only fetched on demand (sync invocation, edit-open).
+  useEffect(() => {
+    let cancelled = false;
+    getApiKey().then(k => { if (!cancelled) setHasApiKey(k.length > 0); })
+      .catch(() => { /* keyring unreachable; treat as not-set */ });
+    return () => { cancelled = true; };
+  }, []);
 
   const activeUser = getActiveUser(config);
   const enabledGames = activeUser.enabledGames;
@@ -77,12 +89,16 @@ export default function Dashboard({ config, setConfig }: DashboardProps) {
     try {
       if (window.__TAURI_INTERNALS__) {
         const { invoke } = await import("@tauri-apps/api/core");
+        // Fetch from keyring per-sync rather than caching in component state —
+        // means a key rotation in another window/tab takes effect immediately
+        // and we never hold the secret in React-DevTools-visible memory.
+        const apiKey = await getApiKey();
         const result = await invoke<string>("run_scraper", {
           scriptPath: game.scraperScript,
           savePath: savePath || state.savePath,
           serverUrl: config.serverUrl,
           username: config.activeUser,
-          apiKey: config.apiKey,
+          apiKey,
         });
         const lastLine = result.trim().split("\n").pop() || "OK";
         addLog("success", lastLine, game.name);
@@ -206,9 +222,9 @@ export default function Dashboard({ config, setConfig }: DashboardProps) {
           {editingApiKey ? (
             <form className="flex items-center gap-1" onSubmit={async (e) => {
               e.preventDefault();
-              const updated = { ...config, apiKey: apiKeyDraft };
-              await saveConfig(updated);
-              setConfig(updated);
+              await setApiKey(apiKeyDraft);
+              setHasApiKey(apiKeyDraft.length > 0);
+              setApiKeyDraft("");        // don't keep the raw key in component memory
               setEditingApiKey(false);
             }}>
               <input
@@ -216,19 +232,24 @@ export default function Dashboard({ config, setConfig }: DashboardProps) {
                 type="password"
                 value={apiKeyDraft}
                 onChange={(e) => setApiKeyDraft(e.target.value)}
-                onBlur={() => setEditingApiKey(false)}
+                onBlur={() => { setApiKeyDraft(""); setEditingApiKey(false); }}
                 className="px-1.5 py-0.5 rounded text-[11px] w-40"
                 style={{ background: "var(--bg-tertiary)", border: "1px solid var(--accent)", color: "var(--text-primary)" }}
               />
             </form>
           ) : (
             <button
-              onClick={() => { setApiKeyDraft(config.apiKey); setEditingApiKey(true); }}
+              onClick={async () => {
+                // Pre-fill with the current key so the user sees what's there
+                // and can edit (vs. blanking it accidentally).
+                setApiKeyDraft(await getApiKey());
+                setEditingApiKey(true);
+              }}
               className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
               style={{ color: "var(--text-muted)" }}
               title="Click to change API key"
             >
-              API Key: {config.apiKey ? "••••••••" : "Not set"}
+              API Key: {hasApiKey ? "••••••••" : "Not set"}
             </button>
           )}
 

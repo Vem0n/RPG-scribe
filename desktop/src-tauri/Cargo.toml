@@ -31,3 +31,7 @@ tauri-plugin-notification = "2"
 notify = "8"
 notify-debouncer-mini = "0.6"
 tokio = { version = "1", features = ["process"] }
+# OS-native credential storage for the API key — Windows Credential Manager,
+# macOS Keychain, Linux Secret Service. `vendored` statically links libdbus
+# on Linux so we don't need libdbus-1-dev in CI / on user machines.
+keyring = { version = "3", features = ["vendored"] }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { saveConfig, type AppConfig } from "../store";
+import { saveConfig, setApiKey, type AppConfig } from "../store";
 
 interface WizardProps {
   onComplete: (config: AppConfig) => void;
@@ -26,13 +26,17 @@ export default function Wizard({ onComplete }: WizardProps) {
   async function finish() {
     const config: AppConfig = {
       serverUrl,
-      apiKey,
       wizardCompleted: true,
       activeUser: username,
       users: {
         [username]: { username, enabledGames: {} },
       },
     };
+    // Order matters: write the secret to the keyring first so a crash
+    // between these two writes leaves us with "key set, no config" rather
+    // than "config saved, no key" — the user can re-run the wizard either
+    // way, but the latter looks like a successful setup with broken auth.
+    await setApiKey(apiKey);
     await saveConfig(config);
     onComplete(config);
   }
