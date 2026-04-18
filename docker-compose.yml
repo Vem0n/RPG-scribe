@@ -15,9 +15,16 @@ services:
       retries: 5
 
   server:
-    build:
-      context: .
-      dockerfile: deploy/Dockerfile
+    # Pulled from the GHCR release pipeline. Override the tag with
+    # SERVER_TAG=v0.1.x in .env to pin a specific release; defaults to
+    # `latest` which tracks the most recent published image.
+    # For local dev against unreleased code, swap this for the `build:`
+    # block below (commented out).
+    image: ghcr.io/vem0n/rpg-scribe:${SERVER_TAG:-latest}
+    pull_policy: always
+    # build:
+    #   context: .
+    #   dockerfile: deploy/Dockerfile
     restart: unless-stopped
     ports:
       - "${PORT:-8081}:8080"
