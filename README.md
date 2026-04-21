@@ -101,14 +101,15 @@ Navigate to `http://localhost:8081` in your browser.
 
 ### External dependencies
 
-The save parsers for some games depend on third-party libraries. Clone them into the project root:
+The save parsers for some games depend on third-party libraries, pulled in as git submodules:
+
+- [CyberpunkPythonHacks](https://github.com/fmwviormv/CyberpunkPythonHacks) by Ali Farzanrad — required for Cyberpunk 2077 save parsing
+- [DASaveReader](https://github.com/xelrach/DASaveReader) by Charles Noneman (Apache 2.0) — required for Dragon Age: Origins save parsing
+
+If you cloned with `--recursive` (see Quick Start), these are already present. Otherwise:
 
 ```bash
-# Required for Cyberpunk 2077 save parsing
-git clone https://github.com/fmwviormv/CyberpunkPythonHacks.git
-
-# Required for Dragon Age: Origins save parsing
-git clone https://github.com/xelrach/DASaveReader.git
+git submodule update --init --recursive
 ```
 
 Fallout: New Vegas and KOTOR parsers have no external dependencies.
