@@ -1,0 +1,6 @@
+[submodule "CyberpunkPythonHacks"]
+	path = CyberpunkPythonHacks
+	url = https://github.com/fmwviormv/CyberpunkPythonHacks.git
+[submodule "DASaveReader"]
+	path = DASaveReader
+	url = https://github.com/xelrach/DASaveReader.git
