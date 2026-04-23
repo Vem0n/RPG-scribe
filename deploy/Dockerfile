@@ -23,7 +23,7 @@ COPY --from=web-builder /app/web/dist/ ./server/static/
 RUN cd server && CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH go build -o /rpg-scribe ./cmd/server
 RUN cd server && CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH go build -o /rpg-scribe-seed ./cmd/seed
 
-FROM alpine:3.20
+FROM alpine:3.23
 RUN apk add --no-cache ca-certificates tzdata
 COPY --from=server-builder /rpg-scribe /usr/local/bin/rpg-scribe
 COPY --from=server-builder /rpg-scribe-seed /usr/local/bin/rpg-scribe-seed
