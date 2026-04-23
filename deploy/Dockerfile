@@ -5,7 +5,7 @@
 # `npm ci` when buildx is producing the linux/arm64 layer. Web output is
 # pure JS (arch-agnostic) and Go cross-compiles natively via GOOS/GOARCH,
 # so neither stage actually needs to run on the target arch.
-FROM --platform=$BUILDPLATFORM node:22-alpine AS web-builder
+FROM --platform=$BUILDPLATFORM node:25-alpine AS web-builder
 WORKDIR /app/web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci
