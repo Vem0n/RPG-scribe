@@ -7,7 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/golang-migrate/migrate/v4 v4.18.1
 	github.com/gorilla/websocket v1.5.3
-	github.com/jackc/pgx/v5 v5.9.0
+	github.com/jackc/pgx/v5 v5.9.2
 	golang.org/x/crypto v0.50.0
 )
 
